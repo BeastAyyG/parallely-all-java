@@ -1,0 +1,10 @@
+target/
+dependency-reduced-pom.xml
+dist/
+node_modules/
+*.class
+.idea/
+.vscode/
+*.iml
+.DS_Store
+wal/
