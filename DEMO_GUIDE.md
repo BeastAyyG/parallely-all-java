@@ -8,6 +8,33 @@ double-click `start-demo.cmd`. The launcher starts the Java WebSocket server on
 8090 and `jwebserver` on 3000, waits for HTTP, and prints a banner. Open
 **http://localhost:3000**. Press Ctrl-C in the launcher to stop both servers.
 
+> **The launcher terminal must stay open.** `start-demo.sh` owns both server
+> processes; closing that terminal (or pressing Ctrl-C) stops them and the URL
+> will stop responding. Every automated verification run in this workspace also
+> stops its servers at the end, so a URL that worked earlier will be dead later.
+
+### If the page will not load
+
+Almost always **nothing is serving on port 3000** — not a broken app. Check with
+`curl --noproxy '*' -I http://127.0.0.1:3000/`; if it says connection refused,
+restart `./start-demo.sh` (or `start-demo.cmd`). Other things to try:
+
+- Open **http://127.0.0.1:3000** instead of `localhost` (avoids IPv6/DNS and
+  proxy-bypass quirks). The verification suites used port **3001**, so 3001 will
+  only work if you started a server on that port yourself.
+- Make sure the browser is not sending localhost through a proxy; this sandbox
+  exports a loopback HTTP proxy. The launchers unset the four proxy variables and
+  set `NO_PROXY=127.0.0.1,localhost` before starting the servers.
+- **No server at all?** The UI also runs straight from disk: double-click
+  `web/index.html` (or open
+  `file:///C:/Users/Ayyg/Downloads/java%20proallely/parallely-java/web/index.html`).
+  Verified: full Win95 shell, 49 buttons and the canvas render with zero JS
+  errors. Only **Go Live** needs the Java WebSocket server on 8090, so for that
+  flow start at least `java -cp server/target/apex-engine.jar
+  com.apex.whiteboard.WhiteboardServer 8090`.
+- A missing `favicon.ico` produces a harmless 404 in devtools; it does not
+  affect loading.
+
 ## Script
 
 ### 1. The desktop loads (0:00)
