@@ -27,6 +27,19 @@ and the two-terminal alternative.
 
 - **`DEMO_GUIDE.md`** — scripted 5-minute walkthrough for a reviewer.
 - **`VERIFICATION.md`** — build, test, parity and source-census evidence.
+- **`DEPLOYMENT.md`** — live Vercel / GitHub Pages links and their limits.
+
+## Live online demo
+
+Shareable static links (no install needed):
+
+- https://parallely-all-java-demo.vercel.app
+- https://beastayyg.github.io/parallely-all-java/
+
+The whole Win95 UI, all four tabs, drawing tools, bot swarm and matching engine
+work there. **Go Live and the live MCQ vote/tally do not** — they require the
+Java WebSocket server on port 8090, which a static host cannot run. Use
+`./start-demo.sh` and http://localhost:3000 for those two flows.
 
 `web/app.js` is committed (TeaVM output), so the demo runs with **NO build at
 all** — only JDK 21 is needed. The frozen `web/index.html` + `web/app.css`
