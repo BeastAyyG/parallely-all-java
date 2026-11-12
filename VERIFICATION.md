@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-12 (final re-verification 2026-11-13 00:05 IST)
 **Remote:** https://github.com/BeastAyyG/parallely-all-java.git (branch `main`)
-**Final commit:** `16a3d9a` (pushed to `origin/main`); earlier code-complete baseline was `5d05ab2`.
+**Pushed state:** `origin/main`, verified at `d4d2f8c` (docs-only commits may follow); earlier code-complete baseline was `5d05ab2`.
 
 One-page evidence sheet for the all-Java rewrite. Every figure below was produced
 by a command run on this machine; logs are in `../demo-check/` and `../tools/`.
@@ -21,7 +21,7 @@ by a command run on this machine; logs are in `../demo-check/` and `../tools/`.
 | Extended functional suite | **31/31 PASS** (tools, undo/redo, clear, exports, bots, dialogs, minimize/restore, engine, Java 21, zero JS errors) | `../demo-check/extended-final.log` |
 | Stability soak | **11/11 PASS** (bot activity, Go Live, 9 tab switches, 65 s idle, WS cursor relay, clock, single canvas, zero JS errors) | `../demo-check/soak-final.log` |
 | Parity captures | **6/6 screenshots**, `JS_ERRORS: none`; static Win95 chrome delta **0.02/255** on every frame | `../demo-check/captures-final2/`, `../demo-check/capture-final.log` |
-| LOC census | **7836 Java / 24 HTML / 2 CSS = 7862 lines, Java share 99%** | `tools/census.sh` |
+| LOC census | **7845 Java / 24 HTML / 2 CSS = 7871 lines, Java share 99%** | `tools/census.sh` |
 | Pristine check | Original clone `whiteboard-app/` has a clean `git status`; original repo and deployments were never touched | — |
 
 ## Functional suite — 10/10

@@ -115,7 +115,7 @@ Run this from the repo root:
 bash tools/census.sh
 ```
 
-It reports **java: 7836**, **html: 24**, **css: 2** — **TOTAL: 7862 lines,
+It reports **java: 7845**, **html: 24**, **css: 2** — **TOTAL: 7871 lines,
 Java share: 99%**. Points to make while it runs:
 
 - `client/src/main/java/` is the entire browser app in pure Java: shell,
