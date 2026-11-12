@@ -1,7 +1,8 @@
 # PARALLELY — live links and deployment notes
 
 **Last updated:** 2026-11-13 00:50 IST
-**Source commit on `main`:** `ba6ba39` (plus the deployment docs commit)
+**Source commit on `main`:** `1175b2a` (deployment docs + favicon)
+**Vercel SSO protection:** disabled, so the link opens for anyone anonymously.
 
 ## Live links
 
