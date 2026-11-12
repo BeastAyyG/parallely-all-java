@@ -1,5 +1,6 @@
 target/
 dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
 dist/
 node_modules/
 *.class
