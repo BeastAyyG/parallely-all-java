@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-12 (final re-verification 2026-11-13 00:05 IST)
 **Remote:** https://github.com/BeastAyyG/parallely-all-java.git (branch `main`)
-**Baseline commit:** `5d05ab2`; final commit contains the tab-switch persistence fix.
+**Final commit:** `16a3d9a` (pushed to `origin/main`); earlier code-complete baseline was `5d05ab2`.
 
 One-page evidence sheet for the all-Java rewrite. Every figure below was produced
 by a command run on this machine; logs are in `../demo-check/` and `../tools/`.
