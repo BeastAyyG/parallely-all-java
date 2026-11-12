@@ -2067,6 +2067,7 @@ function cpcs_AppShell() {
     a.$taskbarWindowBtn = null;
     a.$clockEl = null;
     a.$currentView = null;
+    a.$whiteboardView = null;
 }
 let cpcs_AppShell_DESKTOP_ICONS = null,
 cpcs_AppShell_START_MENU_TABS = null,
@@ -2199,10 +2200,12 @@ cpcs_AppShell_createView = ($this, $tab) => {
     b: {
         switch (var$2) {
             case 0:
-                break;
-            case 1:
-                var$3 = cpce_MatchingEngineStudio__init_0();
+                if ($this.$whiteboardView === null)
+                    $this.$whiteboardView = cpcw_WhiteboardStudio__init_0();
+                var$3 = $this.$whiteboardView;
                 break b;
+            case 1:
+                break;
             case 2:
                 var$3 = cpcm_McqConsensusView__init_0();
                 break b;
@@ -2216,21 +2219,20 @@ cpcs_AppShell_createView = ($this, $tab) => {
                 jl_IllegalArgumentException__init_0(var$3, jl_StringBuilder_toString(var$4));
                 $rt_throw(var$3);
         }
-        var$3 = cpcw_WhiteboardStudio__init_0();
+        var$3 = cpce_MatchingEngineStudio__init_0();
     }
     return var$3;
 },
 cpcs_AppShell_switchView = $this => {
-    if ($this.$currentView !== null)
+    if ($this.$currentView !== null && $this.$currentView !== $this.$whiteboardView)
         $this.$currentView.$dispose();
     $this.$currentView = cpcs_AppShell_createView($this, $this.$activeTab);
     $this.$mainEl.replaceChildren($this.$currentView.$root());
 },
 cpcs_AppShell_disposeView = $this => {
-    if ($this.$currentView !== null) {
+    if ($this.$currentView !== null && $this.$currentView !== $this.$whiteboardView)
         $this.$currentView.$dispose();
-        $this.$currentView = null;
-    }
+    $this.$currentView = null;
     cpcs_Ui_clear($this.$mainEl);
 },
 cpcs_AppShell_tabName = ($this, $tab) => {
@@ -2769,6 +2771,21 @@ cpcs_Ui$btn$lambda$_5_0_handleEvent = (var$0, var$1) => {
 cpcs_Ui$btn$lambda$_5_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
 };
+function cpce_MatchingEngine$MatchResult() {
+    let a = this; jl_Record.call(a);
+    a.$trades0 = null;
+    a.$remainingOrder = null;
+}
+let cpce_MatchingEngine$MatchResult__init_0 = ($this, $trades, $remainingOrder) => {
+    jl_Record__init_($this);
+    $this.$trades0 = $trades;
+    $this.$remainingOrder = $remainingOrder;
+},
+cpce_MatchingEngine$MatchResult__init_ = (var_0, var_1) => {
+    let var_2 = new cpce_MatchingEngine$MatchResult();
+    cpce_MatchingEngine$MatchResult__init_0(var_2, var_0, var_1);
+    return var_2;
+};
 function cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0() {
     let a = this; jl_Object.call(a);
     a.$_033 = null;
@@ -2786,21 +2803,6 @@ cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_0 = (var_0, var_1) => 
 },
 cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0_run = var$0 => {
     cpcw_WhiteboardStudio_lambda$rebuildBotAvatars$12(var$0.$_033, var$0.$_13);
-};
-function cpce_MatchingEngine$MatchResult() {
-    let a = this; jl_Record.call(a);
-    a.$trades0 = null;
-    a.$remainingOrder = null;
-}
-let cpce_MatchingEngine$MatchResult__init_0 = ($this, $trades, $remainingOrder) => {
-    jl_Record__init_($this);
-    $this.$trades0 = $trades;
-    $this.$remainingOrder = $remainingOrder;
-},
-cpce_MatchingEngine$MatchResult__init_ = (var_0, var_1) => {
-    let var_2 = new cpce_MatchingEngine$MatchResult();
-    cpce_MatchingEngine$MatchResult__init_0(var_2, var_0, var_1);
-    return var_2;
 };
 function ju_LinkedHashMapIterator() {
     let a = this; jl_Object.call(a);
@@ -14459,6 +14461,22 @@ cpcm_McqConsensusView$connect$lambda$_15_3__init_0 = var_0 => {
 cpcm_McqConsensusView$connect$lambda$_15_3_run = var$0 => {
     cpcm_McqConsensusView_lambda$connect$5(var$0.$_02);
 };
+function cpcm_McqConsensusView$connect$lambda$_15_2() {
+    jl_Object.call(this);
+    this.$_063 = null;
+}
+let cpcm_McqConsensusView$connect$lambda$_15_2__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_063 = var$1;
+},
+cpcm_McqConsensusView$connect$lambda$_15_2__init_0 = var_0 => {
+    let var_1 = new cpcm_McqConsensusView$connect$lambda$_15_2();
+    cpcm_McqConsensusView$connect$lambda$_15_2__init_(var_1, var_0);
+    return var_1;
+},
+cpcm_McqConsensusView$connect$lambda$_15_2_run = var$0 => {
+    cpcm_McqConsensusView_lambda$connect$4(var$0.$_063);
+};
 function cpcm_Point() {
     let a = this; jl_Record.call(a);
     a.$x1 = 0.0;
@@ -14479,22 +14497,6 @@ cpcm_Point_x = $this => {
 },
 cpcm_Point_y = $this => {
     return $this.$y1;
-};
-function cpcm_McqConsensusView$connect$lambda$_15_2() {
-    jl_Object.call(this);
-    this.$_063 = null;
-}
-let cpcm_McqConsensusView$connect$lambda$_15_2__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_063 = var$1;
-},
-cpcm_McqConsensusView$connect$lambda$_15_2__init_0 = var_0 => {
-    let var_1 = new cpcm_McqConsensusView$connect$lambda$_15_2();
-    cpcm_McqConsensusView$connect$lambda$_15_2__init_(var_1, var_0);
-    return var_1;
-},
-cpcm_McqConsensusView$connect$lambda$_15_2_run = var$0 => {
-    cpcm_McqConsensusView_lambda$connect$4(var$0.$_063);
 };
 function cpcm_McqConsensusView$connect$lambda$_15_1() {
     jl_Object.call(this);
@@ -14634,8 +14636,8 @@ $rt_metadata([jur_RandomGenerator, 0, jl_Object, [], 3, 3, 0, 0, 0,
 cpcj_Ws, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_0", $rt_wrapFunction1(cpcj_Ws__init_), "$onOpen", $rt_wrapFunction1(cpcj_Ws_onOpen), "$onMessage", $rt_wrapFunction1(cpcj_Ws_onMessage), "$onClose", $rt_wrapFunction1(cpcj_Ws_onClose), "$onError", $rt_wrapFunction1(cpcj_Ws_onError), "$send0", $rt_wrapFunction1(cpcj_Ws_send), "$isOpen", $rt_wrapFunction0(cpcj_Ws_isOpen), "$close", $rt_wrapFunction0(cpcj_Ws_close)],
 otjde_EventListener, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
 cpcs_Ui$btn$lambda$_5_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_11", $rt_wrapFunction1(cpcs_Ui$btn$lambda$_5_0__init_), "$handleEvent", $rt_wrapFunction1(cpcs_Ui$btn$lambda$_5_0_handleEvent)],
-cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_34", $rt_wrapFunction2(cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_), "$run", $rt_wrapFunction0(cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0_run)],
 cpce_MatchingEngine$MatchResult, 0, jl_Record, [], 32772, 3, 0, 0, ["$_init_58", $rt_wrapFunction2(cpce_MatchingEngine$MatchResult__init_0)],
+cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_34", $rt_wrapFunction2(cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_), "$run", $rt_wrapFunction0(cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0_run)],
 ju_LinkedHashMapIterator, 0, jl_Object, [], 0, 0, 0, 0, ["$_init_13", $rt_wrapFunction2(ju_LinkedHashMapIterator__init_), "$hasNext", $rt_wrapFunction0(ju_LinkedHashMapIterator_hasNext), "$checkConcurrentMod", $rt_wrapFunction0(ju_LinkedHashMapIterator_checkConcurrentMod), "$makeNext", $rt_wrapFunction0(ju_LinkedHashMapIterator_makeNext)],
 ju_Iterator, 0, jl_Object, [], 3, 3, 0, 0, 0,
 ju_LinkedHashMapIterator$ValueIterator, 0, ju_LinkedHashMapIterator, [ju_Iterator], 0, 0, 0, 0, ["$_init_13", $rt_wrapFunction2(ju_LinkedHashMapIterator$ValueIterator__init_), "$next", $rt_wrapFunction0(ju_LinkedHashMapIterator$ValueIterator_next)],
@@ -14872,8 +14874,8 @@ otji_JSWrapper$Helper$_clinit_$lambda$_3_1, 0, jl_Object, [otjc_JSFinalizationRe
 cpcm_ElementType, "ElementType", 3, jl_Enum, [], 12, 3, 0, cpcm_ElementType_$callClinit, ["$getValue", $rt_wrapFunction0(cpcm_ElementType_getValue)],
 otji_JSWrapper$Helper$_clinit_$lambda$_3_0, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otji_JSWrapper$Helper$_clinit_$lambda$_3_0__init_), "$accept0", $rt_wrapFunction1(otji_JSWrapper$Helper$_clinit_$lambda$_3_0_accept)],
 cpcm_McqConsensusView$connect$lambda$_15_3, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$connect$lambda$_15_3__init_), "$run", $rt_wrapFunction0(cpcm_McqConsensusView$connect$lambda$_15_3_run)],
-cpcm_Point, 0, jl_Record, [], 32772, 3, 0, 0, ["$_init_19", $rt_wrapFunction2(cpcm_Point__init_0), "$x", $rt_wrapFunction0(cpcm_Point_x), "$y", $rt_wrapFunction0(cpcm_Point_y)],
 cpcm_McqConsensusView$connect$lambda$_15_2, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$connect$lambda$_15_2__init_), "$run", $rt_wrapFunction0(cpcm_McqConsensusView$connect$lambda$_15_2_run)],
+cpcm_Point, 0, jl_Record, [], 32772, 3, 0, 0, ["$_init_19", $rt_wrapFunction2(cpcm_Point__init_0), "$x", $rt_wrapFunction0(cpcm_Point_x), "$y", $rt_wrapFunction0(cpcm_Point_y)],
 cpcm_McqConsensusView$connect$lambda$_15_1, 0, jl_Object, [cpcj_Ws$MessageHandler], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$connect$lambda$_15_1__init_), "$onMessage0", $rt_wrapFunction1(cpcm_McqConsensusView$connect$lambda$_15_1_onMessage)],
 cpcm_McqConsensusView$connect$lambda$_15_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$connect$lambda$_15_0__init_), "$run", $rt_wrapFunction0(cpcm_McqConsensusView$connect$lambda$_15_0_run)],
 jl_String$_clinit_$lambda$_115_0, 0, jl_Object, [ju_Comparator], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_String$_clinit_$lambda$_115_0__init_)],

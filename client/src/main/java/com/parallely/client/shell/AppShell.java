@@ -41,6 +41,10 @@ public final class AppShell {
     private final HTMLElement taskbarWindowBtn;
     private final HTMLElement clockEl;
     private View currentView;
+    // The whiteboard owns the canvas, the bot swarm and the live WebSocket. Keep a
+    // single instance alive for the whole session so switching tabs (or minimizing
+    // the window) never tears down a live room or wipes the board.
+    private WhiteboardStudio whiteboardView;
 
     public AppShell() {
         root = Ui.el("div", "relative h-screen win-desktop flex flex-col font-win text-black antialiased overflow-hidden");
@@ -101,7 +105,12 @@ public final class AppShell {
 
     private View createView(String tab) {
         return switch (tab) {
-            case "whiteboard" -> new WhiteboardStudio();
+            case "whiteboard" -> {
+                if (whiteboardView == null) {
+                    whiteboardView = new WhiteboardStudio();
+                }
+                yield whiteboardView;
+            }
             case "engine" -> new MatchingEngineStudio();
             case "mcq" -> new McqConsensusView();
             case "java" -> new JavaArchitectureViewer();
@@ -110,7 +119,7 @@ public final class AppShell {
     }
 
     private void switchView() {
-        if (currentView != null) {
+        if (currentView != null && currentView != whiteboardView) {
             currentView.dispose();
         }
         currentView = createView(activeTab);
@@ -118,10 +127,10 @@ public final class AppShell {
     }
 
     private void disposeView() {
-        if (currentView != null) {
+        if (currentView != null && currentView != whiteboardView) {
             currentView.dispose();
-            currentView = null;
         }
+        currentView = null;
         Ui.clear(mainEl);
     }
 

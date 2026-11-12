@@ -12,6 +12,31 @@ The client is compiled to JavaScript by [TeaVM](https://teavm.org); the only
 non-Java source is the frozen HTML/CSS shell that preserves the original look
 byte-for-byte. The original repo and its deployment remain untouched as a backup.
 
+## Quick demo (start here)
+
+One command starts everything. JDK 21 is the only requirement.
+
+```bash
+./start-demo.sh        # Git Bash: starts both servers, Ctrl-C stops both
+```
+
+On Windows you can instead double-click **`start-demo.cmd`**. Then open
+**http://localhost:3000**. The launcher starts the Java WebSocket server on
+8090 and `jwebserver` on 3000, waits for HTTP, and prints a banner with the URL
+and the two-terminal alternative.
+
+- **`DEMO_GUIDE.md`** — scripted 5-minute walkthrough for a reviewer.
+- **`VERIFICATION.md`** — build, test, parity and source-census evidence.
+
+`web/app.js` is committed (TeaVM output), so the demo runs with **NO build at
+all** — only JDK 21 is needed. The frozen `web/index.html` + `web/app.css`
+shell and the pre-compiled browser client are served as-is; no Node, TypeScript
+or Maven step is required. If `server/target/apex-engine.jar` is missing,
+`start-demo.sh` rebuilds it automatically with the bundled Maven wrapper
+(`./mvnw -q package`). For manual control, see **Run (two terminals)** below;
+note that this JDK's `jwebserver` requires an absolute `-d` path, which the
+launcher supplies automatically.
+
 ## Architecture
 
 ```
