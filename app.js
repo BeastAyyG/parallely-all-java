@@ -969,11 +969,11 @@ jl_Integer__clinit_ = () => {
 cpcs_Ui$InputHandler = $rt_classWithoutFields(0);
 function cpce_MatchingEngineStudio$_init_$lambda$_0_10() {
     jl_Object.call(this);
-    this.$_065 = null;
+    this.$_066 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_10__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_065 = var$1;
+    var$0.$_066 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_10__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_10();
@@ -981,7 +981,7 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_10__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_10_handle = (var$0, var$1) => {
-    cpce_MatchingEngineStudio_lambda$new$9(var$0.$_065, var$1);
+    cpce_MatchingEngineStudio_lambda$new$9(var$0.$_066, var$1);
 },
 jl_Runnable = $rt_classWithoutFields(0),
 cpce_MatchingEngineStudio$_init_$lambda$_0_11 = $rt_classWithoutFields(),
@@ -1521,11 +1521,11 @@ jl_ArithmeticException__init_ = var_0 => {
 };
 function cpcm_McqConsensusView$_init_$lambda$_0_0() {
     jl_Object.call(this);
-    this.$_074 = null;
+    this.$_075 = null;
 }
 let cpcm_McqConsensusView$_init_$lambda$_0_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_074 = var$1;
+    var$0.$_075 = var$1;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_0__init_0 = var_0 => {
     let var_1 = new cpcm_McqConsensusView$_init_$lambda$_0_0();
@@ -1533,16 +1533,16 @@ cpcm_McqConsensusView$_init_$lambda$_0_0__init_0 = var_0 => {
     return var_1;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_0_handle = (var$0, var$1) => {
-    cpcm_McqConsensusView_lambda$new$0(var$0.$_074, var$1);
+    cpcm_McqConsensusView_lambda$new$0(var$0.$_075, var$1);
 },
 jl_CharSequence = $rt_classWithoutFields(0);
 function cpcm_McqConsensusView$_init_$lambda$_0_2() {
     jl_Object.call(this);
-    this.$_028 = null;
+    this.$_029 = null;
 }
 let cpcm_McqConsensusView$_init_$lambda$_0_2__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_028 = var$1;
+    var$0.$_029 = var$1;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_2__init_0 = var_0 => {
     let var_1 = new cpcm_McqConsensusView$_init_$lambda$_0_2();
@@ -1550,7 +1550,7 @@ cpcm_McqConsensusView$_init_$lambda$_0_2__init_0 = var_0 => {
     return var_1;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_2_run = var$0 => {
-    cpcm_McqConsensusView_reveal(var$0.$_028);
+    cpcm_McqConsensusView_reveal(var$0.$_029);
 };
 function cpcm_McqConsensusView$_init_$lambda$_0_1() {
     jl_Object.call(this);
@@ -1570,11 +1570,11 @@ cpcm_McqConsensusView$_init_$lambda$_0_1_run = var$0 => {
 };
 function cpcw_BotSwarm$restartLoop$lambda$_15_0() {
     jl_Object.call(this);
-    this.$_064 = null;
+    this.$_065 = null;
 }
 let cpcw_BotSwarm$restartLoop$lambda$_15_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_064 = var$1;
+    var$0.$_065 = var$1;
 },
 cpcw_BotSwarm$restartLoop$lambda$_15_0__init_0 = var_0 => {
     let var_1 = new cpcw_BotSwarm$restartLoop$lambda$_15_0();
@@ -1582,7 +1582,7 @@ cpcw_BotSwarm$restartLoop$lambda$_15_0__init_0 = var_0 => {
     return var_1;
 },
 cpcw_BotSwarm$restartLoop$lambda$_15_0_call = var$0 => {
-    cpcw_BotSwarm_tick(var$0.$_064);
+    cpcw_BotSwarm_tick(var$0.$_065);
 },
 cpcw_BotSwarm$restartLoop$lambda$_15_0_call$exported$0 = var$1 => {
     var$1.$call();
@@ -1590,13 +1590,13 @@ cpcw_BotSwarm$restartLoop$lambda$_15_0_call$exported$0 = var$1 => {
 ju_SequencedMap = $rt_classWithoutFields(0);
 function cpcm_McqConsensusView$_init_$lambda$_0_4() {
     let a = this; jl_Object.call(a);
-    a.$_072 = null;
-    a.$_112 = 0;
+    a.$_073 = null;
+    a.$_113 = 0;
 }
 let cpcm_McqConsensusView$_init_$lambda$_0_4__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_072 = var$1;
-    var$0.$_112 = var$2;
+    var$0.$_073 = var$1;
+    var$0.$_113 = var$2;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_4__init_0 = (var_0, var_1) => {
     let var_2 = new cpcm_McqConsensusView$_init_$lambda$_0_4();
@@ -1604,7 +1604,7 @@ cpcm_McqConsensusView$_init_$lambda$_0_4__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcm_McqConsensusView$_init_$lambda$_0_4_run = var$0 => {
-    cpcm_McqConsensusView_lambda$new$1(var$0.$_072, var$0.$_112);
+    cpcm_McqConsensusView_lambda$new$1(var$0.$_073, var$0.$_113);
 };
 function cpcm_McqConsensusView$_init_$lambda$_0_3() {
     jl_Object.call(this);
@@ -1678,6 +1678,24 @@ otci_Base46_decodeDigit = $c => {
     if ($c >= 92)
         return ($c - 32 | 0) - 2 | 0;
     return ($c - 32 | 0) - 1 | 0;
+};
+function cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0() {
+    let a = this; jl_Object.call(a);
+    a.$_019 = null;
+    a.$_11 = null;
+}
+let cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0__init_ = (var$0, var$1, var$2) => {
+    jl_Object__init_(var$0);
+    var$0.$_019 = var$1;
+    var$0.$_11 = var$2;
+},
+cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0__init_0 = (var_0, var_1) => {
+    let var_2 = new cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0();
+    cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0__init_(var_2, var_0, var_1);
+    return var_2;
+},
+cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0_run = var$0 => {
+    cpcj_JavaArchitectureViewer_lambda$buildFileSelector$0(var$0.$_019, var$0.$_11);
 },
 otji_JSWrapper$Helper = $rt_classWithoutFields(),
 otji_JSWrapper$Helper_hashCodes = null,
@@ -1728,27 +1746,6 @@ otji_JSWrapper$Helper__clinit_ = () => {
         var$1 = new FinalizationRegistry(otji_JS_function(otji_JSWrapper_unwrap(var$1), "accept"));
     }
     otji_JSWrapper$Helper_numberFinalizationRegistry = var$1;
-};
-function cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0() {
-    let a = this; jl_Object.call(a);
-    a.$_039 = null;
-    a.$_18 = null;
-}
-let cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0__init_ = (var$0, var$1, var$2) => {
-    jl_Object__init_(var$0);
-    var$0.$_039 = var$1;
-    var$0.$_18 = var$2;
-},
-cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0__init_0 = (var_0, var_1) => {
-    let var_2 = new cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0();
-    cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0__init_(var_2, var_0, var_1);
-    return var_2;
-},
-cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0_call = var$0 => {
-    cpcj_JavaArchitectureViewer_lambda$handleCopy$1(var$0.$_039, var$0.$_18);
-},
-cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0_call$exported$0 = var$1 => {
-    var$1.$call();
 };
 function jl_AbstractStringBuilder() {
     let a = this; jl_Object.call(a);
@@ -2754,11 +2751,11 @@ cpcj_Ws_setOnError$js_body$_15 = (var$1, var$2) => {
 otjde_EventListener = $rt_classWithoutFields(0);
 function cpcs_Ui$btn$lambda$_5_0() {
     jl_Object.call(this);
-    this.$_055 = null;
+    this.$_056 = null;
 }
 let cpcs_Ui$btn$lambda$_5_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_055 = var$1;
+    var$0.$_056 = var$1;
 },
 cpcs_Ui$btn$lambda$_5_0__init_0 = var_0 => {
     let var_1 = new cpcs_Ui$btn$lambda$_5_0();
@@ -2766,7 +2763,7 @@ cpcs_Ui$btn$lambda$_5_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Ui$btn$lambda$_5_0_handleEvent = (var$0, var$1) => {
-    cpcs_Ui_lambda$btn$0(var$0.$_055, var$1);
+    cpcs_Ui_lambda$btn$0(var$0.$_056, var$1);
 },
 cpcs_Ui$btn$lambda$_5_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
@@ -2788,13 +2785,13 @@ cpce_MatchingEngine$MatchResult__init_ = (var_0, var_1) => {
 };
 function cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0() {
     let a = this; jl_Object.call(a);
-    a.$_033 = null;
-    a.$_13 = null;
+    a.$_034 = null;
+    a.$_14 = null;
 }
 let cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_033 = var$1;
-    var$0.$_13 = var$2;
+    var$0.$_034 = var$1;
+    var$0.$_14 = var$2;
 },
 cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_0 = (var_0, var_1) => {
     let var_2 = new cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0();
@@ -2802,7 +2799,7 @@ cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0__init_0 = (var_0, var_1) => 
     return var_2;
 },
 cpcw_WhiteboardStudio$rebuildBotAvatars$lambda$_9_0_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$rebuildBotAvatars$12(var$0.$_033, var$0.$_13);
+    cpcw_WhiteboardStudio_lambda$rebuildBotAvatars$12(var$0.$_034, var$0.$_14);
 };
 function ju_LinkedHashMapIterator() {
     let a = this; jl_Object.call(a);
@@ -3533,11 +3530,11 @@ cpcs_Ui$btnHtml$lambda$_6_0_handleEvent$exported$0 = (var$1, var$2) => {
 };
 function cpcs_Ui$onStop$lambda$_11_0() {
     jl_Object.call(this);
-    this.$_078 = null;
+    this.$_079 = null;
 }
 let cpcs_Ui$onStop$lambda$_11_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_078 = var$1;
+    var$0.$_079 = var$1;
 },
 cpcs_Ui$onStop$lambda$_11_0__init_0 = var_0 => {
     let var_1 = new cpcs_Ui$onStop$lambda$_11_0();
@@ -3545,7 +3542,7 @@ cpcs_Ui$onStop$lambda$_11_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Ui$onStop$lambda$_11_0_handleEvent = (var$0, var$1) => {
-    cpcs_Ui_lambda$onStop$3(var$0.$_078, var$1);
+    cpcs_Ui_lambda$onStop$3(var$0.$_079, var$1);
 },
 cpcs_Ui$onStop$lambda$_11_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
@@ -4895,11 +4892,11 @@ ju_TemplateCollections$AbstractImmutableMap__init_ = $this => {
 };
 function cpcs_Ui$on$lambda$_10_0() {
     jl_Object.call(this);
-    this.$_082 = null;
+    this.$_083 = null;
 }
 let cpcs_Ui$on$lambda$_10_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_082 = var$1;
+    var$0.$_083 = var$1;
 },
 cpcs_Ui$on$lambda$_10_0__init_0 = var_0 => {
     let var_1 = new cpcs_Ui$on$lambda$_10_0();
@@ -4907,7 +4904,7 @@ cpcs_Ui$on$lambda$_10_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Ui$on$lambda$_10_0_handleEvent = (var$0, var$1) => {
-    cpcs_Ui_lambda$on$2(var$0.$_082, var$1);
+    cpcs_Ui_lambda$on$2(var$0.$_083, var$1);
 },
 cpcs_Ui$on$lambda$_10_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
@@ -6038,13 +6035,13 @@ otji_JS_function = (var$1, var$2) => {
 };
 function cpce_MatchingEngineStudio$restartSim$lambda$_5_0() {
     let a = this; jl_Object.call(a);
-    a.$_037 = null;
-    a.$_16 = 0;
+    a.$_038 = null;
+    a.$_17 = 0;
 }
 let cpce_MatchingEngineStudio$restartSim$lambda$_5_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_037 = var$1;
-    var$0.$_16 = var$2;
+    var$0.$_038 = var$1;
+    var$0.$_17 = var$2;
 },
 cpce_MatchingEngineStudio$restartSim$lambda$_5_0__init_0 = (var_0, var_1) => {
     let var_2 = new cpce_MatchingEngineStudio$restartSim$lambda$_5_0();
@@ -6052,7 +6049,7 @@ cpce_MatchingEngineStudio$restartSim$lambda$_5_0__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpce_MatchingEngineStudio$restartSim$lambda$_5_0_call = var$0 => {
-    cpce_MatchingEngineStudio_lambda$restartSim$11(var$0.$_037, var$0.$_16);
+    cpce_MatchingEngineStudio_lambda$restartSim$11(var$0.$_038, var$0.$_17);
 },
 cpce_MatchingEngineStudio$restartSim$lambda$_5_0_call$exported$0 = var$1 => {
     var$1.$call();
@@ -6085,11 +6082,11 @@ cpcm_OrderBookLevel_totalVolume = $this => {
 juf_Consumer = $rt_classWithoutFields(0);
 function cpce_MatchingEngineStudio$simTick$lambda$_6_0() {
     jl_Object.call(this);
-    this.$_024 = null;
+    this.$_025 = null;
 }
 let cpce_MatchingEngineStudio$simTick$lambda$_6_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_024 = var$1;
+    var$0.$_025 = var$1;
 },
 cpce_MatchingEngineStudio$simTick$lambda$_6_0__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$simTick$lambda$_6_0();
@@ -6100,7 +6097,7 @@ cpce_MatchingEngineStudio$simTick$lambda$_6_0_accept0 = (var$0, var$1) => {
     cpce_MatchingEngineStudio$simTick$lambda$_6_0_accept(var$0, var$1);
 },
 cpce_MatchingEngineStudio$simTick$lambda$_6_0_accept = (var$0, var$1) => {
-    cpce_MatchingEngineStudio_lambda$simTick$12(var$0.$_024, var$1);
+    cpce_MatchingEngineStudio_lambda$simTick$12(var$0.$_025, var$1);
 },
 otciu_UnicodeHelper = $rt_classWithoutFields(),
 otciu_UnicodeHelper_decodeCaseMapping = $text => {
@@ -6227,11 +6224,10 @@ cpcj_JavaArchitectureViewer__init_ = $this => {
     $this.$selectedSnippetId = $rt_s(508);
     $this.$root1 = cpcs_Ui_el($rt_s(21), $rt_s(153));
     var$1 = $this.$root1;
-    var$2 = $rt_createArray(jl_Object, 3);
+    var$2 = $rt_createArray(jl_Object, 2);
     var$3 = var$2.data;
     var$3[0] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_buildBanner($this));
-    var$3[1] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_buildBenchmarkGrid());
-    var$3[2] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_buildExplorer($this));
+    var$3[1] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_buildExplorer($this));
     cpcs_Ui_add(var$1, var$2);
 },
 cpcj_JavaArchitectureViewer__init_0 = () => {
@@ -6278,59 +6274,6 @@ cpcj_JavaArchitectureViewer_buildBanner = $this => {
     cpcs_Ui_add($banner, var$5);
     return $banner;
 },
-cpcj_JavaArchitectureViewer_buildBenchmarkGrid = () => {
-    let $grid, var$2, var$3;
-    cpcj_JavaArchitectureViewer_$callClinit();
-    $grid = cpcs_Ui_el($rt_s(21), $rt_s(518));
-    var$2 = $rt_createArray(jl_Object, 3);
-    var$3 = var$2.data;
-    var$3[0] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_benchmarkCard($rt_s(519), $rt_s(520), $rt_s(521), $rt_s(522), $rt_s(203), $rt_s(523), $rt_s(524), $rt_s(525)));
-    var$3[1] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_benchmarkCard($rt_s(526), $rt_s(527), $rt_s(528), $rt_s(529), $rt_s(530), $rt_s(531), $rt_s(532), $rt_s(533)));
-    var$3[2] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_benchmarkCard($rt_s(534), $rt_s(535), $rt_s(536), $rt_s(537), $rt_s(315), $rt_s(538), $rt_s(539), $rt_s(540)));
-    cpcs_Ui_add($grid, var$2);
-    return $grid;
-},
-cpcj_JavaArchitectureViewer_benchmarkCard = ($label, $tag, $tagCls, $value, $valueCls, $p99, $p999, $barCls) => {
-    let $card, $head, var$11, var$12, var$13, $valueRow, var$15, $latency, $bar;
-    cpcj_JavaArchitectureViewer_$callClinit();
-    $card = cpcs_Ui_el($rt_s(21), $rt_s(541));
-    $head = cpcs_Ui_el($rt_s(21), $rt_s(542));
-    var$11 = $rt_createArray(jl_Object, 2);
-    var$12 = var$11.data;
-    var$12[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(221), $label));
-    var$12[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $tagCls, $tag));
-    cpcs_Ui_add($head, var$11);
-    var$13 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$13, $rt_s(543)), $valueCls), $rt_s(544));
-    $valueRow = cpcs_Ui_el($rt_s(21), jl_StringBuilder_toString(var$13));
-    var$15 = cpcs_Ui_doc();
-    var$13 = jl_StringBuilder__init_();
-    jl_StringBuilder_append0(jl_StringBuilder_append(var$13, $value), 32);
-    var$13 = jl_StringBuilder_toString(var$13);
-    var$13 = var$15.createTextNode($rt_ustr(var$13));
-    $valueRow.appendChild(var$13);
-    var$11 = $rt_createArray(jl_Object, 1);
-    var$11.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(160), $rt_s(161)));
-    cpcs_Ui_add($valueRow, var$11);
-    $latency = cpcs_Ui_el($rt_s(21), $rt_s(545));
-    var$11 = $rt_createArray(jl_Object, 2);
-    var$12 = var$11.data;
-    var$12[0] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_textEl($rt_s(28), $p99));
-    var$12[1] = otji_JSWrapper_wrap(cpcj_JavaArchitectureViewer_textEl($rt_s(28), $p999));
-    cpcs_Ui_add($latency, var$11);
-    $bar = cpcs_Ui_el($rt_s(21), $rt_s(546));
-    var$12 = $rt_createArray(jl_Object, 1);
-    var$12.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el($rt_s(21), $barCls));
-    cpcs_Ui_add($bar, var$12);
-    var$11 = $rt_createArray(jl_Object, 4);
-    var$12 = var$11.data;
-    var$12[0] = otji_JSWrapper_wrap($head);
-    var$12[1] = otji_JSWrapper_wrap($valueRow);
-    var$12[2] = otji_JSWrapper_wrap($latency);
-    var$12[3] = otji_JSWrapper_wrap($bar);
-    cpcs_Ui_add($card, var$11);
-    return $card;
-},
 cpcj_JavaArchitectureViewer_buildExplorer = $this => {
     let $grid, var$2, var$3;
     $grid = cpcs_Ui_el($rt_s(21), $rt_s(184));
@@ -6343,28 +6286,28 @@ cpcj_JavaArchitectureViewer_buildExplorer = $this => {
 },
 cpcj_JavaArchitectureViewer_buildFileSelector = $this => {
     let $left, var$2, $i, $snippet, $button, $row, var$7, var$8;
-    $left = cpcs_Ui_el($rt_s(21), $rt_s(547));
+    $left = cpcs_Ui_el($rt_s(21), $rt_s(518));
     var$2 = $rt_createArray(jl_Object, 1);
-    var$2.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(548), $rt_s(549)));
+    var$2.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(519), $rt_s(520)));
     cpcs_Ui_add($left, var$2);
     cpcj_JavaArchitectureViewer_$callClinit();
     $this.$selectorButtons = $rt_createArray(jl_Object, cpcj_JavaArchitectureViewer_JAVA_FILES.data.length);
     $i = 0;
     while ($i < cpcj_JavaArchitectureViewer_JAVA_FILES.data.length) {
         $snippet = cpcj_JavaArchitectureViewer_JAVA_FILES.data[$i];
-        $button = cpcs_Ui_btn(cpcj_JavaArchitectureViewer_selectorClass($this, $snippet.$id0), $rt_s(24), cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0__init_0($this, $snippet));
+        $button = cpcs_Ui_btn(cpcj_JavaArchitectureViewer_selectorClass($this, $snippet.$id0), $rt_s(24), cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0__init_0($this, $snippet));
         $row = cpcs_Ui_el($rt_s(21), $rt_s(226));
         var$2 = $rt_createArray(jl_Object, 2);
         var$7 = var$2.data;
         var$8 = $snippet.$filename;
-        var$7[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(550), var$8));
+        var$7[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(521), var$8));
         var$8 = $snippet.$title0;
-        var$7[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(551), var$8));
+        var$7[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(522), var$8));
         cpcs_Ui_add($row, var$2);
         var$2 = $rt_createArray(jl_Object, 2);
         var$7 = var$2.data;
         var$7[0] = otji_JSWrapper_wrap($row);
-        var$7[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(104), $rt_s(552), $snippet.$description));
+        var$7[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(104), $rt_s(523), $snippet.$description));
         cpcs_Ui_add($button, var$2);
         $this.$selectorButtons.data[$i] = otji_JSWrapper_wrap($button);
         var$2 = $rt_createArray(jl_Object, 1);
@@ -6377,9 +6320,9 @@ cpcj_JavaArchitectureViewer_buildFileSelector = $this => {
 cpcj_JavaArchitectureViewer_buildCodeViewer = $this => {
     let $active, $viewer, $header, $headerLeft, var$5, var$6, $body, $pre;
     $active = cpcj_JavaArchitectureViewer_activeSnippet($this);
-    $viewer = cpcs_Ui_el($rt_s(21), $rt_s(553));
-    $header = cpcs_Ui_el($rt_s(21), $rt_s(554));
-    $headerLeft = cpcs_Ui_html($rt_s(21), $rt_s(555), cpcs_Icons_svg($rt_s(126), $rt_s(556)));
+    $viewer = cpcs_Ui_el($rt_s(21), $rt_s(524));
+    $header = cpcs_Ui_el($rt_s(21), $rt_s(525));
+    $headerLeft = cpcs_Ui_html($rt_s(21), $rt_s(526), cpcs_Icons_svg($rt_s(126), $rt_s(527)));
     $this.$headerFilename = cpcj_JavaArchitectureViewer_textEl($rt_s(28), $active.$filename);
     var$5 = $rt_createArray(jl_Object, 1);
     var$5.data[0] = otji_JSWrapper_wrap($this.$headerFilename);
@@ -6387,12 +6330,12 @@ cpcj_JavaArchitectureViewer_buildCodeViewer = $this => {
     var$5 = $rt_createArray(jl_Object, 2);
     var$6 = var$5.data;
     var$6[0] = otji_JSWrapper_wrap($headerLeft);
-    var$6[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(557), $rt_s(558)));
+    var$6[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(528), $rt_s(529)));
     cpcs_Ui_add($header, var$5);
-    $this.$descriptionBanner = cpcs_Ui_el0($rt_s(21), $rt_s(559), $active.$description);
-    $body = cpcs_Ui_el($rt_s(21), $rt_s(560));
-    $pre = cpcj_JavaArchitectureViewer_plain($rt_s(561));
-    $this.$codeEl = cpcj_JavaArchitectureViewer_textEl($rt_s(562), $active.$code);
+    $this.$descriptionBanner = cpcs_Ui_el0($rt_s(21), $rt_s(530), $active.$description);
+    $body = cpcs_Ui_el($rt_s(21), $rt_s(531));
+    $pre = cpcj_JavaArchitectureViewer_plain($rt_s(532));
+    $this.$codeEl = cpcj_JavaArchitectureViewer_textEl($rt_s(533), $active.$code);
     var$5 = $rt_createArray(jl_Object, 1);
     var$5.data[0] = otji_JSWrapper_wrap($this.$codeEl);
     cpcs_Ui_add($pre, var$5);
@@ -6431,7 +6374,7 @@ cpcj_JavaArchitectureViewer_handleCopy = $this => {
     cpcj_JavaArchitectureViewer_renderCopyButton($this);
     $timeoutId = $rt_createIntArray(1);
     var$2 = $timeoutId.data;
-    var$2[0] = setTimeout(otji_JS_function(otji_JSWrapper_unwrap(cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0__init_0($this, $timeoutId)), "call"), 2000);
+    var$2[0] = setTimeout(otji_JS_function(otji_JSWrapper_unwrap(cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0__init_0($this, $timeoutId)), "call"), 2000);
     $this.$copyTimeouts.$add1(jl_Integer_valueOf(var$2[0]));
 },
 cpcj_JavaArchitectureViewer_renderCopyButton = $this => {
@@ -6439,13 +6382,13 @@ cpcj_JavaArchitectureViewer_renderCopyButton = $this => {
 },
 cpcj_JavaArchitectureViewer_copyButtonInner = $this => {
     let $icon, $label, var$3, var$4;
-    $icon = !$this.$copied ? cpcs_Icons_svg($rt_s(563), $rt_s(462)) : cpcs_Icons_svg($rt_s(564), $rt_s(565));
+    $icon = !$this.$copied ? cpcs_Icons_svg($rt_s(534), $rt_s(462)) : cpcs_Icons_svg($rt_s(535), $rt_s(536));
     if ($this.$copied)
-        $label = $rt_s(566);
+        $label = $rt_s(537);
     else {
         var$3 = (cpcj_JavaArchitectureViewer_activeSnippet($this)).$filename;
         var$4 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$4, $rt_s(567)), var$3);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$4, $rt_s(538)), var$3);
         $label = jl_StringBuilder_toString(var$4);
     }
     var$3 = jl_StringBuilder__init_();
@@ -6454,9 +6397,9 @@ cpcj_JavaArchitectureViewer_copyButtonInner = $this => {
 },
 cpcj_JavaArchitectureViewer_selectorClass = ($this, $id) => {
     let var$2, var$3;
-    var$2 = !$id.$equals($this.$selectedSnippetId) ? $rt_s(568) : $rt_s(569);
+    var$2 = !$id.$equals($this.$selectedSnippetId) ? $rt_s(539) : $rt_s(540);
     var$3 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(570)), var$2);
+    jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(541)), var$2);
     return jl_StringBuilder_toString(var$3);
 },
 cpcj_JavaArchitectureViewer_activeSnippet = $this => {
@@ -6499,14 +6442,13 @@ cpcj_JavaArchitectureViewer_lambda$buildFileSelector$0 = ($this, $snippet) => {
 },
 cpcj_JavaArchitectureViewer__clinit_ = () => {
     let var$1, var$2;
-    var$1 = $rt_createArray(cpcj_JavaArchitectureViewer$CodeSnippet, 6);
+    var$1 = $rt_createArray(cpcj_JavaArchitectureViewer$CodeSnippet, 5);
     var$2 = var$1.data;
-    var$2[0] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(508), $rt_s(571), $rt_s(572), $rt_s(53), $rt_s(573), $rt_s(574));
-    var$2[1] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(575), $rt_s(576), $rt_s(577), $rt_s(53), $rt_s(578), $rt_s(579));
-    var$2[2] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(580), $rt_s(581), $rt_s(582), $rt_s(53), $rt_s(583), $rt_s(584));
-    var$2[3] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(585), $rt_s(586), $rt_s(587), $rt_s(53), $rt_s(588), $rt_s(589));
-    var$2[4] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(590), $rt_s(591), $rt_s(592), $rt_s(53), $rt_s(593), $rt_s(594));
-    var$2[5] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(595), $rt_s(596), $rt_s(597), $rt_s(53), $rt_s(598), $rt_s(599));
+    var$2[0] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(508), $rt_s(542), $rt_s(543), $rt_s(53), $rt_s(544), $rt_s(545));
+    var$2[1] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(546), $rt_s(547), $rt_s(548), $rt_s(53), $rt_s(549), $rt_s(550));
+    var$2[2] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(551), $rt_s(552), $rt_s(553), $rt_s(53), $rt_s(554), $rt_s(555));
+    var$2[3] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(556), $rt_s(557), $rt_s(558), $rt_s(53), $rt_s(559), $rt_s(560));
+    var$2[4] = cpcj_JavaArchitectureViewer$CodeSnippet__init_($rt_s(561), $rt_s(562), $rt_s(553), $rt_s(53), $rt_s(563), $rt_s(564));
     cpcj_JavaArchitectureViewer_JAVA_FILES = var$1;
 },
 ju_Queue = $rt_classWithoutFields(0);
@@ -6683,7 +6625,7 @@ cpcw_BotSwarm_tick = $this => {
             else if ($roll < $pSticky + $pNode)
                 cpcw_BotSwarm_addNode($this, $bot, $target, $now);
             else
-                cpcm_Collaborator_setLastAction($bot, !$this.$behavior0.$equals($rt_s(500)) ? $rt_s(600) : $rt_s(601));
+                cpcm_Collaborator_setLastAction($bot, !$this.$behavior0.$equals($rt_s(500)) ? $rt_s(565) : $rt_s(566));
         }
         $dx = cpcm_Point_x($target) - cpcm_Point_x(cpcm_Collaborator_getCursor($bot));
         $dy = cpcm_Point_y($target) - cpcm_Point_y(cpcm_Collaborator_getCursor($bot));
@@ -6703,7 +6645,7 @@ cpcw_BotSwarm_addSticky = ($this, $bot, $target, $now) => {
     $sticky = new cpcm_CanvasElement;
     var$7 = cpcw_BotSwarm_randomToken();
     var$8 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append0(jl_StringBuilder_append2(jl_StringBuilder_append(var$8, $rt_s(602)), $now), 45), var$7);
+    jl_StringBuilder_append(jl_StringBuilder_append0(jl_StringBuilder_append2(jl_StringBuilder_append(var$8, $rt_s(567)), $now), 45), var$7);
     var$9 = jl_StringBuilder_toString(var$8);
     cpcm_ElementType_$callClinit();
     var$8 = cpcm_ElementType_STICKY;
@@ -6717,7 +6659,7 @@ cpcw_BotSwarm_addSticky = ($this, $bot, $target, $now) => {
     $next = $this.$studio0.$elements.$size() <= 40 ? ju_ArrayList__init_0($this.$studio0.$elements) : ju_ArrayList__init_0($this.$studio0.$elements.$subList($this.$studio0.$elements.$size() - 35 | 0, $this.$studio0.$elements.$size()));
     $next.$add1($sticky);
     $this.$studio0.$elements = $next;
-    cpcm_Collaborator_setLastAction($bot, $rt_s(603));
+    cpcm_Collaborator_setLastAction($bot, $rt_s(568));
 },
 cpcw_BotSwarm_addNode = ($this, $bot, $target, $now) => {
     let $node, $el, var$6, var$7, var$8, var$9, var$10, var$11, var$12, var$13, var$14, var$15;
@@ -6726,7 +6668,7 @@ cpcw_BotSwarm_addNode = ($this, $bot, $target, $now) => {
     $el = new cpcm_CanvasElement;
     var$6 = cpcw_BotSwarm_randomToken();
     var$7 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append0(jl_StringBuilder_append2(jl_StringBuilder_append(var$7, $rt_s(604)), $now), 45), var$6);
+    jl_StringBuilder_append(jl_StringBuilder_append0(jl_StringBuilder_append2(jl_StringBuilder_append(var$7, $rt_s(569)), $now), 45), var$6);
     var$8 = jl_StringBuilder_toString(var$7);
     var$9 = cpcw_CanvasModel$ArchNode_type($node);
     var$7 = null;
@@ -6737,18 +6679,18 @@ cpcw_BotSwarm_addNode = ($this, $bot, $target, $now) => {
     var$14 = cpcw_CanvasModel$ArchNode_color($node);
     var$6 = cpcw_CanvasModel$ArchNode_color($node);
     var$15 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$15, var$6), $rt_s(605));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$15, var$6), $rt_s(570));
     var$6 = jl_StringBuilder_toString(var$15);
     cpcm_CanvasElement__init_($el, var$8, var$9, var$7, var$10, var$11, var$12, var$13, var$14, var$6, 2.0, cpcw_CanvasModel$ArchNode_label($node), cpcm_Collaborator_getId($bot), cpcm_Collaborator_getName($bot), cpcm_Collaborator_getColor($bot), $now);
     $this.$studio0.$elements = cpcw_Elements_appended($this.$studio0.$elements, $el);
     var$7 = cpcw_CanvasModel$ArchNode_label($node);
     var$8 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$8, $rt_s(606)), var$7);
+    jl_StringBuilder_append(jl_StringBuilder_append(var$8, $rt_s(571)), var$7);
     cpcm_Collaborator_setLastAction($bot, jl_StringBuilder_toString(var$8));
 },
 cpcw_BotSwarm_randomToken = () => {
     let $digits, $sb, $i;
-    $digits = $rt_s(607);
+    $digits = $rt_s(572);
     $sb = jl_StringBuilder__init_0(4);
     $i = 0;
     while ($i < 4) {
@@ -6775,7 +6717,7 @@ otji_JSWrapper_wrap = $o => {
     if ($o === null)
         return null;
     $type = $rt_str(typeof $o);
-    $isObject = !$type.$equals($rt_s(608)) && !$type.$equals($rt_s(609)) ? 0 : 1;
+    $isObject = !$type.$equals($rt_s(573)) && !$type.$equals($rt_s(574)) ? 0 : 1;
     otji_JSWrapper$Helper_$callClinit();
     $wrappers = otji_JSWrapper$Helper_wrappers;
     if ($wrappers !== null) {
@@ -6788,7 +6730,7 @@ otji_JSWrapper_wrap = $o => {
             $wrappers.set($o, new WeakRef($wrapper));
             return $wrapper;
         }
-        if ($type.$equals($rt_s(610))) {
+        if ($type.$equals($rt_s(575))) {
             $jsString = $o;
             $stringWrappers = otji_JSWrapper$Helper_stringWrappers;
             $stringFinalizationRegistry = otji_JSWrapper$Helper_stringFinalizationRegistry;
@@ -6816,7 +6758,7 @@ otji_JSWrapper_wrap = $o => {
             otji_JSWrapper_register$js_body$_4($numberFinalizationRegistry, $wrapperAsJs, $jsNumber);
             return $wrapper;
         }
-        if ($type.$equals($rt_s(611))) {
+        if ($type.$equals($rt_s(576))) {
             $existingRef = otji_JSWrapper$Helper_undefinedWrapper;
             $existing = $existingRef === null ? void 0 : $existingRef.deref();
             if (!(typeof $existing == 'undefined' ? 1 : 0))
@@ -7007,7 +6949,7 @@ cpcw_CanvasRenderer_drawElement = ($this, $el, $selectedId) => {
     $this.$ctx.save();
     $this.$ctx.strokeStyle = $rt_ustr(cpcm_CanvasElement_color($el));
     $this.$ctx.lineWidth = cpcm_CanvasElement_strokeWidth($el);
-    $this.$ctx.fillStyle = $rt_ustr(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_fillColor($el)) ? $rt_s(612) : cpcm_CanvasElement_fillColor($el));
+    $this.$ctx.fillStyle = $rt_ustr(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_fillColor($el)) ? $rt_s(577) : cpcm_CanvasElement_fillColor($el));
     $type = cpcm_CanvasElement_type($el);
     cpcm_ElementType_$callClinit();
     if ($type === cpcm_ElementType_RECTANGLE) {
@@ -7075,7 +7017,7 @@ cpcw_CanvasRenderer_drawElement = ($this, $el, $selectedId) => {
     } else if ($type === cpcm_ElementType_TEXT) {
         $this.$ctx.fillStyle = $rt_ustr(cpcm_CanvasElement_color($el));
         $this.$ctx.font = "15px \"Plus Jakarta Sans\", sans-serif";
-        $this.$ctx.fillText($rt_ustr(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_text($el)) ? $rt_s(613) : cpcm_CanvasElement_text($el)), cpcm_CanvasElement_x($el), cpcm_CanvasElement_y($el) + 16.0);
+        $this.$ctx.fillText($rt_ustr(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_text($el)) ? $rt_s(578) : cpcm_CanvasElement_text($el)), cpcm_CanvasElement_x($el), cpcm_CanvasElement_y($el) + 16.0);
     }
     if ($selectedId !== null && $selectedId.$equals(cpcm_CanvasElement_id($el))) {
         $this.$ctx.strokeStyle = "#6366F1";
@@ -7135,7 +7077,7 @@ cpcw_CanvasRenderer_drawSticky = ($this, $el) => {
     $this.$ctx.font = "12px \"Plus Jakarta Sans\", sans-serif";
     $this.$ctx.textAlign = "left";
     $this.$ctx.textBaseline = "top";
-    $words = cpcw_CanvasRenderer_splitOn(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_text($el)) ? $rt_s(614) : cpcm_CanvasElement_text($el), 32);
+    $words = cpcw_CanvasRenderer_splitOn(!cpcw_CanvasRenderer_truthy(cpcm_CanvasElement_text($el)) ? $rt_s(579) : cpcm_CanvasElement_text($el), 32);
     var$5 = $words.data;
     $line = $rt_s(24);
     $lineY = cpcm_CanvasElement_y($el) + 12.0;
@@ -7173,7 +7115,7 @@ cpcw_CanvasRenderer_drawSticky = ($this, $el) => {
     var$11 = $this.$ctx;
     var$14 = cpcm_CanvasElement_authorName($el);
     var$15 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(615)), var$14);
+    jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(580)), var$14);
     var$14 = jl_StringBuilder_toString(var$15);
     var$13 = cpcm_CanvasElement_x($el) + 12.0;
     var$16 = cpcm_CanvasElement_y($el) + $h - 18.0;
@@ -7270,11 +7212,11 @@ ju_NoSuchElementException__init_ = () => {
 };
 function cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0() {
     jl_Object.call(this);
-    this.$_025 = null;
+    this.$_026 = null;
 }
 let cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_025 = var$1;
+    var$0.$_026 = var$1;
 },
 cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0__init_0 = var_0 => {
     let var_1 = new cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0();
@@ -7282,7 +7224,7 @@ cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0__init_0 = var_0 => {
     return var_1;
 },
 cpcj_JavaArchitectureViewer$buildBanner$lambda$_4_0_run = var$0 => {
-    cpcj_JavaArchitectureViewer_handleCopy(var$0.$_025);
+    cpcj_JavaArchitectureViewer_handleCopy(var$0.$_026);
 };
 function ju_AbstractList$TListIteratorImpl() {
     let a = this; jl_Object.call(a);
@@ -7429,11 +7371,11 @@ cpcw_LiveSession__init_ = ($this, $studio) => {
     $this.$room0 = $rt_s(25);
     var$2 = cpcw_LiveSession_asciiUpper(cpcw_LiveSession_randomToken());
     var$3 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(616)), var$2);
+    jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(581)), var$2);
     $this.$name0 = jl_StringBuilder_toString(var$3);
     $this.$myColor = cpcw_LiveSession_peerColorFor($this.$name0);
     $this.$peers0 = ju_ArrayList__init_();
-    $this.$status0 = $rt_s(617);
+    $this.$status0 = $rt_s(582);
     $this.$lastCursorSent = Long_ZERO;
     $this.$studio = $studio;
 },
@@ -7528,10 +7470,10 @@ cpcw_LiveSession_connect = $this => {
     cpcw_WhiteboardStudio_syncUi($this.$studio);
     $host = $rt_str(location.hostname);
     if (!($host !== null && !$host.$isEmpty()))
-        $host = $rt_s(618);
+        $host = $rt_s(583);
     $socket = new cpcj_Ws;
     var$3 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(619)), $host), $rt_s(620));
+    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(584)), $host), $rt_s(585));
     cpcj_Ws__init_($socket, jl_StringBuilder_toString(var$3));
     $this.$ws = $socket;
     cpcj_Ws_onOpen($socket, cpcw_LiveSession$connect$lambda$_14_0__init_0($this, $socket));
@@ -7553,7 +7495,7 @@ cpcw_LiveSession_disconnect = $this => {
     $this.$on0 = 0;
     $this.$peers0 = ju_ArrayList__init_();
     $this.$studio.$peersDirty = 1;
-    $this.$status0 = $rt_s(617);
+    $this.$status0 = $rt_s(582);
     cpcw_WhiteboardStudio_syncUi($this.$studio);
 },
 cpcw_LiveSession_dispose = $this => {
@@ -7579,25 +7521,25 @@ cpcw_LiveSession_handleMessage = ($this, $data) => {
     if (!$msgRoom.$isEmpty() && !$msgRoom.$equals($this.$room0))
         return;
     $type = $rt_str(cpcj_Json_str$js_body$_6($msg, "type"));
-    if ($type.$equals($rt_s(621)))
+    if ($type.$equals($rt_s(586)))
         cpcw_LiveSession_handleSnapshot($this, $msg);
-    else if ($type.$equals($rt_s(622)))
+    else if ($type.$equals($rt_s(587)))
         cpcw_LiveSession_handleElement($this, $msg);
-    else if ($type.$equals($rt_s(623)))
+    else if ($type.$equals($rt_s(588)))
         cpcw_LiveSession_handlePresence($this, $msg);
-    else if ($type.$equals($rt_s(624))) {
+    else if ($type.$equals($rt_s(589))) {
         $this.$studio.$elements = ju_ArrayList__init_();
         $this.$studio.$selectedElementId = null;
         $this.$studio.$canvasDirty = 1;
         cpcw_WhiteboardStudio_syncUi($this.$studio);
-    } else if ($type.$equals($rt_s(625))) {
+    } else if ($type.$equals($rt_s(590))) {
         $id = $rt_str(cpcj_Json_str$js_body$_6($msg, "id"));
         if (!$id.$isEmpty()) {
             $this.$studio.$elements = cpcw_Elements_withoutId($this.$studio.$elements, $id);
             $this.$studio.$canvasDirty = 1;
             cpcw_WhiteboardStudio_syncUi($this.$studio);
         }
-    } else if ($type.$equals($rt_s(626)))
+    } else if ($type.$equals($rt_s(591)))
         cpcw_LiveSession_handleCursor($this, $msg);
 },
 cpcw_LiveSession_handleSnapshot = ($this, $msg) => {
@@ -7632,7 +7574,7 @@ cpcw_LiveSession_handleSnapshot = ($this, $msg) => {
         $this.$studio.$elements = $next;
         $this.$studio.$toolbarDirty = 1;
     }
-    $this.$status0 = $rt_s(627);
+    $this.$status0 = $rt_s(592);
     $this.$on0 = 1;
     cpcw_BotSwarm_pause($this.$studio.$swarm);
     $this.$studio.$canvasDirty = 1;
@@ -7646,7 +7588,7 @@ cpcw_LiveSession_handleElement = ($this, $msg) => {
     $id = $rt_str(cpcj_Json_str$js_body$_6($elObj, "id"));
     if ($id.$isEmpty())
         return;
-    if ($rt_str(cpcj_Json_str$js_body$_6($msg, "action")).$equals($rt_s(625)))
+    if ($rt_str(cpcj_Json_str$js_body$_6($msg, "action")).$equals($rt_s(590)))
         $this.$studio.$elements = cpcw_Elements_withoutId($this.$studio.$elements, $id);
     else {
         a: {
@@ -7677,10 +7619,10 @@ cpcw_LiveSession_handlePresence = ($this, $msg) => {
     let $peerName, $next, var$4, $p, var$6, var$7, var$8, var$9, var$10;
     $peerName = $rt_str(cpcj_Json_str$js_body$_6($msg, "user"));
     if ($peerName.$isEmpty())
-        $peerName = $rt_s(628);
+        $peerName = $rt_s(593);
     if ($peerName.$equals($this.$name0))
         return;
-    if ($rt_str(cpcj_Json_str$js_body$_6($msg, "event")).$equals($rt_s(629))) {
+    if ($rt_str(cpcj_Json_str$js_body$_6($msg, "event")).$equals($rt_s(594))) {
         $next = ju_ArrayList__init_();
         var$4 = $this.$peers0.$iterator();
         while (var$4.$hasNext()) {
@@ -7694,13 +7636,13 @@ cpcw_LiveSession_handlePresence = ($this, $msg) => {
         var$6 = $this.$peers0;
         var$4 = new cpcm_Collaborator;
         var$7 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$7, $rt_s(630)), $peerName);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$7, $rt_s(595)), $peerName);
         var$8 = jl_StringBuilder_toString(var$7);
         var$9 = cpcw_LiveSession_peerColorFor($peerName);
         var$7 = cpcm_Point__init_(600.0, 400.0);
         cpcm_ToolType_$callClinit();
         var$10 = cpcm_ToolType_SELECT;
-        cpcm_Collaborator__init_(var$4, var$8, $peerName, var$9, var$7, var$10, 0, $peerName, $rt_s(631), jl_System_currentTimeMillis());
+        cpcm_Collaborator__init_(var$4, var$8, $peerName, var$9, var$7, var$10, 0, $peerName, $rt_s(596), jl_System_currentTimeMillis());
         $this.$peers0 = cpcw_LiveSession_appendedPeer(var$6, var$4);
         $this.$studio.$peersDirty = 1;
     }
@@ -7719,12 +7661,12 @@ cpcw_LiveSession_handleCursor = ($this, $msg) => {
             var$5 = $this.$peers0;
             var$6 = new cpcm_Collaborator;
             var$7 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append(var$7, $rt_s(630)), $peerName);
+            jl_StringBuilder_append(jl_StringBuilder_append(var$7, $rt_s(595)), $peerName);
             var$8 = jl_StringBuilder_toString(var$7);
             var$9 = cpcw_LiveSession_peerColorFor($peerName);
             cpcm_ToolType_$callClinit();
             var$7 = cpcm_ToolType_SELECT;
-            cpcm_Collaborator__init_(var$6, var$8, $peerName, var$9, $pt, var$7, 0, $peerName, $rt_s(632), jl_System_currentTimeMillis());
+            cpcm_Collaborator__init_(var$6, var$8, $peerName, var$9, $pt, var$7, 0, $peerName, $rt_s(597), jl_System_currentTimeMillis());
             $this.$peers0 = cpcw_LiveSession_appendedPeer(var$5, var$6);
             $this.$studio.$peersDirty = 1;
         }
@@ -7766,7 +7708,7 @@ cpcw_LiveSession_peerColorFor = $peerName => {
 cpcw_LiveSession_randomToken = () => {
     let $digits, $sb, $i;
     cpcw_LiveSession_$callClinit();
-    $digits = $rt_s(607);
+    $digits = $rt_s(572);
     $sb = jl_StringBuilder__init_0(4);
     $i = 0;
     while ($i < 4) {
@@ -7794,8 +7736,8 @@ cpcw_LiveSession_lambda$connect$2 = $this => {
     $this.$on0 = 0;
     $this.$peers0 = ju_ArrayList__init_();
     $this.$studio.$peersDirty = 1;
-    if ($this.$status0.$equals($rt_s(627)))
-        $this.$status0 = $rt_s(617);
+    if ($this.$status0.$equals($rt_s(592)))
+        $this.$status0 = $rt_s(582);
     cpcw_WhiteboardStudio_syncUi($this.$studio);
 },
 cpcw_LiveSession_lambda$connect$1 = $this => {
@@ -7815,7 +7757,7 @@ cpcw_LiveSession_lambda$connect$0 = ($this, $socket) => {
     cpcj_Ws_send($socket, $rt_str(JSON.stringify($m)));
 },
 cpcw_LiveSession__clinit_ = () => {
-    cpcw_LiveSession_PEER_COLORS = $rt_wrapArray(jl_String, [$rt_s(131), $rt_s(144), $rt_s(370), $rt_s(367), $rt_s(493), $rt_s(139), $rt_s(352), $rt_s(633)]);
+    cpcw_LiveSession_PEER_COLORS = $rt_wrapArray(jl_String, [$rt_s(131), $rt_s(144), $rt_s(370), $rt_s(367), $rt_s(493), $rt_s(139), $rt_s(352), $rt_s(598)]);
 },
 otcir_MethodInfo = $rt_classWithoutFields(),
 jlr_AnnotatedElement = $rt_classWithoutFields(0),
@@ -7848,7 +7790,7 @@ jl_Class_getClass = $cls => {
 },
 jl_Class_toString = $this => {
     let var$1, var$2, var$3;
-    var$1 = jl_Class_isInterface($this) ? $rt_s(634) : !jl_Class_isPrimitive($this) ? $rt_s(635) : $rt_s(24);
+    var$1 = jl_Class_isInterface($this) ? $rt_s(599) : !jl_Class_isPrimitive($this) ? $rt_s(600) : $rt_s(24);
     var$2 = jl_Class_getName($this);
     var$3 = jl_StringBuilder__init_();
     jl_StringBuilder_append(jl_StringBuilder_append(var$3, var$1), var$2);
@@ -8331,7 +8273,7 @@ jl_System_arraycopy = ($src, $srcPos, $dest, $destPos, $length) => {
         }
         $rt_throw(jl_IndexOutOfBoundsException__init_());
     }
-    $rt_throw(jl_NullPointerException__init_1($rt_s(636)));
+    $rt_throw(jl_NullPointerException__init_1($rt_s(601)));
 },
 jl_System_fastArraycopy = ($src, $srcPos, $dest, $destPos, $length) => {
     let var$6;
@@ -8561,7 +8503,7 @@ jm_BigDecimal__init_3 = ($this, $val) => {
         }
         return;
     }
-    $rt_throw(jl_NumberFormatException__init_2($rt_s(637)));
+    $rt_throw(jl_NumberFormatException__init_2($rt_s(602)));
 },
 jm_BigDecimal__init_1 = var_0 => {
     let var_1 = new jm_BigDecimal();
@@ -8750,7 +8692,7 @@ jm_BigDecimal_roundingBehavior = ($parityBit, $fraction, $roundingMode) => {
             case 1:
                 if (!$fraction)
                     break a;
-                $rt_throw(jl_ArithmeticException__init_($rt_s(638)));
+                $rt_throw(jl_ArithmeticException__init_($rt_s(603)));
             case 2:
                 $increment = jl_Integer_signum($fraction);
                 break a;
@@ -8847,11 +8789,11 @@ jm_BigDecimal__clinit_ = () => {
 };
 function cpcs_AppShell$buildDialog$lambda$_19_4() {
     jl_Object.call(this);
-    this.$_069 = null;
+    this.$_070 = null;
 }
 let cpcs_AppShell$buildDialog$lambda$_19_4__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_069 = var$1;
+    var$0.$_070 = var$1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_4__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$buildDialog$lambda$_19_4();
@@ -8859,7 +8801,7 @@ cpcs_AppShell$buildDialog$lambda$_19_4__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_4_run = var$0 => {
-    cpcs_AppShell_lambda$buildDialog$7(var$0.$_069);
+    cpcs_AppShell_lambda$buildDialog$7(var$0.$_070);
 },
 ju_List = $rt_classWithoutFields(0),
 ju_List_of0 = () => {
@@ -8990,11 +8932,11 @@ ju_Collections$3_isEmpty = $this => {
 };
 function cpcs_AppShell$buildDialog$lambda$_19_3() {
     jl_Object.call(this);
-    this.$_021 = null;
+    this.$_022 = null;
 }
 let cpcs_AppShell$buildDialog$lambda$_19_3__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_021 = var$1;
+    var$0.$_022 = var$1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_3__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$buildDialog$lambda$_19_3();
@@ -9002,7 +8944,7 @@ cpcs_AppShell$buildDialog$lambda$_19_3__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_3_run = var$0 => {
-    cpcs_AppShell_lambda$buildDialog$13(var$0.$_021);
+    cpcs_AppShell_lambda$buildDialog$13(var$0.$_022);
 },
 ju_Collections$4 = $rt_classWithoutFields(),
 ju_Collections$4__init_ = $this => {
@@ -9153,11 +9095,11 @@ ju_Collections$2__init_0 = () => {
 };
 function cpcs_AppShell$buildDialog$lambda$_19_6() {
     jl_Object.call(this);
-    this.$_031 = null;
+    this.$_032 = null;
 }
 let cpcs_AppShell$buildDialog$lambda$_19_6__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_031 = var$1;
+    var$0.$_032 = var$1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_6__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$buildDialog$lambda$_19_6();
@@ -9165,15 +9107,15 @@ cpcs_AppShell$buildDialog$lambda$_19_6__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_6_run = var$0 => {
-    cpcs_AppShell_lambda$buildDialog$9(var$0.$_031);
+    cpcs_AppShell_lambda$buildDialog$9(var$0.$_032);
 };
 function cpcs_AppShell$buildDialog$lambda$_19_1() {
     jl_Object.call(this);
-    this.$_058 = null;
+    this.$_059 = null;
 }
 let cpcs_AppShell$buildDialog$lambda$_19_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_058 = var$1;
+    var$0.$_059 = var$1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_1__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$buildDialog$lambda$_19_1();
@@ -9181,15 +9123,15 @@ cpcs_AppShell$buildDialog$lambda$_19_1__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_1_run = var$0 => {
-    cpcs_AppShell_lambda$buildDialog$11(var$0.$_058);
+    cpcs_AppShell_lambda$buildDialog$11(var$0.$_059);
 };
 function cpcs_AppShell$buildDialog$lambda$_19_0() {
     jl_Object.call(this);
-    this.$_083 = null;
+    this.$_084 = null;
 }
 let cpcs_AppShell$buildDialog$lambda$_19_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_083 = var$1;
+    var$0.$_084 = var$1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_0__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$buildDialog$lambda$_19_0();
@@ -9197,15 +9139,15 @@ cpcs_AppShell$buildDialog$lambda$_19_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$buildDialog$lambda$_19_0_run = var$0 => {
-    cpcs_AppShell_lambda$buildDialog$10(var$0.$_083);
+    cpcs_AppShell_lambda$buildDialog$10(var$0.$_084);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_12() {
     jl_Object.call(this);
-    this.$_020 = null;
+    this.$_021 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_12__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_020 = var$1;
+    var$0.$_021 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_12__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_12();
@@ -9213,7 +9155,7 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_12__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_12_run = var$0 => {
-    cpcw_WhiteboardStudio_handleEditorBlur(var$0.$_020);
+    cpcw_WhiteboardStudio_handleEditorBlur(var$0.$_021);
 },
 ju_SequencedSet = $rt_classWithoutFields(0);
 function cpcw_WhiteboardStudio$_init_$lambda$_0_13() {
@@ -9234,11 +9176,11 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_13_run = var$0 => {
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_10() {
     jl_Object.call(this);
-    this.$_057 = null;
+    this.$_058 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_10__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_057 = var$1;
+    var$0.$_058 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_10__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_10();
@@ -9246,15 +9188,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_10__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_10_run = var$0 => {
-    cpcw_WhiteboardStudio_resetView(var$0.$_057);
+    cpcw_WhiteboardStudio_resetView(var$0.$_058);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_11() {
     jl_Object.call(this);
-    this.$_089 = null;
+    this.$_090 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_11__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_089 = var$1;
+    var$0.$_090 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_11__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_11();
@@ -9262,17 +9204,17 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_11__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_11_handle = (var$0, var$1) => {
-    cpcw_WhiteboardStudio_handleEditorInput(var$0.$_089, var$1);
+    cpcw_WhiteboardStudio_handleEditorInput(var$0.$_090, var$1);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_16() {
     let a = this; jl_Object.call(a);
-    a.$_027 = null;
-    a.$_12 = null;
+    a.$_028 = null;
+    a.$_13 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_16__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_027 = var$1;
-    var$0.$_12 = var$2;
+    var$0.$_028 = var$1;
+    var$0.$_13 = var$2;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_16__init_0 = (var_0, var_1) => {
     let var_2 = new cpcw_WhiteboardStudio$_init_$lambda$_0_16();
@@ -9280,15 +9222,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_16__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_16_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$new$0(var$0.$_027, var$0.$_12);
+    cpcw_WhiteboardStudio_lambda$new$0(var$0.$_028, var$0.$_13);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_14() {
     jl_Object.call(this);
-    this.$_071 = null;
+    this.$_072 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_14__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_071 = var$1;
+    var$0.$_072 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_14__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_14();
@@ -9296,7 +9238,7 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_14__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_14_call = var$0 => {
-    cpcw_WhiteboardStudio_syncCanvasSize(var$0.$_071);
+    cpcw_WhiteboardStudio_syncCanvasSize(var$0.$_072);
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_14_call$exported$0 = var$1 => {
     var$1.$call();
@@ -9375,13 +9317,13 @@ ju_Collections$_clinit_$lambda$_59_0_compare = (var$0, var$1, var$2) => {
 };
 function cpcs_AppShell$renderOverlays$lambda$_18_2() {
     let a = this; jl_Object.call(a);
-    a.$_036 = null;
-    a.$_15 = null;
+    a.$_037 = null;
+    a.$_16 = null;
 }
 let cpcs_AppShell$renderOverlays$lambda$_18_2__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_036 = var$1;
-    var$0.$_15 = var$2;
+    var$0.$_037 = var$1;
+    var$0.$_16 = var$2;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_2__init_0 = (var_0, var_1) => {
     let var_2 = new cpcs_AppShell$renderOverlays$lambda$_18_2();
@@ -9389,15 +9331,15 @@ cpcs_AppShell$renderOverlays$lambda$_18_2__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_2_run = var$0 => {
-    cpcs_AppShell_lambda$renderOverlays$5(var$0.$_036, var$0.$_15);
+    cpcs_AppShell_lambda$renderOverlays$5(var$0.$_037, var$0.$_16);
 };
 function cpcs_AppShell$renderOverlays$lambda$_18_0() {
     jl_Object.call(this);
-    this.$_076 = null;
+    this.$_077 = null;
 }
 let cpcs_AppShell$renderOverlays$lambda$_18_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_076 = var$1;
+    var$0.$_077 = var$1;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_0__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$renderOverlays$lambda$_18_0();
@@ -9405,15 +9347,15 @@ cpcs_AppShell$renderOverlays$lambda$_18_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_0_run = var$0 => {
-    cpcs_AppShell_lambda$renderOverlays$4(var$0.$_076);
+    cpcs_AppShell_lambda$renderOverlays$4(var$0.$_077);
 };
 function cpcs_AppShell$renderOverlays$lambda$_18_1() {
     jl_Object.call(this);
-    this.$_054 = null;
+    this.$_055 = null;
 }
 let cpcs_AppShell$renderOverlays$lambda$_18_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_054 = var$1;
+    var$0.$_055 = var$1;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_1__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$renderOverlays$lambda$_18_1();
@@ -9421,7 +9363,7 @@ cpcs_AppShell$renderOverlays$lambda$_18_1__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$renderOverlays$lambda$_18_1_run = var$0 => {
-    cpcs_AppShell_lambda$renderOverlays$6(var$0.$_054);
+    cpcs_AppShell_lambda$renderOverlays$6(var$0.$_055);
 },
 cpce_MatchingEngineStudio$1 = $rt_classWithoutFields(),
 cpce_MatchingEngineStudio$1_$SwitchMap$com$parallely$client$model$SlotState = null,
@@ -9643,7 +9585,7 @@ jm_Multiplication_powerOf10 = $exp => {
         return (jm_Multiplication_bigFivePows.data[1].$pow0($intExp)).$shiftLeft0($intExp);
     $byteArraySize = Long_add(Long_fromInt(1), Long_fromNumber(Long_toNumber($exp) / 2.4082399653118496));
     if (Long_gt($byteArraySize, Long_fromInt(1000000)))
-        $rt_throw(jl_ArithmeticException__init_($rt_s(639)));
+        $rt_throw(jl_ArithmeticException__init_($rt_s(604)));
     if (Long_le($exp, Long_fromInt(2147483647)))
         return (jm_Multiplication_bigFivePows.data[1].$pow0($intExp)).$shiftLeft0($intExp);
     $powerOfFive = jm_Multiplication_bigFivePows.data[1].$pow0(2147483647);
@@ -10152,13 +10094,13 @@ cpcm_McqConsensusView$QuizQuestion_trap = $this => {
 };
 function cpcm_McqConsensusView$buildOptionRow$lambda$_6_0() {
     let a = this; jl_Object.call(a);
-    a.$_022 = null;
-    a.$_11 = null;
+    a.$_023 = null;
+    a.$_12 = null;
 }
 let cpcm_McqConsensusView$buildOptionRow$lambda$_6_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_022 = var$1;
-    var$0.$_11 = var$2;
+    var$0.$_023 = var$1;
+    var$0.$_12 = var$2;
 },
 cpcm_McqConsensusView$buildOptionRow$lambda$_6_0__init_0 = (var_0, var_1) => {
     let var_2 = new cpcm_McqConsensusView$buildOptionRow$lambda$_6_0();
@@ -10166,7 +10108,7 @@ cpcm_McqConsensusView$buildOptionRow$lambda$_6_0__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcm_McqConsensusView$buildOptionRow$lambda$_6_0_run = var$0 => {
-    cpcm_McqConsensusView_lambda$buildOptionRow$2(var$0.$_022, var$0.$_11);
+    cpcm_McqConsensusView_lambda$buildOptionRow$2(var$0.$_023, var$0.$_12);
 };
 function cpcm_ToolType() {
     jl_Enum.call(this);
@@ -10211,14 +10153,14 @@ cpcm_ToolType_$values = () => {
     return var$1;
 },
 cpcm_ToolType__clinit_ = () => {
-    cpcm_ToolType_SELECT = cpcm_ToolType__init_($rt_s(640), 0, $rt_s(641));
-    cpcm_ToolType_PEN = cpcm_ToolType__init_($rt_s(642), 1, $rt_s(643));
-    cpcm_ToolType_RECTANGLE = cpcm_ToolType__init_($rt_s(644), 2, $rt_s(645));
-    cpcm_ToolType_ELLIPSE = cpcm_ToolType__init_($rt_s(646), 3, $rt_s(647));
-    cpcm_ToolType_ARROW = cpcm_ToolType__init_($rt_s(648), 4, $rt_s(649));
-    cpcm_ToolType_STICKY = cpcm_ToolType__init_($rt_s(650), 5, $rt_s(651));
-    cpcm_ToolType_TEXT = cpcm_ToolType__init_($rt_s(652), 6, $rt_s(388));
-    cpcm_ToolType_ERASER = cpcm_ToolType__init_($rt_s(653), 7, $rt_s(654));
+    cpcm_ToolType_SELECT = cpcm_ToolType__init_($rt_s(605), 0, $rt_s(606));
+    cpcm_ToolType_PEN = cpcm_ToolType__init_($rt_s(607), 1, $rt_s(608));
+    cpcm_ToolType_RECTANGLE = cpcm_ToolType__init_($rt_s(609), 2, $rt_s(610));
+    cpcm_ToolType_ELLIPSE = cpcm_ToolType__init_($rt_s(611), 3, $rt_s(612));
+    cpcm_ToolType_ARROW = cpcm_ToolType__init_($rt_s(613), 4, $rt_s(614));
+    cpcm_ToolType_STICKY = cpcm_ToolType__init_($rt_s(615), 5, $rt_s(616));
+    cpcm_ToolType_TEXT = cpcm_ToolType__init_($rt_s(617), 6, $rt_s(388));
+    cpcm_ToolType_ERASER = cpcm_ToolType__init_($rt_s(618), 7, $rt_s(619));
     cpcm_ToolType_$VALUES = cpcm_ToolType_$values();
 };
 function ju_ArrayList() {
@@ -10743,13 +10685,13 @@ cpcm_OrderBookState_spread = $this => {
 };
 function cpcw_WhiteboardStudio$toolButton$lambda$_8_0() {
     let a = this; jl_Object.call(a);
-    a.$_035 = null;
-    a.$_14 = null;
+    a.$_036 = null;
+    a.$_15 = null;
 }
 let cpcw_WhiteboardStudio$toolButton$lambda$_8_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_035 = var$1;
-    var$0.$_14 = var$2;
+    var$0.$_036 = var$1;
+    var$0.$_15 = var$2;
 },
 cpcw_WhiteboardStudio$toolButton$lambda$_8_0__init_0 = (var_0, var_1) => {
     let var_2 = new cpcw_WhiteboardStudio$toolButton$lambda$_8_0();
@@ -10757,7 +10699,7 @@ cpcw_WhiteboardStudio$toolButton$lambda$_8_0__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcw_WhiteboardStudio$toolButton$lambda$_8_0_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$toolButton$11(var$0.$_035, var$0.$_14);
+    cpcw_WhiteboardStudio_lambda$toolButton$11(var$0.$_036, var$0.$_15);
 },
 cpcs_Ui$MouseHandler = $rt_classWithoutFields(0);
 function ju_AbstractList$SubAbstractList() {
@@ -11107,11 +11049,11 @@ cpcm_CanvasElement_updatedAt = $this => {
 };
 function cpcs_Ui$onMouse$lambda$_12_0() {
     jl_Object.call(this);
-    this.$_059 = null;
+    this.$_060 = null;
 }
 let cpcs_Ui$onMouse$lambda$_12_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_059 = var$1;
+    var$0.$_060 = var$1;
 },
 cpcs_Ui$onMouse$lambda$_12_0__init_0 = var_0 => {
     let var_1 = new cpcs_Ui$onMouse$lambda$_12_0();
@@ -11119,7 +11061,7 @@ cpcs_Ui$onMouse$lambda$_12_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Ui$onMouse$lambda$_12_0_handleEvent = (var$0, var$1) => {
-    cpcs_Ui_lambda$onMouse$4(var$0.$_059, var$1);
+    cpcs_Ui_lambda$onMouse$4(var$0.$_060, var$1);
 },
 cpcs_Ui$onMouse$lambda$_12_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
@@ -11133,13 +11075,34 @@ jl_UnsupportedOperationException__init_0 = () => {
     jl_UnsupportedOperationException__init_(var_0);
     return var_0;
 };
+function cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0() {
+    let a = this; jl_Object.call(a);
+    a.$_050 = null;
+    a.$_110 = null;
+}
+let cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0__init_ = (var$0, var$1, var$2) => {
+    jl_Object__init_(var$0);
+    var$0.$_050 = var$1;
+    var$0.$_110 = var$2;
+},
+cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0__init_0 = (var_0, var_1) => {
+    let var_2 = new cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0();
+    cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0__init_(var_2, var_0, var_1);
+    return var_2;
+},
+cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0_call = var$0 => {
+    cpcj_JavaArchitectureViewer_lambda$handleCopy$1(var$0.$_050, var$0.$_110);
+},
+cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0_call$exported$0 = var$1 => {
+    var$1.$call();
+};
 function cpcm_McqConsensusView$syncCountdown$lambda$_19_0() {
     jl_Object.call(this);
-    this.$_079 = null;
+    this.$_080 = null;
 }
 let cpcm_McqConsensusView$syncCountdown$lambda$_19_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_079 = var$1;
+    var$0.$_080 = var$1;
 },
 cpcm_McqConsensusView$syncCountdown$lambda$_19_0__init_0 = var_0 => {
     let var_1 = new cpcm_McqConsensusView$syncCountdown$lambda$_19_0();
@@ -11147,7 +11110,7 @@ cpcm_McqConsensusView$syncCountdown$lambda$_19_0__init_0 = var_0 => {
     return var_1;
 },
 cpcm_McqConsensusView$syncCountdown$lambda$_19_0_call = var$0 => {
-    cpcm_McqConsensusView_lambda$syncCountdown$6(var$0.$_079);
+    cpcm_McqConsensusView_lambda$syncCountdown$6(var$0.$_080);
 },
 cpcm_McqConsensusView$syncCountdown$lambda$_19_0_call$exported$0 = var$1 => {
     var$1.$call();
@@ -11188,11 +11151,11 @@ jl_NumberFormatException__init_2 = var_0 => {
 };
 function cpcw_WhiteboardStudio$frame$lambda$_4_0() {
     jl_Object.call(this);
-    this.$_077 = null;
+    this.$_078 = null;
 }
 let cpcw_WhiteboardStudio$frame$lambda$_4_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_077 = var$1;
+    var$0.$_078 = var$1;
 },
 cpcw_WhiteboardStudio$frame$lambda$_4_0__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$frame$lambda$_4_0();
@@ -11200,7 +11163,7 @@ cpcw_WhiteboardStudio$frame$lambda$_4_0__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$frame$lambda$_4_0_call = (var$0, var$1) => {
-    cpcw_WhiteboardStudio_frame(var$0.$_077, var$1);
+    cpcw_WhiteboardStudio_frame(var$0.$_078, var$1);
 },
 cpcw_WhiteboardStudio$frame$lambda$_4_0_call$exported$0 = (var$1, var$2) => {
     let var$3;
@@ -11299,7 +11262,7 @@ cpce_MatchingEngine_matchBuyOrder = ($this, $incomingBuy, $executedTrades) => {
                 var$14 = Long_add($this.$tradeCounter, Long_fromInt(1));
                 $this.$tradeCounter = var$14;
                 var$6 = jl_StringBuilder__init_();
-                jl_StringBuilder_append2(jl_StringBuilder_append(var$6, $rt_s(655)), var$14);
+                jl_StringBuilder_append2(jl_StringBuilder_append(var$6, $rt_s(620)), var$14);
                 var$15 = jl_StringBuilder_toString(var$6);
                 var$6 = cpcm_Order_getId($incomingBuy);
                 var$16 = cpcm_Order_getId($restingAsk);
@@ -11359,7 +11322,7 @@ cpce_MatchingEngine_matchSellOrder = ($this, $incomingSell, $executedTrades) => 
                 var$14 = Long_add($this.$tradeCounter, Long_fromInt(1));
                 $this.$tradeCounter = var$14;
                 var$6 = jl_StringBuilder__init_();
-                jl_StringBuilder_append2(jl_StringBuilder_append(var$6, $rt_s(655)), var$14);
+                jl_StringBuilder_append2(jl_StringBuilder_append(var$6, $rt_s(620)), var$14);
                 var$15 = jl_StringBuilder_toString(var$6);
                 var$6 = cpcm_Order_getId($restingBid);
                 var$16 = cpcm_Order_getId($incomingSell);
@@ -11634,11 +11597,11 @@ cpcm_McqConsensusView__init_ = $this => {
     cpcm_McqConsensusView_$callClinit();
     jl_Object__init_($this);
     $this.$qIndex = 0;
-    $this.$phase = $rt_s(656);
+    $this.$phase = $rt_s(621);
     $this.$voters = ju_LinkedHashMap__init_();
     var$1 = jl_Math_floor(1000.0 + jl_Math_random() * 9000.0) | 0;
     var$2 = jl_StringBuilder__init_();
-    jl_StringBuilder_append1(jl_StringBuilder_append(var$2, $rt_s(616)), var$1);
+    jl_StringBuilder_append1(jl_StringBuilder_append(var$2, $rt_s(581)), var$1);
     $this.$myName = jl_StringBuilder_toString(var$2);
     $this.$timeLeft = null;
     $this.$connected = $rt_s(424);
@@ -11651,34 +11614,34 @@ cpcm_McqConsensusView__init_ = $this => {
     $this.$qButtons = ju_ArrayList__init_();
     $this.$aiBody = ju_ArrayList__init_();
     $this.$root2 = cpcs_Ui_el($rt_s(21), $rt_s(153));
-    $kpiGrid = cpcs_Ui_el($rt_s(21), $rt_s(657));
-    $votesValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(658), $rt_s(376), $rt_s(164), $rt_s(158));
+    $kpiGrid = cpcs_Ui_el($rt_s(21), $rt_s(622));
+    $votesValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(623), $rt_s(376), $rt_s(164), $rt_s(158));
     $this.$votesText = cpcm_McqConsensusView_textNode($votesValue, $rt_s(159));
     var$5 = $rt_createArray(jl_Object, 1);
-    var$5.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(160), $rt_s(659)));
+    var$5.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(160), $rt_s(624)));
     cpcs_Ui_add($votesValue, var$5);
-    $leadingValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(660), $rt_s(661), $rt_s(662), $rt_s(176));
-    $this.$leadingText = cpcm_McqConsensusView_textNode($leadingValue, $rt_s(663));
+    $leadingValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(625), $rt_s(626), $rt_s(627), $rt_s(176));
+    $this.$leadingText = cpcm_McqConsensusView_textNode($leadingValue, $rt_s(628));
     $this.$leadingPctSpan = cpcs_Ui_el($rt_s(28), $rt_s(178));
     var$5 = $rt_createArray(jl_Object, 1);
     var$5.data[0] = otji_JSWrapper_wrap($this.$leadingPctSpan);
     cpcs_Ui_add($leadingValue, var$5);
-    $correctValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(664), $rt_s(665), $rt_s(169), $rt_s(176));
-    $this.$correctText = cpcm_McqConsensusView_textNode($correctValue, $rt_s(663));
+    $correctValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(629), $rt_s(630), $rt_s(169), $rt_s(176));
+    $this.$correctText = cpcm_McqConsensusView_textNode($correctValue, $rt_s(628));
     $this.$correctPctSpan = cpcs_Ui_el($rt_s(28), $rt_s(178));
     var$5 = $rt_createArray(jl_Object, 1);
     var$5.data[0] = otji_JSWrapper_wrap($this.$correctPctSpan);
     cpcs_Ui_add($correctValue, var$5);
-    $timeValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(666), $rt_s(667), $rt_s(157), $rt_s(158));
-    $this.$timeText = cpcm_McqConsensusView_textNode($timeValue, $rt_s(668));
+    $timeValue = cpcm_McqConsensusView_kpiCard($kpiGrid, $rt_s(631), $rt_s(632), $rt_s(157), $rt_s(158));
+    $this.$timeText = cpcm_McqConsensusView_textNode($timeValue, $rt_s(633));
     $mainGrid = cpcs_Ui_el($rt_s(21), $rt_s(184));
-    $leftCard = cpcs_Ui_el($rt_s(21), $rt_s(669));
-    $leftHeader = cpcs_Ui_el($rt_s(21), $rt_s(670));
+    $leftCard = cpcs_Ui_el($rt_s(21), $rt_s(634));
+    $leftHeader = cpcs_Ui_el($rt_s(21), $rt_s(635));
     $this.$questionGroup = cpcs_Ui_el($rt_s(21), $rt_s(190));
-    $nameLabel = cpcs_Ui_el($rt_s(258), $rt_s(671));
+    $nameLabel = cpcs_Ui_el($rt_s(258), $rt_s(636));
     var$2 = (cpcs_Ui_doc()).createTextNode("Answering as");
     $nameLabel.appendChild(var$2);
-    $this.$nameInput0 = cpcs_Ui_input($rt_s(672), $rt_s(388), $this.$myName, $rt_s(24));
+    $this.$nameInput0 = cpcs_Ui_input($rt_s(637), $rt_s(388), $this.$myName, $rt_s(24));
     $this.$nameInput0.setAttribute("aria-label", "Your name");
     cpcs_Ui_onInput($this.$nameInput0, cpcm_McqConsensusView$_init_$lambda$_0_0__init_0($this));
     var$5 = $rt_createArray(jl_Object, 1);
@@ -11689,15 +11652,15 @@ cpcm_McqConsensusView__init_ = $this => {
     var$13[0] = otji_JSWrapper_wrap($this.$questionGroup);
     var$13[1] = otji_JSWrapper_wrap($nameLabel);
     cpcs_Ui_add($leftHeader, var$5);
-    $questionBody = cpcs_Ui_el($rt_s(21), $rt_s(673));
-    $this.$titleEl = cpcs_Ui_el($rt_s(674), $rt_s(675));
-    $this.$contextEl = cpcs_Ui_el($rt_s(104), $rt_s(676));
+    $questionBody = cpcs_Ui_el($rt_s(21), $rt_s(638));
+    $this.$titleEl = cpcs_Ui_el($rt_s(639), $rt_s(640));
+    $this.$contextEl = cpcs_Ui_el($rt_s(104), $rt_s(641));
     var$5 = $rt_createArray(jl_Object, 2);
     var$13 = var$5.data;
     var$13[0] = otji_JSWrapper_wrap($this.$titleEl);
     var$13[1] = otji_JSWrapper_wrap($this.$contextEl);
     cpcs_Ui_add($questionBody, var$5);
-    $optionsWrap = cpcs_Ui_el($rt_s(21), $rt_s(677));
+    $optionsWrap = cpcs_Ui_el($rt_s(21), $rt_s(642));
     var$2 = (cpcm_McqConsensusView$QuizQuestion_options(cpcm_McqConsensusView_QUESTIONS.$get0(0))).$iterator();
     while (var$2.$hasNext()) {
         $opt = var$2.$next();
@@ -11709,14 +11672,14 @@ cpcm_McqConsensusView__init_ = $this => {
     }
     $this.$statusBar = cpcs_Ui_el($rt_s(21), $rt_s(24));
     $this.$statusText = cpcs_Ui_el($rt_s(28), $rt_s(24));
-    $this.$statusTimer = cpcs_Ui_el($rt_s(28), $rt_s(678));
+    $this.$statusTimer = cpcs_Ui_el($rt_s(28), $rt_s(643));
     var$2 = $this.$statusBar;
     var$5 = $rt_createArray(jl_Object, 2);
     var$13 = var$5.data;
     var$13[0] = otji_JSWrapper_wrap($this.$statusText);
     var$13[1] = otji_JSWrapper_wrap($this.$statusTimer);
     cpcs_Ui_add(var$2, var$5);
-    $this.$noticeEl = cpcs_Ui_el($rt_s(21), $rt_s(679));
+    $this.$noticeEl = cpcs_Ui_el($rt_s(21), $rt_s(644));
     var$5 = $rt_createArray(jl_Object, 5);
     var$13 = var$5.data;
     var$13[0] = otji_JSWrapper_wrap($leftHeader);
@@ -11725,11 +11688,11 @@ cpcm_McqConsensusView__init_ = $this => {
     var$13[3] = otji_JSWrapper_wrap($this.$statusBar);
     var$13[4] = otji_JSWrapper_wrap($this.$noticeEl);
     cpcs_Ui_add($leftCard, var$5);
-    $rightCol = cpcs_Ui_el($rt_s(21), $rt_s(680));
-    $teacherCard = cpcs_Ui_el($rt_s(21), $rt_s(681));
+    $rightCol = cpcs_Ui_el($rt_s(21), $rt_s(645));
+    $teacherCard = cpcs_Ui_el($rt_s(21), $rt_s(646));
     var$20 = cpcs_Icons_svg($rt_s(376), $rt_s(188));
     var$2 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(682));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(647));
     var$2 = jl_StringBuilder_toString(var$2);
     $teacherTitle = cpcs_Ui_html($rt_s(229), $rt_s(230), var$2);
     $qRow = cpcs_Ui_el($rt_s(21), $rt_s(190));
@@ -11738,34 +11701,34 @@ cpcm_McqConsensusView__init_ = $this => {
         $i_0 = $i + 1 | 0;
         var$2 = jl_StringBuilder__init_();
         jl_StringBuilder_append1(jl_StringBuilder_append0(var$2, 81), $i_0);
-        $b = cpcs_Ui_btn($rt_s(683), jl_StringBuilder_toString(var$2), cpcm_McqConsensusView$_init_$lambda$_0_4__init_0($this, $i));
+        $b = cpcs_Ui_btn($rt_s(648), jl_StringBuilder_toString(var$2), cpcm_McqConsensusView$_init_$lambda$_0_4__init_0($this, $i));
         $this.$qButtons.$add1(otji_JSWrapper_wrap($b));
         var$5 = $rt_createArray(jl_Object, 1);
         var$5.data[0] = otji_JSWrapper_wrap($b);
         cpcs_Ui_add($qRow, var$5);
         $i = $i_0;
     }
-    $controlGrid = cpcs_Ui_el($rt_s(21), $rt_s(684));
+    $controlGrid = cpcs_Ui_el($rt_s(21), $rt_s(649));
     var$20 = cpcs_Icons_svg($rt_s(290), $rt_s(292));
     var$2 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(685));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(650));
     var$2 = jl_StringBuilder_toString(var$2);
     var$20 = cpcm_McqConsensusView$_init_$lambda$_0_1__init_0($this);
-    $this.$startBtn0 = cpcs_Ui_btnHtml($rt_s(686), var$2, var$20);
-    var$20 = cpcs_Icons_svg($rt_s(665), $rt_s(292));
+    $this.$startBtn0 = cpcs_Ui_btnHtml($rt_s(651), var$2, var$20);
+    var$20 = cpcs_Icons_svg($rt_s(630), $rt_s(292));
     var$2 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(687));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(652));
     var$2 = jl_StringBuilder_toString(var$2);
     var$20 = cpcm_McqConsensusView$_init_$lambda$_0_2__init_0($this);
-    $this.$revealBtn = cpcs_Ui_btnHtml($rt_s(688), var$2, var$20);
-    $this.$nextBtn = cpcs_Ui_btnHtml($rt_s(688), $rt_s(689), cpcm_McqConsensusView$_init_$lambda$_0_3__init_0($this));
+    $this.$revealBtn = cpcs_Ui_btnHtml($rt_s(653), var$2, var$20);
+    $this.$nextBtn = cpcs_Ui_btnHtml($rt_s(653), $rt_s(654), cpcm_McqConsensusView$_init_$lambda$_0_3__init_0($this));
     var$5 = $rt_createArray(jl_Object, 3);
     var$13 = var$5.data;
     var$13[0] = otji_JSWrapper_wrap($this.$startBtn0);
     var$13[1] = otji_JSWrapper_wrap($this.$revealBtn);
     var$13[2] = otji_JSWrapper_wrap($this.$nextBtn);
     cpcs_Ui_add($controlGrid, var$5);
-    $this.$connRow = cpcs_Ui_el($rt_s(21), $rt_s(690));
+    $this.$connRow = cpcs_Ui_el($rt_s(21), $rt_s(655));
     var$5 = $rt_createArray(jl_Object, 4);
     var$13 = var$5.data;
     var$13[0] = otji_JSWrapper_wrap($teacherTitle);
@@ -11773,12 +11736,12 @@ cpcm_McqConsensusView__init_ = $this => {
     var$13[2] = otji_JSWrapper_wrap($controlGrid);
     var$13[3] = otji_JSWrapper_wrap($this.$connRow);
     cpcs_Ui_add($teacherCard, var$5);
-    $this.$aiCard = cpcs_Ui_el($rt_s(21), $rt_s(691));
-    var$20 = cpcs_Icons_svg($rt_s(692), $rt_s(188));
+    $this.$aiCard = cpcs_Ui_el($rt_s(21), $rt_s(656));
+    var$20 = cpcs_Icons_svg($rt_s(657), $rt_s(188));
     var$2 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(693));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$2, var$20), $rt_s(658));
     var$2 = jl_StringBuilder_toString(var$2);
-    $aiHeader = cpcs_Ui_html($rt_s(28), $rt_s(694), var$2);
+    $aiHeader = cpcs_Ui_html($rt_s(28), $rt_s(659), var$2);
     var$20 = $this.$aiCard;
     var$5 = $rt_createArray(jl_Object, 1);
     var$5.data[0] = otji_JSWrapper_wrap($aiHeader);
@@ -11811,9 +11774,9 @@ cpcm_McqConsensusView_root = $this => {
     return $this.$root2;
 },
 cpcm_McqConsensusView_onPrimaryAction = $this => {
-    if ($this.$phase.$equals($rt_s(695)))
+    if ($this.$phase.$equals($rt_s(660)))
         cpcm_McqConsensusView_reveal($this);
-    else if (!$this.$phase.$equals($rt_s(696)))
+    else if (!$this.$phase.$equals($rt_s(661)))
         cpcm_McqConsensusView_startPoll($this);
     else
         cpcm_McqConsensusView_nextQuestion($this);
@@ -11874,14 +11837,14 @@ cpcm_McqConsensusView_buildOptionRow = ($this, $opt) => {
     $row.$root0 = cpcs_Ui_el($rt_s(21), $rt_s(24));
     cpcs_Ui_on($row.$root0, $rt_s(77), cpcm_McqConsensusView$buildOptionRow$lambda$_6_0__init_0($this, $opt));
     $row.$bar = cpcs_Ui_el($rt_s(21), $rt_s(24));
-    $content = cpcs_Ui_el($rt_s(21), $rt_s(697));
+    $content = cpcs_Ui_el($rt_s(21), $rt_s(662));
     $left = cpcs_Ui_el($rt_s(21), $rt_s(510));
     $row.$badge = cpcs_Ui_el0($rt_s(21), $rt_s(24), cpcm_McqConsensusView$QuizOption_key($opt));
-    $labelCol = cpcs_Ui_el($rt_s(21), $rt_s(698));
+    $labelCol = cpcs_Ui_el($rt_s(21), $rt_s(663));
     $row.$label0 = cpcs_Ui_el0($rt_s(28), $rt_s(247), cpcm_McqConsensusView$QuizOption_label($opt));
-    $meta = cpcs_Ui_el($rt_s(21), $rt_s(699));
+    $meta = cpcs_Ui_el($rt_s(21), $rt_s(664));
     $row.$count0 = cpcs_Ui_el($rt_s(28), $rt_s(24));
-    $row.$pick = cpcs_Ui_el0($rt_s(28), $rt_s(700), $rt_s(701));
+    $row.$pick = cpcs_Ui_el0($rt_s(28), $rt_s(665), $rt_s(666));
     var$7 = $rt_createArray(jl_Object, 2);
     var$8 = var$7.data;
     var$8[0] = otji_JSWrapper_wrap($row.$count0);
@@ -11897,20 +11860,20 @@ cpcm_McqConsensusView_buildOptionRow = ($this, $opt) => {
     var$8[0] = otji_JSWrapper_wrap($row.$badge);
     var$8[1] = otji_JSWrapper_wrap($labelCol);
     cpcs_Ui_add($left, var$7);
-    $right = cpcs_Ui_el($rt_s(21), $rt_s(702));
-    $pctCol = cpcs_Ui_el($rt_s(21), $rt_s(698));
-    $row.$pct = cpcs_Ui_el($rt_s(28), $rt_s(703));
-    $ofVotes = cpcs_Ui_el0($rt_s(28), $rt_s(704), $rt_s(705));
+    $right = cpcs_Ui_el($rt_s(21), $rt_s(667));
+    $pctCol = cpcs_Ui_el($rt_s(21), $rt_s(663));
+    $row.$pct = cpcs_Ui_el($rt_s(28), $rt_s(668));
+    $ofVotes = cpcs_Ui_el0($rt_s(28), $rt_s(669), $rt_s(670));
     var$7 = $rt_createArray(jl_Object, 2);
     var$8 = var$7.data;
     var$8[0] = otji_JSWrapper_wrap($row.$pct);
     var$8[1] = otji_JSWrapper_wrap($ofVotes);
     cpcs_Ui_add($pctCol, var$7);
-    var$12 = cpcs_Icons_svg($rt_s(665), $rt_s(462));
+    var$12 = cpcs_Icons_svg($rt_s(630), $rt_s(462));
     var$13 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$13, var$12), $rt_s(706));
+    jl_StringBuilder_append(jl_StringBuilder_append(var$13, var$12), $rt_s(671));
     var$12 = jl_StringBuilder_toString(var$13);
-    $row.$correct = cpcs_Ui_html($rt_s(21), $rt_s(707), var$12);
+    $row.$correct = cpcs_Ui_html($rt_s(21), $rt_s(672), var$12);
     var$7 = $rt_createArray(jl_Object, 2);
     var$8 = var$7.data;
     var$8[0] = otji_JSWrapper_wrap($pctCol);
@@ -11931,7 +11894,7 @@ cpcm_McqConsensusView_buildOptionRow = ($this, $opt) => {
 },
 cpcm_McqConsensusView_startPoll = $this => {
     let $msg, var$2;
-    $this.$phase = $rt_s(695);
+    $this.$phase = $rt_s(660);
     $this.$timeLeft = jl_Integer_valueOf(30);
     $this.$notice = null;
     $msg = cpcj_Json_obj$js_body$_1();
@@ -11945,7 +11908,7 @@ cpcm_McqConsensusView_startPoll = $this => {
 },
 cpcm_McqConsensusView_reveal = $this => {
     let $msg, var$2;
-    $this.$phase = $rt_s(696);
+    $this.$phase = $rt_s(661);
     $this.$timeLeft = null;
     $msg = cpcj_Json_obj$js_body$_1();
     $msg.type = "poll";
@@ -11962,7 +11925,7 @@ cpcm_McqConsensusView_switchQuestion = ($this, $idx) => {
         cpcm_McqConsensusView_$callClinit();
         if ($idx < cpcm_McqConsensusView_QUESTIONS.$size()) {
             $this.$qIndex = $idx;
-            $this.$phase = $rt_s(656);
+            $this.$phase = $rt_s(621);
             $this.$timeLeft = null;
             $this.$voters.$clear0();
             $this.$notice = null;
@@ -11985,8 +11948,8 @@ cpcm_McqConsensusView_nextQuestion = $this => {
 },
 cpcm_McqConsensusView_castVote = ($this, $key) => {
     let var$2, $msg, var$4;
-    if (!$this.$phase.$equals($rt_s(695))) {
-        var$2 = !$this.$phase.$equals($rt_s(656)) ? $rt_s(708) : $rt_s(709);
+    if (!$this.$phase.$equals($rt_s(660))) {
+        var$2 = !$this.$phase.$equals($rt_s(621)) ? $rt_s(673) : $rt_s(674);
         $this.$notice = var$2;
         cpcm_McqConsensusView_update($this);
         return;
@@ -12026,10 +11989,10 @@ cpcm_McqConsensusView_connect = $this => {
         try {
             $host = $rt_str(location.hostname);
             if (!($host !== null && !$host.$isEmpty()))
-                $host = $rt_s(618);
+                $host = $rt_s(583);
             var$2 = new cpcj_Ws;
             var$3 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(619)), $host), $rt_s(620));
+            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$3, $rt_s(584)), $host), $rt_s(585));
             cpcj_Ws__init_(var$2, jl_StringBuilder_toString(var$3));
             $this.$ws0 = var$2;
             cpcj_Ws_onOpen($this.$ws0, cpcm_McqConsensusView$connect$lambda$_15_0__init_0($this));
@@ -12044,7 +12007,7 @@ cpcm_McqConsensusView_connect = $this => {
                 throw $$e;
             }
         }
-        $this.$connected = $rt_s(710);
+        $this.$connected = $rt_s(675);
     }
 },
 cpcm_McqConsensusView_handleMessage = ($this, $data) => {
@@ -12063,27 +12026,27 @@ cpcm_McqConsensusView_handleMessage = ($this, $data) => {
         var$6 = (-1);
         switch ($type.$hashCode()) {
             case -1165870106:
-                if (!$type.$equals($rt_s(711)))
+                if (!$type.$equals($rt_s(676)))
                     break a;
                 var$6 = 3;
                 break a;
             case 3446719:
-                if (!$type.$equals($rt_s(712)))
+                if (!$type.$equals($rt_s(677)))
                     break a;
                 var$6 = 4;
                 break a;
             case 3625706:
-                if (!$type.$equals($rt_s(713)))
+                if (!$type.$equals($rt_s(678)))
                     break a;
                 var$6 = 1;
                 break a;
             case 110125420:
-                if (!$type.$equals($rt_s(714)))
+                if (!$type.$equals($rt_s(679)))
                     break a;
                 var$6 = 2;
                 break a;
             case 284874180:
-                if (!$type.$equals($rt_s(621)))
+                if (!$type.$equals($rt_s(586)))
                     break a;
                 var$6 = 0;
                 break a;
@@ -12116,13 +12079,13 @@ cpcm_McqConsensusView_handleMessage = ($this, $data) => {
                     if (!$rt_str(cpcj_Json_str$js_body$_6($msg, "question")).$equals($qid))
                         break b;
                     $action = $rt_str(cpcj_Json_str$js_body$_6($msg, "action"));
-                    if ($action.$equals($rt_s(695))) {
-                        $this.$phase = $rt_s(695);
+                    if ($action.$equals($rt_s(660))) {
+                        $this.$phase = $rt_s(660);
                         $this.$timeLeft = jl_Integer_valueOf(30);
                         $this.$notice = null;
                         cpcm_McqConsensusView_update($this);
-                    } else if ($action.$equals($rt_s(715))) {
-                        $this.$phase = $rt_s(696);
+                    } else if ($action.$equals($rt_s(680))) {
+                        $this.$phase = $rt_s(661);
                         $this.$timeLeft = null;
                         cpcm_McqConsensusView_update($this);
                     }
@@ -12152,7 +12115,7 @@ cpcm_McqConsensusView_handleMessage = ($this, $data) => {
                     $i = $i + 1 | 0;
                 }
                 $this.$qIndex = $i;
-                $this.$phase = $rt_s(656);
+                $this.$phase = $rt_s(621);
                 $this.$timeLeft = null;
                 $this.$voters.$clear0();
                 $this.$notice = null;
@@ -12180,8 +12143,8 @@ cpcm_McqConsensusView_update = $this => {
     $totalVotes = $this.$voters.$size();
     $myVote = $this.$voters.$get($this.$myName);
     $correctIdx = cpcm_McqConsensusView_correctIndex($question);
-    $open = $this.$phase.$equals($rt_s(695));
-    $revealed = $this.$phase.$equals($rt_s(696));
+    $open = $this.$phase.$equals($rt_s(660));
+    $revealed = $this.$phase.$equals($rt_s(661));
     $leadingKey = null;
     $leadingCount = (-1);
     if ($totalVotes > 0) {
@@ -12201,10 +12164,10 @@ cpcm_McqConsensusView_update = $this => {
     $this.$votesText.textContent = $rt_ustr(jl_String_valueOf($totalVotes));
     var$15 = $this.$leadingText;
     if ($leadingKey === null)
-        var$16 = $rt_s(663);
+        var$16 = $rt_s(628);
     else {
         var$16 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(716)), $leadingKey);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(681)), $leadingKey);
         var$16 = jl_StringBuilder_toString(var$16);
     }
     var$15.textContent = $rt_ustr(var$16);
@@ -12212,15 +12175,15 @@ cpcm_McqConsensusView_update = $this => {
     if ($leadingKey !== null) {
         var$15 = $this.$leadingPctSpan;
         var$16 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append0(var$16, 40), $leadingPct), $rt_s(717));
+        jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append0(var$16, 40), $leadingPct), $rt_s(682));
         cpcs_Ui_setText(var$15, jl_StringBuilder_toString(var$16));
     }
-    $this.$correctText.textContent = $rt_ustr(!$revealed ? $rt_s(663) : jl_String_valueOf($correctCount));
+    $this.$correctText.textContent = $rt_ustr(!$revealed ? $rt_s(628) : jl_String_valueOf($correctCount));
     cpcs_Ui_show($this.$correctPctSpan, $revealed);
     if ($revealed) {
         var$15 = $this.$correctPctSpan;
         var$16 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append0(var$16, 40), $correctPct), $rt_s(718));
+        jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append0(var$16, 40), $correctPct), $rt_s(683));
         cpcs_Ui_setText(var$15, jl_StringBuilder_toString(var$16));
     }
     var$15 = $this.$timeText;
@@ -12230,17 +12193,17 @@ cpcm_McqConsensusView_update = $this => {
         jl_StringBuilder_append0(jl_StringBuilder_append(var$17, var$16), 115);
         var$16 = jl_StringBuilder_toString(var$17);
     } else
-        var$16 = !$revealed ? $rt_s(668) : $rt_s(719);
+        var$16 = !$revealed ? $rt_s(633) : $rt_s(684);
     var$15.textContent = $rt_ustr(var$16);
-    $badgeCls = $open ? $rt_s(720) : !$revealed ? $rt_s(721) : $rt_s(299);
-    $badgeText = $open ? $rt_s(722) : !$revealed ? $rt_s(723) : $rt_s(724);
+    $badgeCls = $open ? $rt_s(685) : !$revealed ? $rt_s(686) : $rt_s(299);
+    $badgeText = $open ? $rt_s(687) : !$revealed ? $rt_s(688) : $rt_s(689);
     var$15 = $this.$questionGroup;
-    var$16 = cpcs_Icons_svg($rt_s(124), $rt_s(725));
+    var$16 = cpcs_Icons_svg($rt_s(124), $rt_s(690));
     var$20 = $this.$qIndex + 1 | 0;
     var$17 = cpcm_McqConsensusView_QUESTIONS;
     var$21 = var$17.$size();
     var$17 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(726)), var$20), $rt_s(727)), var$21), $rt_s(728)), $badgeCls), $rt_s(729)), $badgeText), $rt_s(307));
+    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append(jl_StringBuilder_append1(jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(691)), var$20), $rt_s(692)), var$21), $rt_s(693)), $badgeCls), $rt_s(694)), $badgeText), $rt_s(307));
     var$16 = jl_StringBuilder_toString(var$17);
     cpcs_Ui_setHtml(var$15, var$16);
     cpcs_Ui_setText($this.$titleEl, cpcm_McqConsensusView$QuizQuestion_title($question));
@@ -12255,15 +12218,15 @@ cpcm_McqConsensusView_update = $this => {
         $isMine = (cpcm_McqConsensusView$QuizOption_key($opt)).$equals($myVote);
         $isCorrectRow = $revealed && cpcm_McqConsensusView$QuizOption_isCorrect($opt) ? 1 : 0;
         var$15 = $row.$root0;
-        var$16 = $isCorrectRow ? $rt_s(730) : !$isMine ? $rt_s(731) : $rt_s(732);
+        var$16 = $isCorrectRow ? $rt_s(695) : !$isMine ? $rt_s(696) : $rt_s(697);
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(733)), var$16);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(698)), var$16);
         var$16 = jl_StringBuilder_toString(var$17);
         cpcs_Ui_cls(var$15, var$16);
         var$15 = $row.$bar;
-        var$16 = !$isCorrectRow ? $rt_s(734) : $rt_s(735);
+        var$16 = !$isCorrectRow ? $rt_s(699) : $rt_s(700);
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(736)), var$16);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(701)), var$16);
         var$16 = jl_StringBuilder_toString(var$17);
         cpcs_Ui_cls(var$15, var$16);
         var$17 = $row.$bar;
@@ -12271,16 +12234,16 @@ cpcm_McqConsensusView_update = $this => {
         jl_StringBuilder_append0(jl_StringBuilder_append1(var$15, $pct), 37);
         cpcs_Ui_setStyle$js_body$_22(var$17, "width", $rt_ustr(jl_StringBuilder_toString(var$15)));
         var$17 = $row.$badge;
-        var$28 = $isCorrectRow ? $rt_s(720) : !$isMine ? $rt_s(737) : $rt_s(299);
+        var$28 = $isCorrectRow ? $rt_s(685) : !$isMine ? $rt_s(702) : $rt_s(299);
         var$15 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(738)), var$28);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(703)), var$28);
         var$15 = jl_StringBuilder_toString(var$15);
         cpcs_Ui_cls(var$17, var$15);
         cpcs_Ui_setText($row.$label0, cpcm_McqConsensusView$QuizOption_label($opt));
         var$28 = $row.$count0;
-        var$29 = $count != 1 ? $rt_s(739) : $rt_s(24);
+        var$29 = $count != 1 ? $rt_s(704) : $rt_s(24);
         var$15 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(var$15, $count), $rt_s(740)), var$29);
+        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(var$15, $count), $rt_s(705)), var$29);
         cpcs_Ui_setText(var$28, jl_StringBuilder_toString(var$15));
         cpcs_Ui_show($row.$pick, $isMine);
         var$16 = $row.$pct;
@@ -12291,34 +12254,34 @@ cpcm_McqConsensusView_update = $this => {
         $i = $i + 1 | 0;
     }
     var$15 = $this.$statusBar;
-    var$16 = !$open ? $rt_s(741) : $rt_s(742);
+    var$16 = !$open ? $rt_s(706) : $rt_s(707);
     var$17 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(743)), var$16);
+    jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(708)), var$16);
     var$16 = jl_StringBuilder_toString(var$17);
     cpcs_Ui_cls(var$15, var$16);
     $correctKey = cpcm_McqConsensusView_KEYS.data[$correctIdx];
     if ($open) {
         if ($myVote === null)
-            $status = $rt_s(744);
+            $status = $rt_s(709);
         else {
             var$15 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(745)), $myVote), $rt_s(746));
+            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(710)), $myVote), $rt_s(711));
             $status = jl_StringBuilder_toString(var$15);
         }
     } else if (!$revealed)
-        $status = $rt_s(747);
+        $status = $rt_s(712);
     else if ($myVote === null)
-        $status = $rt_s(748);
+        $status = $rt_s(713);
     else {
         if ($myVote.$equals($correctKey))
-            var$15 = $rt_s(749);
+            var$15 = $rt_s(714);
         else {
             var$15 = jl_StringBuilder__init_();
-            jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(750)), $correctKey), 46);
+            jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(715)), $correctKey), 46);
             var$15 = jl_StringBuilder_toString(var$15);
         }
         var$16 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(751)), $myVote), var$15);
+        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(716)), $myVote), var$15);
         $status = jl_StringBuilder_toString(var$16);
     }
     cpcs_Ui_setText($this.$statusText, $status);
@@ -12339,31 +12302,31 @@ cpcm_McqConsensusView_update = $this => {
         var$28 = otji_JSWrapper_unwrap($this.$qButtons.$get0($i));
         var$15 = $this.$qIndex != $i ? $rt_s(468) : $rt_s(438);
         var$16 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(752)), var$15);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$16, $rt_s(717)), var$15);
         var$15 = jl_StringBuilder_toString(var$16);
         cpcs_Ui_cls(var$28, var$15);
         $i = $i + 1 | 0;
     }
-    $this.$startBtn0.disabled = !!($this.$phase.$equals($rt_s(656)) ? 0 : 1);
+    $this.$startBtn0.disabled = !!($this.$phase.$equals($rt_s(621)) ? 0 : 1);
     $this.$revealBtn.disabled = !!($open ? 0 : 1);
     $this.$nextBtn.disabled = !!$open;
-    if ($this.$connected.$equals($rt_s(627))) {
+    if ($this.$connected.$equals($rt_s(592))) {
         var$15 = $this.$connRow;
-        var$16 = cpcs_Icons_svg($rt_s(753), $rt_s(169));
+        var$16 = cpcs_Icons_svg($rt_s(718), $rt_s(169));
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(754));
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(719));
         cpcs_Ui_setHtml(var$15, jl_StringBuilder_toString(var$17));
     } else if (!$this.$connected.$equals($rt_s(424))) {
         var$15 = $this.$connRow;
         var$16 = cpcs_Icons_svg($rt_s(433), $rt_s(157));
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(755));
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(720));
         cpcs_Ui_setHtml(var$15, jl_StringBuilder_toString(var$17));
     } else {
         var$15 = $this.$connRow;
-        var$16 = cpcs_Icons_svg($rt_s(753), $rt_s(157));
+        var$16 = cpcs_Icons_svg($rt_s(718), $rt_s(157));
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(756));
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, var$16), $rt_s(721));
         cpcs_Ui_setHtml(var$15, jl_StringBuilder_toString(var$17));
     }
     var$15 = $this.$aiBody.$iterator();
@@ -12373,34 +12336,34 @@ cpcm_McqConsensusView_update = $this => {
     }
     $this.$aiBody.$clear0();
     if (!$revealed) {
-        $idle = cpcs_Ui_el0($rt_s(104), $rt_s(757), $rt_s(758));
+        $idle = cpcs_Ui_el0($rt_s(104), $rt_s(722), $rt_s(723));
         $this.$aiBody.$add1(otji_JSWrapper_wrap($idle));
         var$15 = $this.$aiCard;
         var$11 = $rt_createArray(jl_Object, 1);
         var$11.data[0] = otji_JSWrapper_wrap($idle);
         cpcs_Ui_add(var$15, var$11);
     } else {
-        $explanation = cpcs_Ui_el0($rt_s(104), $rt_s(759), cpcm_McqConsensusView$QuizQuestion_explanation($question));
-        $trap = cpcs_Ui_el($rt_s(104), $rt_s(759));
+        $explanation = cpcs_Ui_el0($rt_s(104), $rt_s(724), cpcm_McqConsensusView$QuizQuestion_explanation($question));
+        $trap = cpcs_Ui_el($rt_s(104), $rt_s(724));
         var$11 = $rt_createArray(jl_Object, 1);
-        var$11.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(201), $rt_s(24), $rt_s(760)));
+        var$11.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(201), $rt_s(24), $rt_s(725)));
         cpcs_Ui_add($trap, var$11);
         $trap.appendChild((cpcs_Ui_doc()).createTextNode($rt_ustr(cpcm_McqConsensusView$QuizQuestion_trap($question))));
         if ($totalVotes <= 0)
-            $summary = $rt_s(761);
+            $summary = $rt_s(726);
         else {
             if ($correctKey.$equals($leadingKey))
-                var$15 = $rt_s(762);
+                var$15 = $rt_s(727);
             else {
                 var$15 = jl_StringBuilder__init_();
-                jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(763)), $leadingKey), 46);
+                jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append(var$15, $rt_s(728)), $leadingKey), 46);
                 var$15 = jl_StringBuilder_toString(var$15);
             }
             var$16 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(var$16, $correctPct), $rt_s(764)), var$15);
+            jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append1(var$16, $correctPct), $rt_s(729)), var$15);
             $summary = jl_StringBuilder_toString(var$16);
         }
-        $summaryEl = cpcs_Ui_el0($rt_s(104), $rt_s(765), $summary);
+        $summaryEl = cpcs_Ui_el0($rt_s(104), $rt_s(730), $summary);
         $this.$aiBody.$add1(otji_JSWrapper_wrap($explanation));
         $this.$aiBody.$add1(otji_JSWrapper_wrap($trap));
         $this.$aiBody.$add1(otji_JSWrapper_wrap($summaryEl));
@@ -12438,7 +12401,7 @@ cpcm_McqConsensusView_syncCountdown = $this => {
     }
     $this.$countdownPhase = $this.$phase;
     $this.$countdownTime = $this.$timeLeft;
-    if ($this.$phase.$equals($rt_s(695)) && $this.$timeLeft !== null) {
+    if ($this.$phase.$equals($rt_s(660)) && $this.$timeLeft !== null) {
         if ($this.$timeLeft.$intValue() <= 0) {
             cpcm_McqConsensusView_reveal($this);
             return;
@@ -12484,21 +12447,21 @@ cpcm_McqConsensusView_lambda$syncCountdown$6 = $this => {
 cpcm_McqConsensusView_lambda$connect$5 = $this => {
     if ($this.$disposed)
         return;
-    if ($this.$connected.$equals($rt_s(627)))
-        $this.$connected = $rt_s(710);
+    if ($this.$connected.$equals($rt_s(592)))
+        $this.$connected = $rt_s(675);
     cpcm_McqConsensusView_update($this);
 },
 cpcm_McqConsensusView_lambda$connect$4 = $this => {
     if ($this.$disposed)
         return;
-    $this.$connected = $rt_s(710);
+    $this.$connected = $rt_s(675);
     cpcm_McqConsensusView_update($this);
 },
 cpcm_McqConsensusView_lambda$connect$3 = $this => {
     let $join, var$2;
     if ($this.$disposed)
         return;
-    $this.$connected = $rt_s(627);
+    $this.$connected = $rt_s(592);
     $join = cpcj_Json_obj$js_body$_1();
     $join.type = "join";
     $join.room = "main";
@@ -12519,7 +12482,7 @@ cpcm_McqConsensusView_lambda$new$0 = ($this, $next) => {
     if ($next.$length() > 20)
         $next = $next.$substring(0, 20);
     if ($next.$isEmpty())
-        $next = $rt_s(766);
+        $next = $rt_s(731);
     $this.$myName = $next;
     if (!$rt_str($this.$nameInput0.value).$equals($next))
         $this.$nameInput0.value = $rt_ustr($next);
@@ -12527,31 +12490,31 @@ cpcm_McqConsensusView_lambda$new$0 = ($this, $next) => {
 },
 cpcm_McqConsensusView__clinit_ = () => {
     let var$1, var$2, var$3, var$4, var$5, var$6, var$7, var$8, var$9, var$10, var$11;
-    cpcm_McqConsensusView_KEYS = $rt_wrapArray(jl_String, [$rt_s(767), $rt_s(768), $rt_s(769), $rt_s(770)]);
+    cpcm_McqConsensusView_KEYS = $rt_wrapArray(jl_String, [$rt_s(732), $rt_s(733), $rt_s(734), $rt_s(735)]);
     var$1 = new cpcm_McqConsensusView$QuizQuestion;
-    var$2 = cpcm_McqConsensusView$QuizOption__init_($rt_s(767), $rt_s(771), 1);
-    var$3 = cpcm_McqConsensusView$QuizOption__init_($rt_s(768), $rt_s(772), 0);
-    var$4 = cpcm_McqConsensusView$QuizOption__init_($rt_s(769), $rt_s(773), 0);
-    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(770), $rt_s(774), 0);
-    cpcm_McqConsensusView$QuizQuestion__init_(var$1, $rt_s(775), $rt_s(776), $rt_s(777), ju_List_of(var$2, var$3, var$4, var$5), $rt_s(778), $rt_s(779));
+    var$2 = cpcm_McqConsensusView$QuizOption__init_($rt_s(732), $rt_s(736), 1);
+    var$3 = cpcm_McqConsensusView$QuizOption__init_($rt_s(733), $rt_s(737), 0);
+    var$4 = cpcm_McqConsensusView$QuizOption__init_($rt_s(734), $rt_s(738), 0);
+    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(735), $rt_s(739), 0);
+    cpcm_McqConsensusView$QuizQuestion__init_(var$1, $rt_s(740), $rt_s(741), $rt_s(742), ju_List_of(var$2, var$3, var$4, var$5), $rt_s(743), $rt_s(744));
     var$6 = new cpcm_McqConsensusView$QuizQuestion;
-    var$3 = cpcm_McqConsensusView$QuizOption__init_($rt_s(767), $rt_s(780), 1);
-    var$4 = cpcm_McqConsensusView$QuizOption__init_($rt_s(768), $rt_s(781), 0);
-    var$7 = cpcm_McqConsensusView$QuizOption__init_($rt_s(769), $rt_s(782), 0);
-    var$8 = cpcm_McqConsensusView$QuizOption__init_($rt_s(770), $rt_s(783), 0);
-    cpcm_McqConsensusView$QuizQuestion__init_(var$6, $rt_s(784), $rt_s(785), $rt_s(786), ju_List_of(var$3, var$4, var$7, var$8), $rt_s(787), $rt_s(788));
+    var$3 = cpcm_McqConsensusView$QuizOption__init_($rt_s(732), $rt_s(745), 1);
+    var$4 = cpcm_McqConsensusView$QuizOption__init_($rt_s(733), $rt_s(746), 0);
+    var$7 = cpcm_McqConsensusView$QuizOption__init_($rt_s(734), $rt_s(747), 0);
+    var$8 = cpcm_McqConsensusView$QuizOption__init_($rt_s(735), $rt_s(748), 0);
+    cpcm_McqConsensusView$QuizQuestion__init_(var$6, $rt_s(749), $rt_s(750), $rt_s(751), ju_List_of(var$3, var$4, var$7, var$8), $rt_s(752), $rt_s(753));
     var$2 = new cpcm_McqConsensusView$QuizQuestion;
-    var$8 = cpcm_McqConsensusView$QuizOption__init_($rt_s(767), $rt_s(789), 1);
-    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(768), $rt_s(790), 0);
-    var$9 = cpcm_McqConsensusView$QuizOption__init_($rt_s(769), $rt_s(791), 0);
-    var$10 = cpcm_McqConsensusView$QuizOption__init_($rt_s(770), $rt_s(792), 0);
-    cpcm_McqConsensusView$QuizQuestion__init_(var$2, $rt_s(793), $rt_s(794), $rt_s(795), ju_List_of(var$8, var$5, var$9, var$10), $rt_s(796), $rt_s(797));
+    var$8 = cpcm_McqConsensusView$QuizOption__init_($rt_s(732), $rt_s(754), 1);
+    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(733), $rt_s(755), 0);
+    var$9 = cpcm_McqConsensusView$QuizOption__init_($rt_s(734), $rt_s(756), 0);
+    var$10 = cpcm_McqConsensusView$QuizOption__init_($rt_s(735), $rt_s(757), 0);
+    cpcm_McqConsensusView$QuizQuestion__init_(var$2, $rt_s(758), $rt_s(759), $rt_s(760), ju_List_of(var$8, var$5, var$9, var$10), $rt_s(761), $rt_s(762));
     var$3 = new cpcm_McqConsensusView$QuizQuestion;
-    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(767), $rt_s(798), 1);
-    var$9 = cpcm_McqConsensusView$QuizOption__init_($rt_s(768), $rt_s(799), 0);
-    var$10 = cpcm_McqConsensusView$QuizOption__init_($rt_s(769), $rt_s(800), 0);
-    var$11 = cpcm_McqConsensusView$QuizOption__init_($rt_s(770), $rt_s(801), 0);
-    cpcm_McqConsensusView$QuizQuestion__init_(var$3, $rt_s(802), $rt_s(803), $rt_s(804), ju_List_of(var$5, var$9, var$10, var$11), $rt_s(805), $rt_s(806));
+    var$5 = cpcm_McqConsensusView$QuizOption__init_($rt_s(732), $rt_s(763), 1);
+    var$9 = cpcm_McqConsensusView$QuizOption__init_($rt_s(733), $rt_s(764), 0);
+    var$10 = cpcm_McqConsensusView$QuizOption__init_($rt_s(734), $rt_s(765), 0);
+    var$11 = cpcm_McqConsensusView$QuizOption__init_($rt_s(735), $rt_s(766), 0);
+    cpcm_McqConsensusView$QuizQuestion__init_(var$3, $rt_s(767), $rt_s(768), $rt_s(769), ju_List_of(var$5, var$9, var$10, var$11), $rt_s(770), $rt_s(771));
     cpcm_McqConsensusView_QUESTIONS = ju_List_of(var$1, var$6, var$2, var$3);
 },
 cpcm_McqConsensusView_parseSafe$js_body$_22 = var$1 => {
@@ -12583,13 +12546,13 @@ cpcj_Ws$onMessage$lambda$_2_0_call$exported$0 = (var$1, var$2) => {
 };
 function cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6() {
     let a = this; jl_Object.call(a);
-    a.$_061 = null;
-    a.$_111 = null;
+    a.$_062 = null;
+    a.$_112 = null;
 }
 let cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_061 = var$1;
-    var$0.$_111 = var$2;
+    var$0.$_062 = var$1;
+    var$0.$_112 = var$2;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6__init_0 = (var_0, var_1) => {
     let var_2 = new cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6();
@@ -12597,7 +12560,7 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_6_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$rebuildToolbar$10(var$0.$_061, var$0.$_111);
+    cpcw_WhiteboardStudio_lambda$rebuildToolbar$10(var$0.$_062, var$0.$_112);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_0() {
     jl_Object.call(this);
@@ -12617,11 +12580,11 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_0_handle = (var$0, var$1) => {
 };
 function cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5() {
     jl_Object.call(this);
-    this.$_086 = null;
+    this.$_087 = null;
 }
 let cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_086 = var$1;
+    var$0.$_087 = var$1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5();
@@ -12629,7 +12592,7 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_5_run = var$0 => {
-    cpcw_WhiteboardStudio_handleExportJson(var$0.$_086);
+    cpcw_WhiteboardStudio_handleExportJson(var$0.$_087);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_1() {
     jl_Object.call(this);
@@ -12649,11 +12612,11 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_1_handle = (var$0, var$1) => {
 };
 function cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4() {
     jl_Object.call(this);
-    this.$_019 = null;
+    this.$_020 = null;
 }
 let cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_019 = var$1;
+    var$0.$_020 = var$1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4();
@@ -12661,15 +12624,15 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_4_run = var$0 => {
-    cpcw_WhiteboardStudio_handleExportPng(var$0.$_019);
+    cpcw_WhiteboardStudio_handleExportPng(var$0.$_020);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_2() {
     jl_Object.call(this);
-    this.$_084 = null;
+    this.$_085 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_2__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_084 = var$1;
+    var$0.$_085 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_2__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_2();
@@ -12677,15 +12640,15 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_2__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_2_run = var$0 => {
-    cpce_MatchingEngineStudio_lambda$new$2(var$0.$_084);
+    cpce_MatchingEngineStudio_lambda$new$2(var$0.$_085);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_3() {
     jl_Object.call(this);
-    this.$_056 = null;
+    this.$_057 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_3__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_056 = var$1;
+    var$0.$_057 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_3__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_3();
@@ -12693,7 +12656,7 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_3__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_3_run = var$0 => {
-    cpce_MatchingEngineStudio_lambda$new$3(var$0.$_056);
+    cpce_MatchingEngineStudio_lambda$new$3(var$0.$_057);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_4() {
     jl_Object.call(this);
@@ -12716,11 +12679,11 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_4_call$exported$0 = var$1 => {
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_5() {
     jl_Object.call(this);
-    this.$_075 = null;
+    this.$_076 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_5__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_075 = var$1;
+    var$0.$_076 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_5__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_5();
@@ -12728,7 +12691,7 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_5__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_5_run = var$0 => {
-    cpce_MatchingEngineStudio_lambda$new$4(var$0.$_075);
+    cpce_MatchingEngineStudio_lambda$new$4(var$0.$_076);
 },
 cpcw_WhiteboardJson = $rt_classWithoutFields(),
 cpcw_WhiteboardJson_toJson = $el => {
@@ -12873,11 +12836,11 @@ jl_NullPointerException__init_ = () => {
 };
 function cpcs_Ui$onInput$lambda$_14_0() {
     jl_Object.call(this);
-    this.$_026 = null;
+    this.$_027 = null;
 }
 let cpcs_Ui$onInput$lambda$_14_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_026 = var$1;
+    var$0.$_027 = var$1;
 },
 cpcs_Ui$onInput$lambda$_14_0__init_0 = var_0 => {
     let var_1 = new cpcs_Ui$onInput$lambda$_14_0();
@@ -12885,18 +12848,18 @@ cpcs_Ui$onInput$lambda$_14_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Ui$onInput$lambda$_14_0_handleEvent = (var$0, var$1) => {
-    cpcs_Ui_lambda$onInput$6(var$0.$_026, var$1);
+    cpcs_Ui_lambda$onInput$6(var$0.$_027, var$1);
 },
 cpcs_Ui$onInput$lambda$_14_0_handleEvent$exported$0 = (var$1, var$2) => {
     var$1.$handleEvent(var$2);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_6() {
     jl_Object.call(this);
-    this.$_052 = null;
+    this.$_053 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_6__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_052 = var$1;
+    var$0.$_053 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_6__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_6();
@@ -12904,15 +12867,15 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_6__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_6_run = var$0 => {
-    cpce_MatchingEngineStudio_lambda$new$5(var$0.$_052);
+    cpce_MatchingEngineStudio_lambda$new$5(var$0.$_053);
 };
 function cpcw_LiveSession$connect$lambda$_14_3() {
     jl_Object.call(this);
-    this.$_034 = null;
+    this.$_035 = null;
 }
 let cpcw_LiveSession$connect$lambda$_14_3__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_034 = var$1;
+    var$0.$_035 = var$1;
 },
 cpcw_LiveSession$connect$lambda$_14_3__init_0 = var_0 => {
     let var_1 = new cpcw_LiveSession$connect$lambda$_14_3();
@@ -12920,15 +12883,15 @@ cpcw_LiveSession$connect$lambda$_14_3__init_0 = var_0 => {
     return var_1;
 },
 cpcw_LiveSession$connect$lambda$_14_3_run = var$0 => {
-    cpcw_LiveSession_lambda$connect$2(var$0.$_034);
+    cpcw_LiveSession_lambda$connect$2(var$0.$_035);
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_7() {
     jl_Object.call(this);
-    this.$_030 = null;
+    this.$_031 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_7__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_030 = var$1;
+    var$0.$_031 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_7__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_7();
@@ -12936,7 +12899,7 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_7__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_7_run = var$0 => {
-    cpce_MatchingEngineStudio_lambda$new$6(var$0.$_030);
+    cpce_MatchingEngineStudio_lambda$new$6(var$0.$_031);
 },
 jl_Math = $rt_classWithoutFields(),
 jl_Math_sin = var$1 => {
@@ -13044,11 +13007,11 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_8_run = var$0 => {
 };
 function cpce_MatchingEngineStudio$_init_$lambda$_0_9() {
     jl_Object.call(this);
-    this.$_087 = null;
+    this.$_088 = null;
 }
 let cpce_MatchingEngineStudio$_init_$lambda$_0_9__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_087 = var$1;
+    var$0.$_088 = var$1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_9__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$_init_$lambda$_0_9();
@@ -13056,17 +13019,17 @@ cpce_MatchingEngineStudio$_init_$lambda$_0_9__init_0 = var_0 => {
     return var_1;
 },
 cpce_MatchingEngineStudio$_init_$lambda$_0_9_handle = (var$0, var$1) => {
-    cpce_MatchingEngineStudio_lambda$new$8(var$0.$_087, var$1);
+    cpce_MatchingEngineStudio_lambda$new$8(var$0.$_088, var$1);
 };
 function cpcw_LiveSession$connect$lambda$_14_0() {
     let a = this; jl_Object.call(a);
-    a.$_038 = null;
-    a.$_17 = null;
+    a.$_039 = null;
+    a.$_18 = null;
 }
 let cpcw_LiveSession$connect$lambda$_14_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_038 = var$1;
-    var$0.$_17 = var$2;
+    var$0.$_039 = var$1;
+    var$0.$_18 = var$2;
 },
 cpcw_LiveSession$connect$lambda$_14_0__init_0 = (var_0, var_1) => {
     let var_2 = new cpcw_LiveSession$connect$lambda$_14_0();
@@ -13074,15 +13037,15 @@ cpcw_LiveSession$connect$lambda$_14_0__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcw_LiveSession$connect$lambda$_14_0_run = var$0 => {
-    cpcw_LiveSession_lambda$connect$0(var$0.$_038, var$0.$_17);
+    cpcw_LiveSession_lambda$connect$0(var$0.$_039, var$0.$_18);
 };
 function cpcw_LiveSession$connect$lambda$_14_1() {
     jl_Object.call(this);
-    this.$_080 = null;
+    this.$_081 = null;
 }
 let cpcw_LiveSession$connect$lambda$_14_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_080 = var$1;
+    var$0.$_081 = var$1;
 },
 cpcw_LiveSession$connect$lambda$_14_1__init_0 = var_0 => {
     let var_1 = new cpcw_LiveSession$connect$lambda$_14_1();
@@ -13090,7 +13053,7 @@ cpcw_LiveSession$connect$lambda$_14_1__init_0 = var_0 => {
     return var_1;
 },
 cpcw_LiveSession$connect$lambda$_14_1_onMessage = (var$0, var$1) => {
-    cpcw_LiveSession_handleMessage(var$0.$_080, var$1);
+    cpcw_LiveSession_handleMessage(var$0.$_081, var$1);
 };
 function jm_RoundingMode() {
     jl_Enum.call(this);
@@ -13139,14 +13102,14 @@ jm_RoundingMode_$values = () => {
     return var$1;
 },
 jm_RoundingMode__clinit_ = () => {
-    jm_RoundingMode_UP = jm_RoundingMode__init_($rt_s(807), 0, 0);
-    jm_RoundingMode_DOWN = jm_RoundingMode__init_($rt_s(808), 1, 1);
-    jm_RoundingMode_CEILING = jm_RoundingMode__init_($rt_s(809), 2, 2);
-    jm_RoundingMode_FLOOR = jm_RoundingMode__init_($rt_s(810), 3, 3);
-    jm_RoundingMode_HALF_UP = jm_RoundingMode__init_($rt_s(811), 4, 4);
-    jm_RoundingMode_HALF_DOWN = jm_RoundingMode__init_($rt_s(812), 5, 5);
-    jm_RoundingMode_HALF_EVEN = jm_RoundingMode__init_($rt_s(813), 6, 6);
-    jm_RoundingMode_UNNECESSARY = jm_RoundingMode__init_($rt_s(814), 7, 7);
+    jm_RoundingMode_UP = jm_RoundingMode__init_($rt_s(772), 0, 0);
+    jm_RoundingMode_DOWN = jm_RoundingMode__init_($rt_s(773), 1, 1);
+    jm_RoundingMode_CEILING = jm_RoundingMode__init_($rt_s(774), 2, 2);
+    jm_RoundingMode_FLOOR = jm_RoundingMode__init_($rt_s(775), 3, 3);
+    jm_RoundingMode_HALF_UP = jm_RoundingMode__init_($rt_s(776), 4, 4);
+    jm_RoundingMode_HALF_DOWN = jm_RoundingMode__init_($rt_s(777), 5, 5);
+    jm_RoundingMode_HALF_EVEN = jm_RoundingMode__init_($rt_s(778), 6, 6);
+    jm_RoundingMode_UNNECESSARY = jm_RoundingMode__init_($rt_s(779), 7, 7);
     jm_RoundingMode_$VALUES = jm_RoundingMode_$values();
 };
 function cpcw_LiveSession$connect$lambda$_14_2() {
@@ -13178,66 +13141,66 @@ cpcs_Icons_svg = ($name, $cls) => {
     if ($inner === null) {
         var$4 = new jl_IllegalArgumentException;
         var$5 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$5, $rt_s(815)), $name);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$5, $rt_s(780)), $name);
         jl_IllegalArgumentException__init_0(var$4, jl_StringBuilder_toString(var$5));
         $rt_throw(var$4);
     }
     var$4 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$4, $rt_s(816)), $cls), $rt_s(729)), $inner), $rt_s(817));
+    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$4, $rt_s(781)), $cls), $rt_s(694)), $inner), $rt_s(782));
     return jl_StringBuilder_toString(var$4);
 },
 cpcs_Icons__clinit_ = () => {
     cpcs_Icons_ICONS = ju_HashMap__init_2();
-    cpcs_Icons_ICONS.$put($rt_s(122), $rt_s(818));
-    cpcs_Icons_ICONS.$put($rt_s(320), $rt_s(819));
-    cpcs_Icons_ICONS.$put($rt_s(445), $rt_s(820));
-    cpcs_Icons_ICONS.$put($rt_s(321), $rt_s(821));
-    cpcs_Icons_ICONS.$put($rt_s(187), $rt_s(822));
-    cpcs_Icons_ICONS.$put($rt_s(823), $rt_s(824));
-    cpcs_Icons_ICONS.$put($rt_s(502), $rt_s(825));
-    cpcs_Icons_ICONS.$put($rt_s(564), $rt_s(826));
-    cpcs_Icons_ICONS.$put($rt_s(665), $rt_s(827));
-    cpcs_Icons_ICONS.$put($rt_s(443), $rt_s(828));
-    cpcs_Icons_ICONS.$put($rt_s(829), $rt_s(830));
-    cpcs_Icons_ICONS.$put($rt_s(563), $rt_s(831));
-    cpcs_Icons_ICONS.$put($rt_s(180), $rt_s(832));
-    cpcs_Icons_ICONS.$put($rt_s(475), $rt_s(833));
-    cpcs_Icons_ICONS.$put($rt_s(466), $rt_s(834));
-    cpcs_Icons_ICONS.$put($rt_s(501), $rt_s(835));
-    cpcs_Icons_ICONS.$put($rt_s(452), $rt_s(836));
-    cpcs_Icons_ICONS.$put($rt_s(126), $rt_s(837));
-    cpcs_Icons_ICONS.$put($rt_s(467), $rt_s(838));
-    cpcs_Icons_ICONS.$put($rt_s(156), $rt_s(839));
-    cpcs_Icons_ICONS.$put($rt_s(503), $rt_s(840));
-    cpcs_Icons_ICONS.$put($rt_s(692), $rt_s(841));
-    cpcs_Icons_ICONS.$put($rt_s(124), $rt_s(842));
-    cpcs_Icons_ICONS.$put($rt_s(120), $rt_s(843));
-    cpcs_Icons_ICONS.$put($rt_s(403), $rt_s(844));
-    cpcs_Icons_ICONS.$put($rt_s(436), $rt_s(845));
-    cpcs_Icons_ICONS.$put($rt_s(291), $rt_s(846));
-    cpcs_Icons_ICONS.$put($rt_s(439), $rt_s(847));
-    cpcs_Icons_ICONS.$put($rt_s(290), $rt_s(848));
-    cpcs_Icons_ICONS.$put($rt_s(381), $rt_s(849));
-    cpcs_Icons_ICONS.$put($rt_s(753), $rt_s(850));
-    cpcs_Icons_ICONS.$put($rt_s(385), $rt_s(851));
-    cpcs_Icons_ICONS.$put($rt_s(461), $rt_s(852));
-    cpcs_Icons_ICONS.$put($rt_s(464), $rt_s(853));
-    cpcs_Icons_ICONS.$put($rt_s(854), $rt_s(855));
-    cpcs_Icons_ICONS.$put($rt_s(856), $rt_s(857));
-    cpcs_Icons_ICONS.$put($rt_s(441), $rt_s(858));
-    cpcs_Icons_ICONS.$put($rt_s(447), $rt_s(859));
-    cpcs_Icons_ICONS.$put($rt_s(860), $rt_s(861));
-    cpcs_Icons_ICONS.$put($rt_s(667), $rt_s(862));
-    cpcs_Icons_ICONS.$put($rt_s(127), $rt_s(863));
-    cpcs_Icons_ICONS.$put($rt_s(174), $rt_s(864));
-    cpcs_Icons_ICONS.$put($rt_s(661), $rt_s(865));
-    cpcs_Icons_ICONS.$put($rt_s(450), $rt_s(866));
-    cpcs_Icons_ICONS.$put($rt_s(376), $rt_s(867));
-    cpcs_Icons_ICONS.$put($rt_s(432), $rt_s(868));
-    cpcs_Icons_ICONS.$put($rt_s(433), $rt_s(869));
-    cpcs_Icons_ICONS.$put($rt_s(163), $rt_s(870));
-    cpcs_Icons_ICONS.$put($rt_s(401), $rt_s(871));
-    cpcs_Icons_ICONS.$put($rt_s(399), $rt_s(872));
+    cpcs_Icons_ICONS.$put($rt_s(122), $rt_s(783));
+    cpcs_Icons_ICONS.$put($rt_s(320), $rt_s(784));
+    cpcs_Icons_ICONS.$put($rt_s(445), $rt_s(785));
+    cpcs_Icons_ICONS.$put($rt_s(321), $rt_s(786));
+    cpcs_Icons_ICONS.$put($rt_s(187), $rt_s(787));
+    cpcs_Icons_ICONS.$put($rt_s(788), $rt_s(789));
+    cpcs_Icons_ICONS.$put($rt_s(502), $rt_s(790));
+    cpcs_Icons_ICONS.$put($rt_s(535), $rt_s(791));
+    cpcs_Icons_ICONS.$put($rt_s(630), $rt_s(792));
+    cpcs_Icons_ICONS.$put($rt_s(443), $rt_s(793));
+    cpcs_Icons_ICONS.$put($rt_s(794), $rt_s(795));
+    cpcs_Icons_ICONS.$put($rt_s(534), $rt_s(796));
+    cpcs_Icons_ICONS.$put($rt_s(180), $rt_s(797));
+    cpcs_Icons_ICONS.$put($rt_s(475), $rt_s(798));
+    cpcs_Icons_ICONS.$put($rt_s(466), $rt_s(799));
+    cpcs_Icons_ICONS.$put($rt_s(501), $rt_s(800));
+    cpcs_Icons_ICONS.$put($rt_s(452), $rt_s(801));
+    cpcs_Icons_ICONS.$put($rt_s(126), $rt_s(802));
+    cpcs_Icons_ICONS.$put($rt_s(467), $rt_s(803));
+    cpcs_Icons_ICONS.$put($rt_s(156), $rt_s(804));
+    cpcs_Icons_ICONS.$put($rt_s(503), $rt_s(805));
+    cpcs_Icons_ICONS.$put($rt_s(657), $rt_s(806));
+    cpcs_Icons_ICONS.$put($rt_s(124), $rt_s(807));
+    cpcs_Icons_ICONS.$put($rt_s(120), $rt_s(808));
+    cpcs_Icons_ICONS.$put($rt_s(403), $rt_s(809));
+    cpcs_Icons_ICONS.$put($rt_s(436), $rt_s(810));
+    cpcs_Icons_ICONS.$put($rt_s(291), $rt_s(811));
+    cpcs_Icons_ICONS.$put($rt_s(439), $rt_s(812));
+    cpcs_Icons_ICONS.$put($rt_s(290), $rt_s(813));
+    cpcs_Icons_ICONS.$put($rt_s(381), $rt_s(814));
+    cpcs_Icons_ICONS.$put($rt_s(718), $rt_s(815));
+    cpcs_Icons_ICONS.$put($rt_s(385), $rt_s(816));
+    cpcs_Icons_ICONS.$put($rt_s(461), $rt_s(817));
+    cpcs_Icons_ICONS.$put($rt_s(464), $rt_s(818));
+    cpcs_Icons_ICONS.$put($rt_s(819), $rt_s(820));
+    cpcs_Icons_ICONS.$put($rt_s(821), $rt_s(822));
+    cpcs_Icons_ICONS.$put($rt_s(441), $rt_s(823));
+    cpcs_Icons_ICONS.$put($rt_s(447), $rt_s(824));
+    cpcs_Icons_ICONS.$put($rt_s(825), $rt_s(826));
+    cpcs_Icons_ICONS.$put($rt_s(632), $rt_s(827));
+    cpcs_Icons_ICONS.$put($rt_s(127), $rt_s(828));
+    cpcs_Icons_ICONS.$put($rt_s(174), $rt_s(829));
+    cpcs_Icons_ICONS.$put($rt_s(626), $rt_s(830));
+    cpcs_Icons_ICONS.$put($rt_s(450), $rt_s(831));
+    cpcs_Icons_ICONS.$put($rt_s(376), $rt_s(832));
+    cpcs_Icons_ICONS.$put($rt_s(432), $rt_s(833));
+    cpcs_Icons_ICONS.$put($rt_s(433), $rt_s(834));
+    cpcs_Icons_ICONS.$put($rt_s(163), $rt_s(835));
+    cpcs_Icons_ICONS.$put($rt_s(401), $rt_s(836));
+    cpcs_Icons_ICONS.$put($rt_s(399), $rt_s(837));
 },
 cpcs_Header$Callbacks = $rt_classWithoutFields(0);
 function cpcw_WhiteboardStudio$_init_$lambda$_0_9() {
@@ -13258,11 +13221,11 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_9_run = var$0 => {
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_0() {
     jl_Object.call(this);
-    this.$_053 = null;
+    this.$_054 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_053 = var$1;
+    var$0.$_054 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_0__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_0();
@@ -13270,15 +13233,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_0__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_0_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$new$1(var$0.$_053);
+    cpcw_WhiteboardStudio_lambda$new$1(var$0.$_054);
 };
 function cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0() {
     jl_Object.call(this);
-    this.$_070 = null;
+    this.$_071 = null;
 }
 let cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_070 = var$1;
+    var$0.$_071 = var$1;
 },
 cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0();
@@ -13289,25 +13252,7 @@ cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0_accept0 = (var$0, 
     cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0_accept(var$0, var$1);
 },
 cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0_accept = (var$0, var$1) => {
-    cpce_MatchingEngineStudio_lambda$handleManualOrderSubmit$13(var$0.$_070, var$1);
-};
-function cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0() {
-    let a = this; jl_Object.call(a);
-    a.$_090 = null;
-    a.$_113 = null;
-}
-let cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0__init_ = (var$0, var$1, var$2) => {
-    jl_Object__init_(var$0);
-    var$0.$_090 = var$1;
-    var$0.$_113 = var$2;
-},
-cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0__init_0 = (var_0, var_1) => {
-    let var_2 = new cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0();
-    cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0__init_(var_2, var_0, var_1);
-    return var_2;
-},
-cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0_run = var$0 => {
-    cpcj_JavaArchitectureViewer_lambda$buildFileSelector$0(var$0.$_090, var$0.$_113);
+    cpce_MatchingEngineStudio_lambda$handleManualOrderSubmit$13(var$0.$_071, var$1);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_7() {
     jl_Object.call(this);
@@ -13327,11 +13272,11 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_7_handle = (var$0, var$1) => {
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_8() {
     jl_Object.call(this);
-    this.$_060 = null;
+    this.$_061 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_8__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_060 = var$1;
+    var$0.$_061 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_8__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_8();
@@ -13339,15 +13284,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_8__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_8_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$new$7(var$0.$_060);
+    cpcw_WhiteboardStudio_lambda$new$7(var$0.$_061);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_5() {
     jl_Object.call(this);
-    this.$_088 = null;
+    this.$_089 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_5__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_088 = var$1;
+    var$0.$_089 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_5__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_5();
@@ -13355,7 +13300,7 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_5__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_5_handle = (var$0, var$1) => {
-    cpcw_WhiteboardStudio_handlePointerDown(var$0.$_088, var$1);
+    cpcw_WhiteboardStudio_handlePointerDown(var$0.$_089, var$1);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_6() {
     jl_Object.call(this);
@@ -13407,11 +13352,11 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_3_run = var$0 => {
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_4() {
     jl_Object.call(this);
-    this.$_062 = null;
+    this.$_063 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_4__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_062 = var$1;
+    var$0.$_063 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_4__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_4();
@@ -13419,15 +13364,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_4__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_4_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$new$5(var$0.$_062);
+    cpcw_WhiteboardStudio_lambda$new$5(var$0.$_063);
 };
 function cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2() {
     jl_Object.call(this);
-    this.$_050 = null;
+    this.$_051 = null;
 }
 let cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_050 = var$1;
+    var$0.$_051 = var$1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2();
@@ -13435,15 +13380,15 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_2_run = var$0 => {
-    cpcw_WhiteboardStudio_handleRedo(var$0.$_050);
+    cpcw_WhiteboardStudio_handleRedo(var$0.$_051);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_1() {
     jl_Object.call(this);
-    this.$_067 = null;
+    this.$_068 = null;
 }
 let cpcw_WhiteboardStudio$_init_$lambda$_0_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_067 = var$1;
+    var$0.$_068 = var$1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_1__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$_init_$lambda$_0_1();
@@ -13451,15 +13396,15 @@ cpcw_WhiteboardStudio$_init_$lambda$_0_1__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$_init_$lambda$_0_1_run = var$0 => {
-    cpcw_WhiteboardStudio_lambda$new$2(var$0.$_067);
+    cpcw_WhiteboardStudio_lambda$new$2(var$0.$_068);
 };
 function cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1() {
     jl_Object.call(this);
-    this.$_073 = null;
+    this.$_074 = null;
 }
 let cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_073 = var$1;
+    var$0.$_074 = var$1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1__init_0 = var_0 => {
     let var_1 = new cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1();
@@ -13467,7 +13412,7 @@ cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1__init_0 = var_0 => {
     return var_1;
 },
 cpcw_WhiteboardStudio$rebuildToolbar$lambda$_7_1_run = var$0 => {
-    cpcw_WhiteboardStudio_handleUndo(var$0.$_073);
+    cpcw_WhiteboardStudio_handleUndo(var$0.$_074);
 };
 function cpcw_WhiteboardStudio$_init_$lambda$_0_2() {
     jl_Object.call(this);
@@ -13521,11 +13466,11 @@ cpcs_AppShell$_init_$lambda$_0_1_run = var$0 => {
 };
 function cpcs_AppShell$_init_$lambda$_0_0() {
     jl_Object.call(this);
-    this.$_085 = null;
+    this.$_086 = null;
 }
 let cpcs_AppShell$_init_$lambda$_0_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_085 = var$1;
+    var$0.$_086 = var$1;
 },
 cpcs_AppShell$_init_$lambda$_0_0__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$_init_$lambda$_0_0();
@@ -13533,7 +13478,7 @@ cpcs_AppShell$_init_$lambda$_0_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$_init_$lambda$_0_0_run = var$0 => {
-    cpcs_AppShell_lambda$new$0(var$0.$_085);
+    cpcs_AppShell_lambda$new$0(var$0.$_086);
 },
 cpcs_Ui = $rt_classWithoutFields(),
 cpcs_Ui_doc = () => {
@@ -13634,7 +13579,7 @@ cpcs_Ui_onInput = ($e, $h) => {
 },
 cpcs_Ui_show = ($e, $visible) => {
     let var$3;
-    var$3 = !$visible ? $rt_s(873) : $rt_s(24);
+    var$3 = !$visible ? $rt_s(838) : $rt_s(24);
     cpcs_Ui_setStyle$js_body$_22($e, "display", $rt_ustr(var$3));
 },
 cpcs_Ui_setText = ($e, $text) => {
@@ -13699,11 +13644,11 @@ cpcs_AppShell$_init_$lambda$_0_5_run = var$0 => {
 };
 function cpcs_AppShell$_init_$lambda$_0_4() {
     jl_Object.call(this);
-    this.$_068 = null;
+    this.$_069 = null;
 }
 let cpcs_AppShell$_init_$lambda$_0_4__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_068 = var$1;
+    var$0.$_069 = var$1;
 },
 cpcs_AppShell$_init_$lambda$_0_4__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$_init_$lambda$_0_4();
@@ -13711,15 +13656,15 @@ cpcs_AppShell$_init_$lambda$_0_4__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$_init_$lambda$_0_4_run = var$0 => {
-    cpcs_AppShell_toggleStart(var$0.$_068);
+    cpcs_AppShell_toggleStart(var$0.$_069);
 };
 function cpcs_AppShell$_init_$lambda$_0_3() {
     jl_Object.call(this);
-    this.$_066 = null;
+    this.$_067 = null;
 }
 let cpcs_AppShell$_init_$lambda$_0_3__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_066 = var$1;
+    var$0.$_067 = var$1;
 },
 cpcs_AppShell$_init_$lambda$_0_3__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$_init_$lambda$_0_3();
@@ -13727,7 +13672,7 @@ cpcs_AppShell$_init_$lambda$_0_3__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$_init_$lambda$_0_3_run = var$0 => {
-    cpcs_AppShell_lambda$new$1(var$0.$_066);
+    cpcs_AppShell_lambda$new$1(var$0.$_067);
 };
 function cpcs_AppShell$_init_$lambda$_0_2() {
     jl_Object.call(this);
@@ -13801,11 +13746,11 @@ ju_LinkedHashMapIterator$KeyIterator_next = $this => {
 };
 function cpcs_Header$build$lambda$_1_0() {
     jl_Object.call(this);
-    this.$_081 = null;
+    this.$_082 = null;
 }
 let cpcs_Header$build$lambda$_1_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_081 = var$1;
+    var$0.$_082 = var$1;
 },
 cpcs_Header$build$lambda$_1_0__init_0 = var_0 => {
     let var_1 = new cpcs_Header$build$lambda$_1_0();
@@ -13813,7 +13758,7 @@ cpcs_Header$build$lambda$_1_0__init_0 = var_0 => {
     return var_1;
 },
 cpcs_Header$build$lambda$_1_0_run = var$0 => {
-    var$0.$_081.$onPrimaryAction();
+    var$0.$_082.$onPrimaryAction();
 },
 otcit_DoubleAnalyzer = $rt_classWithoutFields(),
 otcit_DoubleAnalyzer_MAX_MANTISSA = Long_ZERO,
@@ -13934,13 +13879,13 @@ otcit_DoubleAnalyzer__clinit_ = () => {
 };
 function cpcs_Header$build$lambda$_1_1() {
     let a = this; jl_Object.call(a);
-    a.$_051 = null;
-    a.$_110 = null;
+    a.$_052 = null;
+    a.$_111 = null;
 }
 let cpcs_Header$build$lambda$_1_1__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_051 = var$1;
-    var$0.$_110 = var$2;
+    var$0.$_052 = var$1;
+    var$0.$_111 = var$2;
 },
 cpcs_Header$build$lambda$_1_1__init_0 = (var_0, var_1) => {
     let var_2 = new cpcs_Header$build$lambda$_1_1();
@@ -13948,7 +13893,7 @@ cpcs_Header$build$lambda$_1_1__init_0 = (var_0, var_1) => {
     return var_2;
 },
 cpcs_Header$build$lambda$_1_1_run = var$0 => {
-    cpcs_Header_lambda$build$0(var$0.$_051, var$0.$_110);
+    cpcs_Header_lambda$build$0(var$0.$_052, var$0.$_111);
 };
 function cpcs_Header$build$lambda$_1_2() {
     let a = this; jl_Object.call(a);
@@ -13970,11 +13915,11 @@ cpcs_Header$build$lambda$_1_2_run = var$0 => {
 };
 function cpce_MatchingEngineStudio$injectBurst$lambda$_9_0() {
     jl_Object.call(this);
-    this.$_029 = null;
+    this.$_030 = null;
 }
 let cpce_MatchingEngineStudio$injectBurst$lambda$_9_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_029 = var$1;
+    var$0.$_030 = var$1;
 },
 cpce_MatchingEngineStudio$injectBurst$lambda$_9_0__init_0 = var_0 => {
     let var_1 = new cpce_MatchingEngineStudio$injectBurst$lambda$_9_0();
@@ -13985,7 +13930,7 @@ cpce_MatchingEngineStudio$injectBurst$lambda$_9_0_accept0 = (var$0, var$1) => {
     cpce_MatchingEngineStudio$injectBurst$lambda$_9_0_accept(var$0, var$1);
 },
 cpce_MatchingEngineStudio$injectBurst$lambda$_9_0_accept = (var$0, var$1) => {
-    cpce_MatchingEngineStudio_lambda$injectBurst$14(var$0.$_029, var$1);
+    cpce_MatchingEngineStudio_lambda$injectBurst$14(var$0.$_030, var$1);
 },
 cpcs_Header = $rt_classWithoutFields(),
 cpcs_Header_TABS = null,
@@ -13997,21 +13942,21 @@ cpcs_Header_build = ($slot, $activeTab, $primaryActionLabel, $compact, $cb) => {
     let $header, $brand, var$8, $brandText, var$10, $nav, var$12, var$13, var$14, $tab, var$16, var$17, $cls, var$19, var$20, $b, $zone3, $primary, $mobile, var$25;
     cpcs_Header_$callClinit();
     cpcs_Ui_clear($slot);
-    $header = cpcs_Ui_el($rt_s(874), $rt_s(875));
-    $brand = cpcs_Ui_el($rt_s(21), $rt_s(876));
+    $header = cpcs_Ui_el($rt_s(839), $rt_s(840));
+    $brand = cpcs_Ui_el($rt_s(21), $rt_s(841));
     var$8 = $rt_createArray(jl_Object, 1);
-    var$8.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(21), $rt_s(877), $rt_s(30)));
+    var$8.data[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(21), $rt_s(842), $rt_s(30)));
     cpcs_Ui_add($brand, var$8);
-    $brandText = cpcs_Ui_el($rt_s(21), $rt_s(878));
+    $brandText = cpcs_Ui_el($rt_s(21), $rt_s(843));
     var$8 = $rt_createArray(jl_Object, 2);
     var$10 = var$8.data;
-    var$10[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(879), $rt_s(106)));
-    var$10[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(880), $rt_s(881)));
+    var$10[0] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(844), $rt_s(106)));
+    var$10[1] = otji_JSWrapper_wrap(cpcs_Ui_el0($rt_s(28), $rt_s(845), $rt_s(846)));
     cpcs_Ui_add($brandText, var$8);
     var$8 = $rt_createArray(jl_Object, 1);
     var$8.data[0] = otji_JSWrapper_wrap($brandText);
     cpcs_Ui_add($brand, var$8);
-    $nav = cpcs_Ui_el($rt_s(882), $rt_s(883));
+    $nav = cpcs_Ui_el($rt_s(847), $rt_s(848));
     var$12 = cpcs_Header_TABS.data;
     var$13 = var$12.length;
     var$14 = 0;
@@ -14020,14 +13965,14 @@ cpcs_Header_build = ($slot, $activeTab, $primaryActionLabel, $compact, $cb) => {
         var$8 = $tab.data;
         var$16 = !$activeTab.$equals(var$8[0]) ? $rt_s(468) : $rt_s(438);
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(884)), var$16);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(849)), var$16);
         $cls = jl_StringBuilder_toString(var$17);
         var$16 = var$8[3];
         var$16 = cpcs_Icons_svg(var$16, $rt_s(462));
-        var$17 = !$compact ? $rt_s(885) : $rt_s(886);
+        var$17 = !$compact ? $rt_s(850) : $rt_s(851);
         var$19 = var$8[1];
         var$20 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$20, var$16), $rt_s(323)), var$17), $rt_s(729)), var$19), $rt_s(307));
+        jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$20, var$16), $rt_s(323)), var$17), $rt_s(694)), var$19), $rt_s(307));
         var$16 = jl_StringBuilder_toString(var$20);
         var$17 = cpcs_Header$build$lambda$_1_1__init_0($cb, $tab);
         $b = cpcs_Ui_btnHtml($cls, var$16, var$17);
@@ -14036,14 +13981,14 @@ cpcs_Header_build = ($slot, $activeTab, $primaryActionLabel, $compact, $cb) => {
         cpcs_Ui_add($nav, var$8);
         var$14 = var$14 + 1 | 0;
     }
-    $zone3 = cpcs_Ui_el($rt_s(21), $rt_s(887));
-    var$17 = cpcs_Icons_svg($rt_s(856), $rt_s(292));
+    $zone3 = cpcs_Ui_el($rt_s(21), $rt_s(852));
+    var$17 = cpcs_Icons_svg($rt_s(821), $rt_s(292));
     var$16 = jl_StringBuilder__init_();
-    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$16, var$17), $rt_s(888)), $primaryActionLabel), $rt_s(307));
+    jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(jl_StringBuilder_append(var$16, var$17), $rt_s(853)), $primaryActionLabel), $rt_s(307));
     var$16 = jl_StringBuilder_toString(var$16);
     ju_Objects_requireNonNull($cb);
     var$17 = cpcs_Header$build$lambda$_1_0__init_0($cb);
-    $primary = cpcs_Ui_btnHtml($rt_s(889), var$16, var$17);
+    $primary = cpcs_Ui_btnHtml($rt_s(854), var$16, var$17);
     var$8 = $rt_createArray(jl_Object, 1);
     var$8.data[0] = otji_JSWrapper_wrap($primary);
     cpcs_Ui_add($zone3, var$8);
@@ -14053,7 +13998,7 @@ cpcs_Header_build = ($slot, $activeTab, $primaryActionLabel, $compact, $cb) => {
     var$10[1] = otji_JSWrapper_wrap($nav);
     var$10[2] = otji_JSWrapper_wrap($zone3);
     cpcs_Ui_add($header, var$8);
-    $mobile = cpcs_Ui_el($rt_s(882), $rt_s(890));
+    $mobile = cpcs_Ui_el($rt_s(847), $rt_s(855));
     var$8 = cpcs_Header_TABS.data;
     var$25 = var$8.length;
     var$13 = 0;
@@ -14062,7 +14007,7 @@ cpcs_Header_build = ($slot, $activeTab, $primaryActionLabel, $compact, $cb) => {
         var$10 = $tab.data;
         var$16 = !$activeTab.$equals(var$10[0]) ? $rt_s(468) : $rt_s(438);
         var$17 = jl_StringBuilder__init_();
-        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(891)), var$16);
+        jl_StringBuilder_append(jl_StringBuilder_append(var$17, $rt_s(856)), var$16);
         $cls = jl_StringBuilder_toString(var$17);
         var$16 = cpcs_Icons_svg(var$10[3], $rt_s(462));
         var$17 = var$10[2];
@@ -14093,7 +14038,7 @@ cpcs_Header__clinit_ = () => {
     var$1 = $rt_createArray($rt_arraycls(jl_String), 3);
     var$2 = var$1.data;
     var$2[0] = $rt_wrapArray(jl_String, [$rt_s(19), $rt_s(55), $rt_s(119), $rt_s(120)]);
-    var$2[1] = $rt_wrapArray(jl_String, [$rt_s(52), $rt_s(57), $rt_s(892), $rt_s(124)]);
+    var$2[1] = $rt_wrapArray(jl_String, [$rt_s(52), $rt_s(57), $rt_s(857), $rt_s(124)]);
     var$2[2] = $rt_wrapArray(jl_String, [$rt_s(53), $rt_s(58), $rt_s(125), $rt_s(126)]);
     cpcs_Header_TABS = var$1;
 };
@@ -14114,11 +14059,11 @@ otciu_CharMapping__init_0 = (var_0, var_1) => {
 };
 function cpcs_AppShell$_init_$lambda$_0_6() {
     jl_Object.call(this);
-    this.$_032 = null;
+    this.$_033 = null;
 }
 let cpcs_AppShell$_init_$lambda$_0_6__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_032 = var$1;
+    var$0.$_033 = var$1;
 },
 cpcs_AppShell$_init_$lambda$_0_6__init_0 = var_0 => {
     let var_1 = new cpcs_AppShell$_init_$lambda$_0_6();
@@ -14126,7 +14071,7 @@ cpcs_AppShell$_init_$lambda$_0_6__init_0 = var_0 => {
     return var_1;
 },
 cpcs_AppShell$_init_$lambda$_0_6_call = var$0 => {
-    cpcs_AppShell_lambda$new$2(var$0.$_032);
+    cpcs_AppShell_lambda$new$2(var$0.$_033);
 },
 cpcs_AppShell$_init_$lambda$_0_6_call$exported$0 = var$1 => {
     var$1.$call();
@@ -14134,11 +14079,11 @@ cpcs_AppShell$_init_$lambda$_0_6_call$exported$0 = var$1 => {
 otjc_JSWeakRef = $rt_classWithoutFields();
 function cpcj_Ws$onOpen$lambda$_1_0() {
     jl_Object.call(this);
-    this.$_023 = null;
+    this.$_024 = null;
 }
 let cpcj_Ws$onOpen$lambda$_1_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_023 = var$1;
+    var$0.$_024 = var$1;
 },
 cpcj_Ws$onOpen$lambda$_1_0__init_0 = var_0 => {
     let var_1 = new cpcj_Ws$onOpen$lambda$_1_0();
@@ -14146,7 +14091,7 @@ cpcj_Ws$onOpen$lambda$_1_0__init_0 = var_0 => {
     return var_1;
 },
 cpcj_Ws$onOpen$lambda$_1_0_call = var$0 => {
-    var$0.$_023.$run();
+    var$0.$_024.$run();
 },
 cpcj_Ws$onOpen$lambda$_1_0_call$exported$0 = var$1 => {
     var$1.$call();
@@ -14396,7 +14341,7 @@ cpcm_ElementType_fromValue = $value => {
         if (var$4 >= var$3) {
             var$5 = new jl_IllegalArgumentException;
             var$6 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append(var$6, $rt_s(893)), $value);
+            jl_StringBuilder_append(jl_StringBuilder_append(var$6, $rt_s(858)), $value);
             jl_IllegalArgumentException__init_0(var$5, jl_StringBuilder_toString(var$6));
             $rt_throw(var$5);
         }
@@ -14421,12 +14366,12 @@ cpcm_ElementType_$values = () => {
     return var$1;
 },
 cpcm_ElementType__clinit_ = () => {
-    cpcm_ElementType_STROKE = cpcm_ElementType__init_($rt_s(894), 0, $rt_s(895));
-    cpcm_ElementType_RECTANGLE = cpcm_ElementType__init_($rt_s(644), 1, $rt_s(645));
-    cpcm_ElementType_ELLIPSE = cpcm_ElementType__init_($rt_s(646), 2, $rt_s(647));
-    cpcm_ElementType_ARROW = cpcm_ElementType__init_($rt_s(648), 3, $rt_s(649));
-    cpcm_ElementType_STICKY = cpcm_ElementType__init_($rt_s(650), 4, $rt_s(651));
-    cpcm_ElementType_TEXT = cpcm_ElementType__init_($rt_s(652), 5, $rt_s(388));
+    cpcm_ElementType_STROKE = cpcm_ElementType__init_($rt_s(859), 0, $rt_s(860));
+    cpcm_ElementType_RECTANGLE = cpcm_ElementType__init_($rt_s(609), 1, $rt_s(610));
+    cpcm_ElementType_ELLIPSE = cpcm_ElementType__init_($rt_s(611), 2, $rt_s(612));
+    cpcm_ElementType_ARROW = cpcm_ElementType__init_($rt_s(613), 3, $rt_s(614));
+    cpcm_ElementType_STICKY = cpcm_ElementType__init_($rt_s(615), 4, $rt_s(616));
+    cpcm_ElementType_TEXT = cpcm_ElementType__init_($rt_s(617), 5, $rt_s(388));
     cpcm_ElementType_$VALUES = cpcm_ElementType_$values();
 },
 otji_JSWrapper$Helper$_clinit_$lambda$_3_0 = $rt_classWithoutFields(),
@@ -14463,11 +14408,11 @@ cpcm_McqConsensusView$connect$lambda$_15_3_run = var$0 => {
 };
 function cpcm_McqConsensusView$connect$lambda$_15_2() {
     jl_Object.call(this);
-    this.$_063 = null;
+    this.$_064 = null;
 }
 let cpcm_McqConsensusView$connect$lambda$_15_2__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_063 = var$1;
+    var$0.$_064 = var$1;
 },
 cpcm_McqConsensusView$connect$lambda$_15_2__init_0 = var_0 => {
     let var_1 = new cpcm_McqConsensusView$connect$lambda$_15_2();
@@ -14475,7 +14420,7 @@ cpcm_McqConsensusView$connect$lambda$_15_2__init_0 = var_0 => {
     return var_1;
 },
 cpcm_McqConsensusView$connect$lambda$_15_2_run = var$0 => {
-    cpcm_McqConsensusView_lambda$connect$4(var$0.$_063);
+    cpcm_McqConsensusView_lambda$connect$4(var$0.$_064);
 };
 function cpcm_Point() {
     let a = this; jl_Record.call(a);
@@ -14621,8 +14566,8 @@ cpcm_McqConsensusView$_init_$lambda$_0_3, 0, jl_Object, [jl_Runnable], 0, 3, 0, 
 jl_StringIndexOutOfBoundsException, 0, jl_IndexOutOfBoundsException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_StringIndexOutOfBoundsException__init_0)],
 cpcj_Js, 0, jl_Object, [], 4, 3, 0, 0, 0,
 otci_Base46, 0, jl_Object, [], 4, 3, 0, 0, 0,
+cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_38", $rt_wrapFunction2(cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0__init_), "$run", $rt_wrapFunction0(cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_6_0_run)],
 otji_JSWrapper$Helper, 0, jl_Object, [], 0, 0, 0, otji_JSWrapper$Helper_$callClinit, 0,
-cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0, 0, jl_Object, [cpcj_Js$VoidCb], 0, 3, 0, 0, ["$_init_39", $rt_wrapFunction2(cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0__init_), "$call", $rt_wrapFunction0(cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0_call)],
 jl_AbstractStringBuilder, 0, jl_Object, [ji_Serializable, jl_CharSequence], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jl_AbstractStringBuilder__init_0), "$_init_2", $rt_wrapFunction1(jl_AbstractStringBuilder__init_), "$append2", $rt_wrapFunction1(jl_AbstractStringBuilder_append2), "$insert4", $rt_wrapFunction2(jl_AbstractStringBuilder_insert0), "$append3", $rt_wrapFunction1(jl_AbstractStringBuilder_append), "$append1", $rt_wrapFunction2(jl_AbstractStringBuilder_append4), "$insert0", $rt_wrapFunction3(jl_AbstractStringBuilder_insert5),
 "$append4", $rt_wrapFunction1(jl_AbstractStringBuilder_append1), "$insert1", $rt_wrapFunction2(jl_AbstractStringBuilder_insert3), "$insert2", $rt_wrapFunction3(jl_AbstractStringBuilder_insert4), "$append5", $rt_wrapFunction1(jl_AbstractStringBuilder_append3), "$insert3", $rt_wrapFunction2(jl_AbstractStringBuilder_insert2), "$insert", $rt_wrapFunction2(jl_AbstractStringBuilder_insert1), "$append6", $rt_wrapFunction1(jl_AbstractStringBuilder_append0), "$insert5", $rt_wrapFunction2(jl_AbstractStringBuilder_insert),
 "$ensureCapacity", $rt_wrapFunction1(jl_AbstractStringBuilder_ensureCapacity), "$toString", $rt_wrapFunction0(jl_AbstractStringBuilder_toString)],
@@ -14794,9 +14739,10 @@ cpcm_CanvasElement, 0, jl_Record, [], 32772, 3, 0, 0, ["$_init_18", function(var
 "$authorColor", $rt_wrapFunction0(cpcm_CanvasElement_authorColor), "$updatedAt", $rt_wrapFunction0(cpcm_CanvasElement_updatedAt)],
 cpcs_Ui$onMouse$lambda$_12_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_70", $rt_wrapFunction1(cpcs_Ui$onMouse$lambda$_12_0__init_), "$handleEvent", $rt_wrapFunction1(cpcs_Ui$onMouse$lambda$_12_0_handleEvent)],
 jl_UnsupportedOperationException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_UnsupportedOperationException__init_)],
-cpcm_McqConsensusView$syncCountdown$lambda$_19_0, 0, jl_Object, [cpcj_Js$VoidCb], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$syncCountdown$lambda$_19_0__init_), "$call", $rt_wrapFunction0(cpcm_McqConsensusView$syncCountdown$lambda$_19_0_call)],
-jl_IllegalArgumentException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_IllegalArgumentException__init_1), "$_init_0", $rt_wrapFunction1(jl_IllegalArgumentException__init_0)]]);
-$rt_metadata([jl_NumberFormatException, 0, jl_IllegalArgumentException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_NumberFormatException__init_0), "$_init_0", $rt_wrapFunction1(jl_NumberFormatException__init_1)],
+cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0, 0, jl_Object, [cpcj_Js$VoidCb], 0, 3, 0, 0, ["$_init_39", $rt_wrapFunction2(cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0__init_), "$call", $rt_wrapFunction0(cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0_call)],
+cpcm_McqConsensusView$syncCountdown$lambda$_19_0, 0, jl_Object, [cpcj_Js$VoidCb], 0, 3, 0, 0, ["$_init_64", $rt_wrapFunction1(cpcm_McqConsensusView$syncCountdown$lambda$_19_0__init_), "$call", $rt_wrapFunction0(cpcm_McqConsensusView$syncCountdown$lambda$_19_0_call)]]);
+$rt_metadata([jl_IllegalArgumentException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_IllegalArgumentException__init_1), "$_init_0", $rt_wrapFunction1(jl_IllegalArgumentException__init_0)],
+jl_NumberFormatException, 0, jl_IllegalArgumentException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_NumberFormatException__init_0), "$_init_0", $rt_wrapFunction1(jl_NumberFormatException__init_1)],
 cpcw_WhiteboardStudio$frame$lambda$_4_0, 0, jl_Object, [cpcj_Js$FrameCb], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$frame$lambda$_4_0__init_), "$call0", $rt_wrapFunction1(cpcw_WhiteboardStudio$frame$lambda$_4_0_call)],
 cpce_MatchingEngine, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_21", $rt_wrapFunction1(cpce_MatchingEngine__init_), "$processOrder", $rt_wrapFunction1(cpce_MatchingEngine_processOrder), "$getOrderBookState", $rt_wrapFunction0(cpce_MatchingEngine_getOrderBookState), "$getOrderBookState0", $rt_wrapFunction1(cpce_MatchingEngine_getOrderBookState0), "$getRecentTrades", $rt_wrapFunction0(cpce_MatchingEngine_getRecentTrades)],
 ju_Deque, 0, jl_Object, [ju_Queue, ju_SequencedCollection], 3, 3, 0, 0, 0,
@@ -14833,7 +14779,6 @@ cpcs_Header$Callbacks, 0, jl_Object, [], 3, 3, 0, 0, 0,
 cpcw_WhiteboardStudio$_init_$lambda$_0_9, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_9__init_), "$run", $rt_wrapFunction0(cpcw_WhiteboardStudio$_init_$lambda$_0_9_run)],
 cpcw_WhiteboardStudio$_init_$lambda$_0_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_0__init_), "$run", $rt_wrapFunction0(cpcw_WhiteboardStudio$_init_$lambda$_0_0_run)],
 cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_23", $rt_wrapFunction1(cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0__init_), "$accept0", $rt_wrapFunction1(cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0_accept0), "$accept", $rt_wrapFunction1(cpce_MatchingEngineStudio$handleManualOrderSubmit$lambda$_8_0_accept)],
-cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_38", $rt_wrapFunction2(cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0__init_), "$run", $rt_wrapFunction0(cpcj_JavaArchitectureViewer$buildFileSelector$lambda$_8_0_run)],
 cpcw_WhiteboardStudio$_init_$lambda$_0_7, 0, jl_Object, [cpcs_Ui$MouseHandler], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_7__init_), "$handle0", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_7_handle)],
 cpcw_WhiteboardStudio$_init_$lambda$_0_8, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_8__init_), "$run", $rt_wrapFunction0(cpcw_WhiteboardStudio$_init_$lambda$_0_8_run)],
 cpcw_WhiteboardStudio$_init_$lambda$_0_5, 0, jl_Object, [cpcs_Ui$MouseHandler], 0, 3, 0, 0, ["$_init_30", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_5__init_), "$handle0", $rt_wrapFunction1(cpcw_WhiteboardStudio$_init_$lambda$_0_5_handle)],
@@ -14915,56 +14860,58 @@ $rt_stringPool(["Can\'t compare ", " to ", "FREE", "WRITING", "PUBLISHED", "JOUR
 "Connect to the live whiteboard server on this machine (port 8090)", "Leave live room \"", "Connecting…", "Go Live", "Live: ", "Wifi", "WifiOff", "error", "flex items-center gap-1 border-r border-black pr-2", "MousePointer", "Select & Move", "win-btn-selected", "Pencil", "Freehand Vector Pen", "Square", "Architecture Box", "Circle", "RingBuffer Ellipse", "ArrowRight", "Connector Arrow", "StickyNote", "Architecture Sticky Note", "win-btn-sticky", "Type", "Text Component", "Eraser", "win-btn-danger", "flex items-center gap-1.5 border-r border-black pr-2",
 "hover:scale-110", "scale-125 ring-2 ring-white", "w-5 h-5 rounded-sm transition-transform ", "scale-125 ring-2 ring-indigo-400", "w-5 h-5 rounded-full transition-transform ", "flex items-center gap-1", "RotateCcw", "w-4 h-4", "p-2 win-btn disabled:opacity-30 disabled:cursor-not-allowed", "RotateCw", "p-2 win-btn", "Download", "FileJson", "win-btn", "p-2 ", "w-7 h-7 rounded-full bg-[#0000CD] border-2 border-slate-900 flex items-center justify-center text-[10px] font-bold text-white shadow", "You", "border-slate-900",
 "border-indigo-400 scale-110", "w-7 h-7 rounded-full border-2 flex items-center justify-center text-[10px] font-bold text-white shadow transition-transform hover:scale-110 cursor-pointer ", "Crosshair", "w-7 h-7 rounded-full bg-[#C0C0C0] border-2 border-slate-900 flex items-center justify-center text-[10px] font-medium text-[#1F1F1F]", "follow", "stop following", " — ", " (click to ", "w-7 h-7 rounded-full border-2 border-[#047857] flex items-center justify-center text-[10px] font-bold text-white shadow", " (live)",
-"el-", "user", "New architecture note...", "System Component", "18", "whiteboard-architecture-", ".png", "whiteboard-elements-", ".json", "#FFFFFF", "#A78BFA", "#BFDBFE", "#BBF7D0", "#FBCFE8", "#FED7AA", "architect", "ideator", "explorer", "DraftingCompass", "Brain", "Footprints", "Architects draw nodes", "Ideators drop stickies", "Explorers roam only", "root", "disruptor-engine", "bg-white border border-black rounded-none p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-[4px_4px_0_rgba(0,0,0,0.45)]",
-"flex items-center gap-3.5", "w-10 h-10 rounded-none bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-[#0369A1]", "w-5 h-5", "h1", "text-base font-bold text-white tracking-tight", "Production Java 21+ Architecture & Engineering Blueprint", "Mechanical Sympathy · LMAX Disruptor 4.0 · Project Loom Virtual Threads · Zero-GC Memory", "flex items-center gap-2 px-4 py-2 bg-[#0000CD] hover:bg-[#0000CD] text-white rounded-none text-xs font-semibold shadow-sm transition-colors cursor-pointer self-start md:self-auto",
-"grid grid-cols-1 md:grid-cols-3 gap-4", "LMAX Disruptor (Lock-Free)", "Winner", "text-[#047857] font-mono", "26.4M", "p99: 0.82 μs", "p99.9: 1.45 μs", "bg-emerald-500 h-full w-[98%]", "ArrayBlockingQueue", "ReentrantLock", "text-[#404040] font-mono", "3.2M", "text-[#92400E]", "p99: 18.4 μs", "p99.9: 46.2 μs", "bg-amber-500 h-full w-[24%]", "LinkedBlockingQueue", "GC Pressure", "text-[#DC2626] font-mono", "1.8M", "p99: 38.0 μs", "p99.9: 124.0 μs", "bg-rose-500 h-full w-[12%]", "bg-white border border-black rounded-none p-4 flex flex-col gap-2",
-"flex items-center justify-between text-xs text-[#404040]", "text-2xl font-bold font-mono ", " tabular-nums", "text-xs text-[#404040] flex justify-between font-mono", "w-full bg-slate-950 h-2 rounded-full overflow-hidden mt-1", "lg:col-span-4 flex flex-col gap-2", "font-pixel text-2xl text-white uppercase tracking-wider px-1", "Java 21 Source Blueprint", "text-xs font-bold text-white font-mono", "text-[10px] text-[#0000CD] font-semibold", "text-[11px] text-[#404040] line-clamp-2 leading-relaxed", "lg:col-span-8 bg-slate-950 border border-black rounded-none overflow-hidden flex flex-col shadow-[4px_4px_0_rgba(0,0,0,0.45)]",
-"flex items-center justify-between px-4 py-3 bg-[#C0C0C0] border-b border-black", "flex items-center gap-2 font-mono text-xs text-[#1F1F1F]", "w-4 h-4 text-[#0369A1]", "text-xs text-[#404040] font-mono", "Java 21 LTS", "px-4 py-2.5 bg-indigo-950/20 border-b border-black/80 text-xs text-indigo-200", "p-4 overflow-x-auto font-mono text-xs text-[#E5E5E5] leading-relaxed max-h-[540px]", "pre", "code", "Copy", "Check", "w-4 h-4 text-emerald-300", "Copied to Clipboard", "Copy ", "bg-white border-black hover:bg-[#D4D4D4]/40",
-"bg-[#C0C0C0]/90 border-[#0000CD]/60 shadow-lg", "text-left p-3.5 rounded-none border transition-all cursor-pointer flex flex-col gap-1 ", "Disruptor Engine Core", "DisruptorMatchingEngine.java", "Production LMAX Disruptor 4.0 configuration: power-of-2 RingBuffer, pre-allocated OrderEvents (Zero-GC), and a single-threaded business logic handler. (Mirrors java/src/main/java/com/apex/engine/DisruptorMatchingEngine.java)", "package com.apex.engine;\n\nimport com.lmax.disruptor.BusySpinWaitStrategy;\nimport com.lmax.disruptor.EventHandler;\nimport com.lmax.disruptor.RingBuffer;\nimport com.lmax.disruptor.dsl.Disruptor;\nimport com.lmax.disruptor.dsl.ProducerType;\nimport com.lmax.disruptor.util.DaemonThreadFactory;\n\nimport java.util.concurrent.atomic.AtomicLong;\n\n/**\n * Ultra-Low-Latency Order Matching Engine orchestrating LMAX Disruptor.\n * Processes 25M+ events per second with sub-microsecond tail latency.\n */\npublic final class Dis"
-+ "ruptorMatchingEngine {\n\n    // Power-of-2 buffer capacity (65,536 slots) for fast sequence bitmasking\n    public static final int BUFFER_SIZE = 1024 * 64;\n\n    private final Disruptor<OrderEvent> disruptor;\n    private final RingBuffer<OrderEvent> ringBuffer;\n    private final ZeroGcOrderBook orderBook;\n    private final AtomicLong tradesCount = new AtomicLong();\n    private final WriteAheadLog wal;          // memory-mapped journal\n    private final UdpReplicator replicator;   // best-effort UDP replicatio"
-+ "n\n\n    public DisruptorMatchingEngine(double basePrice, double tickSize) {\n        this.orderBook = new ZeroGcOrderBook(basePrice, tickSize);\n        this.wal = new WriteAheadLog();       // ./wal (override: -Dapex.wal.dir=...)\n        this.replicator = UdpReplicator.create(); // -Dapex.replicate=host:port\n\n        this.disruptor = new Disruptor<>(\n                OrderEvent.FACTORY,\n                BUFFER_SIZE,\n                DaemonThreadFactory.INSTANCE,\n                ProducerType.MULTI, // concurrent "
-+ "producers (Project Loom virtual threads)\n                new BusySpinWaitStrategy());\n\n        // Mechanical Sympathy Pipeline:\n        // Stage 1: Journaler (WAL) + Replicator run concurrently\n        // Stage 2: single-threaded matching core runs after Stage 1\n        disruptor.handleEventsWith(new JournalerHandler(wal), new ReplicatorHandler(replicator))\n                 .then(new MatchingEngineHandler(this.orderBook, this.tradesCount));\n\n        this.ringBuffer = disruptor.start();\n    }\n\n    /** Publis"
-+ "hes an order into the lock-free RingBuffer. ZERO allocations. */\n    public void submitOrder(long orderId, long traderId, byte side, byte type,\n                            double price, long quantity, byte optionKey) {\n        long sequence = ringBuffer.next();\n        try {\n            ringBuffer.get(sequence).set(orderId, traderId, side, type, price, quantity, optionKey);\n        } finally {\n            ringBuffer.publish(sequence);\n        }\n    }\n\n    /** Cancels a resting order by id through the normal"
-+ " pipeline. */\n    public void cancelOrder(long orderId) {\n        submitOrder(orderId, 0, (byte) 0, OrderEvent.TYPE_CANCEL, 0.0, 0, (byte) 0);\n    }\n\n    public void shutdown() {\n        disruptor.shutdown();\n        wal.close();\n        if (replicator != null) replicator.close();\n    }\n}", "whiteboard-server", "Whiteboard WebSocket Server", "WhiteboardServer.java", "Netty WebSocket server with Project Loom virtual-thread workers: room-based channels, last-write-wins element state, snapshot-on-join, cursor relay. (Mirrors java/src/main/java/com/apex/whiteboard/WhiteboardServer.java)",
-"package com.apex.whiteboard;\n\n// Protocol (JSON text frames over ws://host:port/ws/whiteboard):\n//   {\"type\":\"join\",   \"room\":\"main\",\"user\":\"Asha\",\"color\":\"#38BDF8\"}\n//   {\"type\":\"element\",\"room\":\"main\",\"action\":\"upsert\",\"element\":{...}}\n//   {\"type\":\"delete\", \"room\":\"main\",\"id\":\"el-123\"}\n//   {\"type\":\"clear\",  \"room\":\"main\"}\n//   {\"type\":\"cursor\", \"room\":\"main\",\"user\":\"Asha\",\"x\":120.5,\"y\":300.0}\n//   {\"type\":\"leave\",  \"room\":\"main\"}\n// Server replies to join with {\"type\":\"snapshot\",\"room\":\"main\",\"elements\""
+"el-", "user", "New architecture note...", "System Component", "18", "whiteboard-architecture-", ".png", "whiteboard-elements-", ".json", "#FFFFFF", "#A78BFA", "#BFDBFE", "#BBF7D0", "#FBCFE8", "#FED7AA", "architect", "ideator", "explorer", "DraftingCompass", "Brain", "Footprints", "Architects draw nodes", "Ideators drop stickies", "Explorers roam only", "root", "canvas-model", "bg-white border border-black rounded-none p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-[4px_4px_0_rgba(0,0,0,0.45)]",
+"flex items-center gap-3.5", "w-10 h-10 rounded-none bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-[#0369A1]", "w-5 h-5", "h1", "text-base font-bold text-white tracking-tight", "Production Java 21+ Architecture & Engineering Blueprint", "Java 21 Records · TeaVM 0.12.0 · Project Loom Virtual Threads · Netty WebSocket", "flex items-center gap-2 px-4 py-2 bg-[#0000CD] hover:bg-[#0000CD] text-white rounded-none text-xs font-semibold shadow-sm transition-colors cursor-pointer self-start md:self-auto",
+"lg:col-span-4 flex flex-col gap-2", "font-pixel text-2xl text-white uppercase tracking-wider px-1", "Java 21 Source Blueprint", "text-xs font-bold text-white font-mono", "text-[10px] text-[#0000CD] font-semibold", "text-[11px] text-[#404040] line-clamp-2 leading-relaxed", "lg:col-span-8 bg-slate-950 border border-black rounded-none overflow-hidden flex flex-col shadow-[4px_4px_0_rgba(0,0,0,0.45)]", "flex items-center justify-between px-4 py-3 bg-[#C0C0C0] border-b border-black", "flex items-center gap-2 font-mono text-xs text-[#1F1F1F]",
+"w-4 h-4 text-[#0369A1]", "text-xs text-[#404040] font-mono", "Java 21 LTS", "px-4 py-2.5 bg-indigo-950/20 border-b border-black/80 text-xs text-indigo-200", "p-4 overflow-x-auto font-mono text-xs text-[#E5E5E5] leading-relaxed max-h-[540px]", "pre", "code", "Copy", "Check", "w-4 h-4 text-emerald-300", "Copied to Clipboard", "Copy ", "bg-white border-black hover:bg-[#D4D4D4]/40", "bg-[#C0C0C0]/90 border-[#0000CD]/60 shadow-lg", "text-left p-3.5 rounded-none border transition-all cursor-pointer flex flex-col gap-1 ",
+"Canvas Model & Hit Testing", "CanvasModel.java", "Enum-driven canvas geometry: point-in-shape hit testing for rectangles, stickies, ellipses, strokes and arrows with a shared hit tolerance. (Mirrors client/src/main/java/com/parallely/client/whiteboard/CanvasModel.java)", "package com.parallely.client.whiteboard;\n\n// Canvas hit-testing: decide which element (if any) sits under the pointer.\n// Rectangle, Sticky and Text use a box test with a shared hit tolerance;\n// Ellipse uses the normalised circle equation; Stroke and Arrow walk points.\n// (TEXT uses the same box test as RECTANGLE - omitted here for brevity.)\n\npublic final class CanvasModel {\n\n    private static final double DEFAULT_HIT_TOLERANCE = 10;\n    private static final double DEFAULT_SHAPE_WIDTH = 160;\n    private s"
++ "tatic final double DEFAULT_RECT_HEIGHT = 100;\n\n    public static boolean isPointInElement(Point point, CanvasElement elem, double hitTolerance) {\n        ElementType type = elem.type();\n\n        if (type == ElementType.RECTANGLE || type == ElementType.STICKY) {\n            double w = elem.width() != null ? elem.width() : DEFAULT_SHAPE_WIDTH;\n            double h = elem.height() != null ? elem.height() : DEFAULT_RECT_HEIGHT;\n            return point.x() >= elem.x() - hitTolerance\n                    && point"
++ ".x() <= elem.x() + w + hitTolerance\n                    && point.y() >= elem.y() - hitTolerance\n                    && point.y() <= elem.y() + h + hitTolerance;\n        }\n\n        if (type == ElementType.ELLIPSE) {\n            double rx = (elem.width() != null ? elem.width() : DEFAULT_SHAPE_WIDTH) / 2;\n            double ry = (elem.height() != null ? elem.height() : DEFAULT_RECT_HEIGHT) / 2;\n            double cx = elem.x() + rx;\n            double cy = elem.y() + ry;\n            double normalized = Math.po"
++ "w((point.x() - cx) / (rx + hitTolerance), 2)\n                    + Math.pow((point.y() - cy) / (ry + hitTolerance), 2);\n            return normalized <= 1;\n        }\n\n        if (type == ElementType.STROKE && elem.points() != null && !elem.points().isEmpty()) {\n            for (Point p : elem.points()) {\n                double dist = Math.hypot(p.x() - point.x(), p.y() - point.y());\n                if (dist <= elem.strokeWidth() + hitTolerance) {\n                    return true;\n                }\n          "
++ "  }\n        }\n\n        if (type == ElementType.ARROW && elem.points() != null && elem.points().size() >= 2) {\n            return distanceToLineSegment(point, elem.points().get(0), elem.points().get(1))\n                    <= elem.strokeWidth() + hitTolerance;\n        }\n\n        return false;\n    }\n\n    /** Shortest distance from the pointer to the arrow\'s line segment. */\n    private static double distanceToLineSegment(Point p, Point a, Point b) {\n        double l2 = Math.pow(b.x() - a.x(), 2) + Math.pow(b."
++ "y() - a.y(), 2);\n        if (l2 == 0) {\n            return Math.hypot(p.x() - a.x(), p.y() - a.y());\n        }\n        double t = ((p.x() - a.x()) * (b.x() - a.x()) + (p.y() - a.y()) * (b.y() - a.y())) / l2;\n        t = Math.max(0, Math.min(1, t));\n        return Math.hypot(p.x() - (a.x() + t * (b.x() - a.x())),\n                p.y() - (a.y() + t * (b.y() - a.y())));\n    }\n}", "live-session", "Live Canvas Session", "LiveSession.java", "WebSocket client that keeps the canvas in sync: element upsert/delete frames, snapshot-on-join for late joiners, and peer cursor relay throttled to ~8 fps. (Mirrors client/src/main/java/com/parallely/client/whiteboard/LiveSession.java)",
+"package com.parallely.client.whiteboard;\n\n// One WebSocket session per studio. Every canvas mutation becomes a JSON\n// text frame; the server stores it, then relays it to the other peers.\n\npublic final class LiveSession {\n\n    private static final int CURSOR_THROTTLE_MS = 120;\n\n    private final WhiteboardStudio studio;\n    private Ws ws = null;\n    private boolean on = false;\n    private String room = \"main\";\n    private String name = \"Guest-\" + randomToken();\n    private long lastCursorSent = 0;\n\n    /** "
++ "Canvas element upsert: the server stores it, then relays it to peers. */\n    void upsert(CanvasElement el) {\n        Json.Obj m = Json.obj();\n        m.setStr(\"type\", \"element\");\n        m.setStr(\"action\", \"upsert\");\n        m.set(\"element\", WhiteboardJson.toJson(el));\n        send(m);\n    }\n\n    void delete(String id) {\n        Json.Obj el = Json.obj();\n        el.setStr(\"id\", id);\n        Json.Obj m = Json.obj();\n        m.setStr(\"type\", \"element\");\n        m.setStr(\"action\", \"delete\");\n        m.set(\"ele"
++ "ment\", el);\n        send(m);\n    }\n\n    /** Peer cursors are throttled to ~8 frames/sec to keep the socket quiet. */\n    void sendCursor(double x, double y) {\n        if (!on) {\n            return;\n        }\n        long now = System.currentTimeMillis();\n        if (now - lastCursorSent > CURSOR_THROTTLE_MS) {\n            lastCursorSent = now;\n            Json.Obj m = Json.obj();\n            m.setStr(\"type\", \"cursor\");\n            m.setStr(\"user\", name);\n            m.setNum(\"x\", Math.round(x));\n           "
++ " m.setNum(\"y\", Math.round(y));\n            send(m);\n        }\n    }\n\n    /** Late joiners ask for nothing: the server\'s snapshot reply fills the canvas. */\n    private void handleSnapshot(Json.Obj msg) {\n        Json.Arr arr = Json.getArr(msg, \"elements\");\n        int n = arr != null ? Json.len(arr) : 0;\n        if (n == 0) {\n            for (CanvasElement el : studio.elements) {\n                upsert(el);          // empty room: seed it with our board\n            }\n        } else {\n            List<Canvas"
++ "Element> next = new ArrayList<>();\n            for (int i = 0; i < n; i++) {\n                next.add(WhiteboardJson.fromJson(Json.arrObj(arr, i)));\n            }\n            studio.undoStack.add(studio.elements);\n            studio.elements = next;\n        }\n        status = \"live\";\n        on = true;\n    }\n\n    private void send(Json.Obj m) {\n        if (ws != null && ws.isOpen()) {\n            m.setStr(\"room\", room);\n            ws.send(Json.stringify(m));\n        }\n    }\n}", "whiteboard-server",
+"Whiteboard WebSocket Server", "WhiteboardServer.java", "Netty WebSocket server with Project Loom virtual-thread workers: room-based channels, last-write-wins element state, snapshot-on-join, cursor relay. (Mirrors server/src/main/java/com/apex/whiteboard/WhiteboardServer.java)", "package com.apex.whiteboard;\n\n// Protocol (JSON text frames over ws://host:port/ws/whiteboard):\n//   {\"type\":\"join\",   \"room\":\"main\",\"user\":\"Asha\",\"color\":\"#38BDF8\"}\n//   {\"type\":\"element\",\"room\":\"main\",\"action\":\"upsert\",\"element\":{...}}\n//   {\"type\":\"delete\", \"room\":\"main\",\"id\":\"el-123\"}\n//   {\"type\":\"clear\",  \"room\":\"main\"}\n//   {\"type\":\"cursor\", \"room\":\"main\",\"user\":\"Asha\",\"x\":120.5,\"y\":300.0}\n//   {\"type\":\"leave\",  \"room\":\"main\"}\n// Server replies to join with {\"type\":\"snapshot\",\"room\":\"main\",\"elements\""
 + ":[...]}\n// and broadcasts {\"type\":\"presence\",\"room\":\"main\",\"event\":\"join|leave\",\"user\":\"...\"}.\n\npublic final class WhiteboardServer {\n\n    private final ConcurrentHashMap<String, Room> rooms = new ConcurrentHashMap<>();\n\n    /** Per-room state: member channels + last-write-wins element store. */\n    private static final class Room {\n        final ChannelGroup members = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);\n        final ConcurrentHashMap<String, JsonNode> elements = new ConcurrentHashMap<>("
 + ");\n    }\n\n    public void start() throws Exception {\n        EventLoopGroup bossGroup = new NioEventLoopGroup(1);\n        // Project Loom virtual threads handle messages\n        EventLoopGroup workerGroup = new NioEventLoopGroup(\n                Runtime.getRuntime().availableProcessors(),\n                Thread.ofVirtual().name(\"whiteboard-worker-\", 0).factory());\n        try {\n            new ServerBootstrap()\n                .group(bossGroup, workerGroup)\n                .channel(NioServerSocketChannel.cl"
 + "ass)\n                .childHandler(new ChannelInitializer<SocketChannel>() {\n                    @Override\n                    protected void initChannel(SocketChannel ch) {\n                        ch.pipeline().addLast(new HttpServerCodec());\n                        ch.pipeline().addLast(new HttpObjectAggregator(65536));\n                        ch.pipeline().addLast(new WebSocketServerProtocolHandler(\"/ws/whiteboard\"));\n                        ch.pipeline().addLast(new WhiteboardFrameHandler(rooms));\n     "
-+ "               }\n                })\n                .bind(port).sync().channel().closeFuture().sync();\n        } finally {\n            bossGroup.shutdownGracefully();\n            workerGroup.shutdownGracefully();\n        }\n    }\n\n    public static void main(String[] args) throws Exception {\n        int port = args.length > 0 ? Integer.parseInt(args[0]) : 8090;\n        new WhiteboardServer(port).start();\n    }\n}", "zero-gc-orderbook", "Zero-GC Order Book", "ZeroGcOrderBook.java", "Price-time (FIFO) limit order book over flat primitive arrays and indexed doubly linked lists. No allocations on the match path; supports cancel-by-id via an open-addressing order index. (Mirrors ZeroGcOrderBook.java)",
-"package com.apex.engine;\n\nimport java.util.Arrays;\n\n/**\n * Ultra-High-Performance Limit Order Book.\n * - Price-Time Priority (FIFO) matching\n * - Flat primitive arrays + indexed doubly linked list nodes\n * - Zero GC on the critical path; cancel-by-id via open-addressing index\n */\npublic final class ZeroGcOrderBook {\n\n    private static final int MAX_ORDERS = 200_000;\n    private static final int MAX_PRICE_TICKS = 10_000;\n\n    // Order pool: index 0 reserved as null; free-list for safe slot reuse\n    private"
-+ " final long[] orderId = new long[MAX_ORDERS];\n    private final long[] leavesQty = new long[MAX_ORDERS];\n    private final double[] orderPrice = new double[MAX_ORDERS];\n    private final int[] prevOrderIdx = new int[MAX_ORDERS];\n    private final int[] nextOrderIdx = new int[MAX_ORDERS];\n    // ... traderId, side, initialQty, optionKey arrays omitted for brevity\n\n    // Price level heads / tails / volumes (tick-indexed)\n    private final int[] bidLevelHead = new int[MAX_PRICE_TICKS];\n    private final int[]"
-+ " askLevelHead = new int[MAX_PRICE_TICKS];\n    private final long[] bidLevelVolume = new long[MAX_PRICE_TICKS];\n    private final long[] askLevelVolume = new long[MAX_PRICE_TICKS];\n\n    private int bestBidTick = -1;\n    private int bestAskTick = Integer.MAX_VALUE;\n\n    /** Executes an incoming order; TYPE_CANCEL removes the resting order. */\n    public void processOrder(OrderEvent event, TradeConsumer tradeConsumer) {\n        if (event.type == OrderEvent.TYPE_CANCEL) {\n            cancelOrder(event.orderId);"
-+ "\n            return;\n        }\n        if (event.side == OrderEvent.SIDE_BUY) matchBuy(event, tradeConsumer);\n        else matchSell(event, tradeConsumer);\n    }\n\n    private void matchBuy(OrderEvent buy, TradeConsumer tradeConsumer) {\n        int limitTick = buy.type == OrderEvent.TYPE_MARKET\n                ? Integer.MAX_VALUE : priceToTick(buy.price);\n        long remaining = buy.quantity;\n        // FIFO: walk ask ticks upward, draining head orders at each level\n        while (remaining > 0 && bestAskTi"
-+ "ck <= limitTick\n                && bestAskTick != Integer.MAX_VALUE) {\n            int head = askLevelHead[bestAskTick];\n            if (head == 0) { bestAskTick = findNextAskTick(bestAskTick + 1); continue; }\n            long matchQty = Math.min(remaining, leavesQty[head]);\n            remaining -= matchQty;\n            leavesQty[head] -= matchQty;\n            askLevelVolume[bestAskTick] -= matchQty;\n            trades++;\n            tradeConsumer.onTrade(buy.orderId, orderId[head],\n                    ord"
-+ "erPrice[head], matchQty, OrderEvent.SIDE_BUY, buy.optionKey);\n            if (leavesQty[head] == 0) dequeueAsk(head); // unindex + free slot\n        }\n        if (remaining > 0 && buy.type == OrderEvent.TYPE_LIMIT) restBid(buy, remaining);\n    }\n\n    /** Cancels a resting order by id; returns true when removed. */\n    public boolean cancelOrder(long orderId) { /* unlink + free slot */ }\n\n    @FunctionalInterface\n    public interface TradeConsumer {\n        void onTrade(long buyOrderId, long sellOrderId,\n   "
-+ "                  double price, long qty, byte aggressiveSide, byte optionKey);\n    }\n}", "loom-simulator", "Project Loom Concurrency", "LoomSimulationMain.java", "Java 21 Virtual Threads (Project Loom): 10,000 agents x 20 orders each, dispatched lock-free into the Disruptor RingBuffer. (Mirrors java/src/main/java/com/apex/simulator/LoomSimulationMain.java)", "package com.apex.simulator;\n\nimport com.apex.engine.DisruptorMatchingEngine;\nimport com.apex.engine.OrderEvent;\n\nimport java.util.concurrent.ExecutorService;\nimport java.util.concurrent.Executors;\nimport java.util.concurrent.ThreadLocalRandom;\nimport java.util.concurrent.atomic.AtomicLong;\n\n/**\n * High-Concurrency Simulation Runner: 10,000 virtual agents submit\n * limit & market orders and MCQ liquidity-pool bids concurrently.\n */\npublic final class LoomSimulationMain {\n\n    private static final int VIRTUAL"
-+ "_AGENTS = 10_000;\n    private static final int ORDERS_PER_AGENT = 20;\n    private static final AtomicLong TOTAL_SUBMITTED = new AtomicLong();\n\n    public static void main(String[] args) throws InterruptedException {\n        DisruptorMatchingEngine engine = new DisruptorMatchingEngine(100.0, 0.01);\n\n        System.out.printf(\"Spawning %,d Java 21 Virtual Threads...%n\", VIRTUAL_AGENTS);\n        long startNs = System.nanoTime();\n\n        // Project Loom Virtual Thread Executor\n        try (ExecutorService exec"
-+ "utor = Executors.newVirtualThreadPerTaskExecutor()) {\n            for (int i = 0; i < VIRTUAL_AGENTS; i++) {\n                final long traderId = i + 1;\n                executor.submit(() -> {\n                    ThreadLocalRandom rand = ThreadLocalRandom.current();\n                    for (int j = 0; j < ORDERS_PER_AGENT; j++) {\n                        long orderId = TOTAL_SUBMITTED.incrementAndGet();\n                        byte side = rand.nextBoolean() ? OrderEvent.SIDE_BUY : OrderEvent.SIDE_SELL;\n    "
-+ "                    byte type = rand.nextDouble() < 0.25\n                                ? OrderEvent.TYPE_MARKET : OrderEvent.TYPE_LIMIT;\n                        double price = 100.0 + (rand.nextDouble() - 0.5) * 4.0;\n                        byte optionKey = (byte) rand.nextInt(1, 5); // MCQ options A-D\n\n                        // Direct zero-lock dispatch to RingBuffer\n                        engine.submitOrder(orderId, traderId, side, type,\n                                price, rand.nextLong(1, 15), opt"
-+ "ionKey);\n                    }\n                });\n            }\n        } // waits for all 10,000 virtual threads\n\n        double elapsedS = (System.nanoTime() - startNs) / 1e9;\n        System.out.printf(\"Dispatched %,d orders in %.2fs (%,d ops/sec)%n\",\n                TOTAL_SUBMITTED.get(), elapsedS, (long) (TOTAL_SUBMITTED.get() / elapsedS));\n        System.out.printf(\"Trades settled: %,d | Best Bid $%.2f | Best Ask $%.2f%n\",\n                engine.getTradesCount(), engine.getBestBid(), engine.getBestAsk"
-+ "());\n        engine.shutdown();\n    }\n}", "cache-padding", "Cache Line Padding", "util/CacheLinePaddedSequence.java", "Eliminates CPU false sharing by padding sequence pointers with 56 bytes of dummy longs; ordered release/acquire stores via VarHandle. (Mirrors java/src/main/java/com/apex/engine/util/CacheLinePaddedSequence.java)", "package com.apex.engine.util;\n\nimport java.lang.invoke.VarHandle;\n\n/**\n * Padded Sequence Counter.\n * Prevents multiple CPU cores from invalidating each other\'s L1/L2 caches\n * when reading and writing sequence numbers.\n */\npublic class CacheLinePaddedSequence {\n\n    // Padding before value to prevent false sharing with prior object fields (56 bytes)\n    public long p1, p2, p3, p4, p5, p6, p7;\n\n    // The actual sequence value (8 bytes)\n    public volatile long value = -1L;\n\n    // Padding after value to en"
-+ "sure sequence occupies isolated 64-byte or 128-byte cache line\n    public long p8, p9, p10, p11, p12, p13, p14;\n\n    public long get() {\n        return value;\n    }\n\n    public void set(long value) {\n        this.value = value;\n    }\n\n    public void setRelease(long value) {\n        // Store with release fence (mechanical sympathy for x86 TSO memory model)\n        this.value = value;\n    }\n}", "jmh-benchmark", "JMH Microbenchmark", "JmhDisruptorBenchmark.java", "Java Microbenchmark Harness (JMH) measuring order-submission throughput with 4 producer threads. Run: java -cp apex-engine.jar org.openjdk.jmh.Main JmhDisruptorBenchmark. (Mirrors java/src/main/java/com/apex/benchmark/JmhDisruptorBenchmark.java)",
-"package com.apex.benchmark;\n\nimport com.apex.engine.DisruptorMatchingEngine;\nimport com.apex.engine.OrderEvent;\nimport org.openjdk.jmh.annotations.*;\n\nimport java.util.concurrent.ThreadLocalRandom;\nimport java.util.concurrent.TimeUnit;\n\n@BenchmarkMode(Mode.Throughput)\n@OutputTimeUnit(TimeUnit.SECONDS)\n@Warmup(iterations = 3, time = 1)\n@Measurement(iterations = 5, time = 2)\n@Fork(value = 1)\n@State(Scope.Benchmark)\npublic class JmhDisruptorBenchmark {\n\n    private DisruptorMatchingEngine engine;\n    private l"
-+ "ong orderCounter;\n\n    @Setup(Level.Trial)\n    public void setup() {\n        engine = new DisruptorMatchingEngine(100.0, 0.01);\n        orderCounter = 0;\n    }\n\n    @TearDown(Level.Trial)\n    public void tearDown() {\n        engine.shutdown();\n    }\n\n    @Benchmark\n    @Threads(4)\n    public void benchmarkOrderSubmission() {\n        long id = ++orderCounter;\n        ThreadLocalRandom rand = ThreadLocalRandom.current();\n        byte side = rand.nextBoolean() ? OrderEvent.SIDE_BUY : OrderEvent.SIDE_SELL;\n    "
-+ "    byte type = rand.nextDouble() < 0.25 ? OrderEvent.TYPE_MARKET : OrderEvent.TYPE_LIMIT;\n        engine.submitOrder(id, id % 1000, side, type,\n                100.0 + (rand.nextDouble() - 0.5) * 4.0, rand.nextLong(1, 15), (byte) 0);\n    }\n}", "Reviewing architecture", "Exploring canvas", "bot-sticky-", "Added sticky note", "bot-node-", "15", "Created ", "0123456789abcdefghijklmnopqrstuvwxyz", "object", "function", "string", "undefined", "transparent", "Text", "Insight", "— ", "Guest-", "off", "localhost",
-"ws://", ":8090/ws/whiteboard", "snapshot", "element", "presence", "clear", "delete", "cursor", "live", "anon", "leave", "peer-", "joined", "drawing", "#2DD4B6", "interface ", "class ", "Either src or dest is null", "Infinite or NaN", "Rounding necessary", "power of ten too big", "SELECT", "select", "PEN", "pen", "RECTANGLE", "rectangle", "ELLIPSE", "ellipse", "ARROW", "arrow", "STICKY", "sticky", "TEXT", "ERASER", "eraser", "T-", "idle", "grid grid-cols-2 md:grid-cols-4 gap-3.5", "Students answered", "votes",
-"Leading option", "Trophy", "w-3.5 h-3.5 text-yellow-400", "—", "Correct picks", "CheckCircle2", "Time left", "Timer", "Not started", "lg:col-span-8 bg-white border border-black rounded-none p-6 flex flex-col gap-5 shadow-[4px_4px_0_rgba(0,0,0,0.45)]", "flex items-center justify-between border-b border-black pb-3 gap-3 flex-wrap", "flex items-center gap-1.5 text-xs text-[#404040]", "win-sunken px-2 py-1 text-xs font-bold text-black w-28 outline-none", "flex flex-col gap-2", "h2", "text-lg font-bold text-black tracking-tight",
-"text-xs text-[#404040] leading-relaxed", "flex flex-col gap-3", "font-pixel text-2xl leading-none tabular-nums shrink-0", "text-xs text-[#92400E] font-semibold", "lg:col-span-4 flex flex-col gap-4", "bg-white border border-black rounded-none p-5 flex flex-col gap-4 shadow-[4px_4px_0_rgba(0,0,0,0.45)]", "Teacher Controls", "px-3 py-1 text-xs font-semibold cursor-pointer win-btn", "grid grid-cols-1 gap-2", "Start Poll (30s)", "win-btn-selected py-2 px-3 text-xs font-bold flex items-center justify-center gap-1.5 disabled:opacity-40",
-"Reveal Answer", "win-btn py-2 px-3 text-xs font-bold flex items-center justify-center gap-1.5 disabled:opacity-40", "Next Question", "flex items-center gap-2 text-xs text-[#404040] border-t border-black/20 pt-3", "border-2 border-black rounded-none p-5 flex flex-col gap-2.5 shadow-[4px_4px_0_rgba(0,0,0,0.45)] text-xs text-black bg-[#FFFF99]", "GraduationCap", "AI Teacher", "font-semibold flex items-center gap-1.5", "open", "revealed", "relative z-10 flex items-center justify-between gap-4", "flex flex-col",
-"flex items-center gap-2 text-xs text-[#404040] mt-0.5 font-mono", "font-bold text-[#0000CD]", "· Your pick", "flex items-center gap-4 shrink-0 text-right font-mono", "text-lg font-bold text-black tabular-nums", "text-[10px] text-[#404040] uppercase tracking-wider", "of votes", "<span>Correct</span>", "hidden sm:flex items-center gap-1 text-[#047857] text-xs font-semibold", "Poll closed. Votes are locked in, the AI Teacher is explaining the answer.", "The teacher has not started the poll yet. Wait for the poll to open.",
-"demo", "question", "poll", "vote", "tally", "reveal", "Option ", "% of votes)", "% got it right)", "Closed", "bg-[#047857] text-white", "bg-[#C0C0C0] text-black", "POLL OPEN", "WAITING", "ANSWER REVEALED", "w-5 h-5 text-[#0000CD]", "<span class=\"text-sm font-semibold text-black\">Question ", " of ", "</span><span class=\"text-xs font-bold px-2 py-0.5 ", "\">", "border-[#047857] bg-[#FFFF99]", "border-black bg-white hover:border-black", "border-[#0000CD] bg-[#0000CD]/10", "relative overflow-hidden border rounded-none p-4 cursor-pointer transition-all ",
-"bg-[#0000CD]/10", "bg-[#047857]/20", "absolute inset-y-0 left-0 transition-all duration-300 pointer-events-none ", "bg-[#C0C0C0] text-[#1F1F1F]", "w-8 h-8 rounded-none flex items-center justify-center font-bold text-sm shrink-0 ", "s", " vote", "bg-[#C0C0C0]/40 border-black/30 text-[#404040]", "bg-[#0000CD]/10 border-[#0000CD]/40 text-black", "p-3 border rounded-none text-xs flex items-center justify-between gap-3 ", "Poll is open. Tap an option to answer.", "Your answer: Option ", ". Tap another option to change it before time runs out.",
-"The teacher has not started the poll yet.", "Poll closed. You did not answer this one.", ", correct!", ", the answer was Option ", "Poll closed. You picked Option ", "px-3 py-1 text-xs font-semibold cursor-pointer ", "Radio", "<span>Live: votes sync through the Java server.</span>", "<span>Demo mode: no server found, votes stay on this screen.</span>", "<span>Connecting to the Java server…</span>", "leading-relaxed text-[#404040]", "The AI Teacher explains the answer once the poll closes. No peeking, answer first, then learn why.",
-"leading-relaxed", "Watch out: ", "Nobody voted on this one.", "The crowd was right this time.", "Most of the class picked Option ", "% of the class got it right. ", "leading-relaxed font-semibold", "Guest", "A", "B", "C", "D", "Single-Thread Core with LMAX Disruptor RingBuffer", "Java synchronized blocks on OrderBook object", "ThreadPool with ConcurrentLinkedQueue", "Actor model with Akka asynchronous mailboxes", "q1", "Which concurrency pattern guarantees the lowest tail latency for order book processing?",
-"High-frequency trading exchanges need to avoid lock contention, context switches, and cache invalidation storms.", "One thread owns the whole match path, so there is no lock to contend for, no context switch, and no cache line bouncing between cores. The Disruptor ring buffer is pre-allocated, so the hot path allocates nothing and the GC never pauses a match. That is why tail latency stays in single-digit microseconds instead of spiking under load.", "Most classes pick B. Synchronized blocks feel safe, but every match then queues on one monitor and every core invalidates the same cache line, which is exactly what inflates p99.",
-"Cache line padding with @Contended or 128 bytes dummy fields", "Using volatile variables without locks", "Calling Thread.yield() after every write", "Compacting JVM heap with ZGC generational collection", "q2", "How does LMAX Disruptor eliminate false sharing between producer and consumer threads?", "When independent variables reside on the same 64-byte L1/L2 cache line, concurrent writes force cache line invalidations.", "Two threads writing different variables that share one 64-byte cache line force the line to bounce between cores on every write. Padding puts each hot variable on its own line, so a write invalidates nothing the other thread owns. The Disruptor pads its sequence counters to 128 bytes for the same reason.",
-"Volatile fixes visibility, not sharing. A volatile write to a shared line still invalidates every other core’s copy, so the bouncing continues.", "Thousands of cheap threads that park without holding an OS thread", "Faster garbage collection for short-lived objects", "Automatic parallelisation of sequential loops", "A lock-free replacement for synchronized blocks", "q3", "What does a Project Loom virtual thread give you that a platform thread pool does not?", "The matching engine runs 10,000 simulated traders. Each one blocks on I/O while it waits for market data.",
-"A virtual thread costs a few kilobytes and parks without holding an OS thread, so a million of them can block on I/O at once while a small pool of carrier threads does the real work. A platform thread costs around a megabyte of stack and blocks its OS thread, so a thread pool stalls once every thread is waiting.", "Loom does not parallelise your code. It only makes blocking cheap. A slow loop is still a slow loop, it just stops wasting a whole OS thread while it waits.", "Contiguous arrays keep the hot data in L1/L2 cache and avoid pointer chasing",
-"Arrays let the JVM skip garbage collection entirely", "Trees cannot store price-time priority", "Primitive arrays use less heap only for small books", "q4", "Why is the order book kept as flat primitive arrays instead of a tree of Order objects?", "The matching loop walks price levels in order, thousands of times a second, on the hottest path in the engine.", "The match loop walks price levels in order, so a flat array means sequential access that the CPU prefetcher loves: the next level is already in L1/L2 before you need it. A tree of Order objects means pointer chasing through the heap, a cache miss per level, and an allocation every time an order is created.",
-"Arrays do not switch the GC off. The win is cache locality and zero allocation on the match path, not escaping the collector.", "UP", "DOWN", "CEILING", "FLOOR", "HALF_UP", "HALF_DOWN", "HALF_EVEN", "UNNECESSARY", "unknown icon: ", "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"", "</svg>", "<path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\"></path>",
-"<path d=\"m7 7 10 10\"></path><path d=\"M17 7v10H7\"></path>", "<path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path>", "<path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path>", "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"></path><path d=\"M18 17V9\"></path><path d=\"M13 17V5\"></path><path d=\"M8 17v-3\"></path>", "BookOpen", "<path d=\"M12 7v14\"></path><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"></path>",
-"<path d=\"M12 18V5\"></path><path d=\"M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4\"></path><path d=\"M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5\"></path><path d=\"M17.997 5.125a4 4 0 0 1 2.526 5.77\"></path><path d=\"M18 18a4 4 0 0 0 2-7.464\"></path><path d=\"M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517\"></path><path d=\"M6 18a4 4 0 0 1-2-7.464\"></path><path d=\"M6.003 5.125a4 4 0 0 0-2.526 5.77\"></path>", "<path d=\"M20 6 9 17l-5-5\"></path>", "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path>",
-"<circle cx=\"12\" cy=\"12\" r=\"10\"></circle>", "Clock", "<path d=\"M12 6v6l4 2\"></path><circle cx=\"12\" cy=\"12\" r=\"10\"></circle>", "<rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"></rect><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"></path>", "<path d=\"M12 20v2\"></path><path d=\"M12 2v2\"></path><path d=\"M17 20v2\"></path><path d=\"M17 2v2\"></path><path d=\"M2 12h2\"></path><path d=\"M2 17h2\"></path><path d=\"M2 7h2\"></path><path d=\"M20 12h2\"></path><path d=\"M20 17h2\"></path><path d=\"M20 7h2\"></path><path d=\"M7 20v2\"></path><path d=\"M7 2v2\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><rect x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"></rect>",
++ "               }\n                })\n                .bind(port).sync().channel().closeFuture().sync();\n        } finally {\n            bossGroup.shutdownGracefully();\n            workerGroup.shutdownGracefully();\n        }\n    }\n\n    public static void main(String[] args) throws Exception {\n        int port = args.length > 0 ? Integer.parseInt(args[0]) : 8090;\n        new WhiteboardServer(port).start();\n    }\n}", "mcq-client", "Live MCQ Poll Client", "McqConsensusView.java", "Java records for questions and options, a 30-second poll phase machine, one vote per student, and live tally updates over the same WebSocket. (Mirrors client/src/main/java/com/parallely/client/mcq/McqConsensusView.java)",
+"package com.parallely.client.mcq;\n\n// Live classroom poll: the teacher opens a 30-second poll, every student\'s\n// pick is one WebSocket frame, and tallies stream back to everyone live.\n\npublic final class McqConsensusView implements View {\n\n    private record QuizOption(String key, String label, boolean isCorrect) {\n    }\n\n    private record QuizQuestion(String id, String title, String context, List<QuizOption> options,\n                                String explanation, String trap) {\n    }\n\n    private st"
++ "atic final int POLL_SECONDS = 30;\n    private static final String ROOM = \"main\";\n\n    private int qIndex = 0;\n    private String phase = \"idle\";            // idle -> open -> revealed\n    private final Map<String, String> voters = new LinkedHashMap<>(); // voter -> A/B/C/D\n\n    /** One vote per student: changeable until the reveal, stored server-side. */\n    private void castVote(String key) {\n        if (!phase.equals(\"open\")) {\n            notice = phase.equals(\"idle\")\n                    ? \"The teacher h"
++ "as not started the poll yet. Wait for the poll to open.\"\n                    : \"Poll closed. Votes are locked in, the AI Teacher is explaining the answer.\";\n            update();\n            return;\n        }\n        voters.put(myName, key);\n        Json.Obj msg = Json.obj();\n        msg.setStr(\"type\", \"vote\");\n        msg.setStr(\"room\", ROOM);\n        msg.setStr(\"question\", currentQuestionId());\n        msg.setStr(\"option\", key);\n        msg.setStr(\"user\", myName);\n        send(msg);\n        update();\n    "
++ "}\n\n    /** Teacher control: open a 30-second poll for the current question. */\n    private void startPoll() {\n        phase = \"open\";\n        timeLeft = POLL_SECONDS;\n        Json.Obj msg = Json.obj();\n        msg.setStr(\"type\", \"poll\");\n        msg.setStr(\"room\", ROOM);\n        msg.setStr(\"question\", currentQuestionId());\n        msg.setStr(\"action\", \"open\");\n        send(msg);\n        update();\n    }\n\n    private void handleMessage(String data) {\n        Json.Obj msg = parseSafe(data);\n        if (msg == "
++ "null) {\n            return;\n        }\n        String type = Json.str(msg, \"type\");\n        String qid = currentQuestionId();\n        switch (type) {\n            case \"vote\" -> {\n                String user = Json.str(msg, \"user\");\n                String option = Json.str(msg, \"option\");\n                if (Json.str(msg, \"question\").equals(qid) && !user.isEmpty() && !option.isEmpty()) {\n                    voters.put(user, option);\n                    update();\n                }\n            }\n            cas"
++ "e \"tally\" -> {\n                Json.Obj tallyVoters = Json.getObj(msg, \"voters\");\n                if (Json.str(msg, \"question\").equals(qid) && tallyVoters != null) {\n                    replaceVoters(tallyVoters);\n                    update();\n                }\n            }\n            case \"poll\" -> {\n                if (Json.str(msg, \"question\").equals(qid)\n                        && Json.str(msg, \"action\").equals(\"open\")) {\n                    phase = \"open\";\n                    timeLeft = POLL_SECONDS;"
++ "\n                    update();\n                }\n            }\n            default -> {\n            }\n        }\n    }\n}", "vote-tally", "Vote & Tally Relay (Server)", "ConcurrentHashMap of votes per question, one vote per voter, and a running per-option tally broadcast on every vote. (Mirrors server/src/main/java/com/apex/whiteboard/WhiteboardServer.java)", "package com.apex.whiteboard;\n\n// Live-quiz protocol (JSON text frames over the same whiteboard socket):\n//   {\"type\":\"vote\",\"room\":\"main\",\"question\":\"q1\",\"option\":\"B\",\"user\":\"Asha\"}\n//   {\"type\":\"tally\",\"room\":\"main\",\"question\":\"q1\"}\n// Votes are stored per question; every vote re-broadcasts the running tally.\n\npublic final class WhiteboardServer {\n\n    private final ConcurrentHashMap<String, Room> rooms = new ConcurrentHashMap<>();\n\n    /** Mutable per-room state: members plus last-write-wins element store"
++ ". */\n    private static final class Room {\n        final ChannelGroup members = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);\n        final ConcurrentHashMap<String, JsonNode> elements = new ConcurrentHashMap<>();\n        /** Live-quiz votes: question id -> (voter name -> option A/B/C/D). One vote per voter. */\n        final ConcurrentHashMap<String, ConcurrentHashMap<String, String>> votes = new ConcurrentHashMap<>();\n    }\n\n    /** Live-quiz vote: one vote per voter per question, changeable until"
++ " the reveal. */\n    private void handleVote(ChannelHandlerContext ctx, String roomName, JsonNode msg) {\n        Room room = rooms.get(roomName);\n        if (room == null) {\n            sendError(ctx, \"not in room \" + roomName);\n            return;\n        }\n        String question = msg.path(\"question\").asText(\"\");\n        String option = msg.path(\"option\").asText(\"\");\n        if (question.isEmpty() || !(option.equals(\"A\") || option.equals(\"B\")\n                || option.equals(\"C\") || option.equals(\"D\"))) {"
++ "\n            sendError(ctx, \"vote message needs a question and an option A/B/C/D\");\n            return;\n        }\n        String user = msg.path(\"user\").asText(\"\");\n        if (user.isEmpty()) {\n            String known = ctx.channel().attr(USER).get();\n            user = known == null ? \"anonymous\" : known;\n        }\n        room.votes.computeIfAbsent(question, k -> new ConcurrentHashMap<>()).put(user, option);\n\n        ObjectNode tallyMsg = JSON.createObjectNode();\n        tallyMsg.put(\"type\", \"vote\");\n  "
++ "      tallyMsg.put(\"room\", roomName);\n        tallyMsg.put(\"question\", question);\n        tallyMsg.put(\"user\", user);\n        tallyMsg.put(\"option\", option);\n        tallyMsg.set(\"tally\", tallyNode(room, question));\n        broadcastExcept(room, ctx.channel(), tallyMsg.toString());\n    }\n\n    /** A client asks for the stored votes of one question; reply to the requester only. */\n    private void handleTally(ChannelHandlerContext ctx, String roomName, JsonNode msg) {\n        String question = msg.path(\"quest"
++ "ion\").asText(\"\");\n        Room room = rooms.get(roomName);\n        ObjectNode reply = JSON.createObjectNode();\n        reply.put(\"type\", \"tally\");\n        reply.put(\"room\", roomName);\n        reply.put(\"question\", question);\n        ObjectNode votersNode = reply.putObject(\"voters\");\n        if (room != null && !question.isEmpty()) {\n            for (var voter : room.votes.getOrDefault(question, new ConcurrentHashMap<>()).entrySet()) {\n                votersNode.put(voter.getKey(), voter.getValue());\n       "
++ "     }\n            reply.set(\"tally\", tallyNode(room, question));\n        } else {\n            reply.set(\"tally\", tallyNode(null, question));\n        }\n        ctx.writeAndFlush(new TextWebSocketFrame(reply.toString()));\n    }\n\n    /** Per-option counts for one question. */\n    private ObjectNode tallyNode(Room room, String question) {\n        ObjectNode tally = JSON.createObjectNode();\n        int a = 0, b = 0, c = 0, d = 0;\n        if (room != null) {\n            for (String option : room.votes.getOrDefau"
++ "lt(question, new ConcurrentHashMap<>()).values()) {\n                switch (option) {\n                    case \"A\" -> a++;\n                    case \"B\" -> b++;\n                    case \"C\" -> c++;\n                    case \"D\" -> d++;\n                    default -> {\n                    }\n                }\n            }\n        }\n        tally.put(\"A\", a);\n        tally.put(\"B\", b);\n        tally.put(\"C\", c);\n        tally.put(\"D\", d);\n        return tally;\n    }\n}", "Reviewing architecture",
+"Exploring canvas", "bot-sticky-", "Added sticky note", "bot-node-", "15", "Created ", "0123456789abcdefghijklmnopqrstuvwxyz", "object", "function", "string", "undefined", "transparent", "Text", "Insight", "— ", "Guest-", "off", "localhost", "ws://", ":8090/ws/whiteboard", "snapshot", "element", "presence", "clear", "delete", "cursor", "live", "anon", "leave", "peer-", "joined", "drawing", "#2DD4B6", "interface ", "class ", "Either src or dest is null", "Infinite or NaN", "Rounding necessary", "power of ten too big",
+"SELECT", "select", "PEN", "pen", "RECTANGLE", "rectangle", "ELLIPSE", "ellipse", "ARROW", "arrow", "STICKY", "sticky", "TEXT", "ERASER", "eraser", "T-", "idle", "grid grid-cols-2 md:grid-cols-4 gap-3.5", "Students answered", "votes", "Leading option", "Trophy", "w-3.5 h-3.5 text-yellow-400", "—", "Correct picks", "CheckCircle2", "Time left", "Timer", "Not started", "lg:col-span-8 bg-white border border-black rounded-none p-6 flex flex-col gap-5 shadow-[4px_4px_0_rgba(0,0,0,0.45)]", "flex items-center justify-between border-b border-black pb-3 gap-3 flex-wrap",
+"flex items-center gap-1.5 text-xs text-[#404040]", "win-sunken px-2 py-1 text-xs font-bold text-black w-28 outline-none", "flex flex-col gap-2", "h2", "text-lg font-bold text-black tracking-tight", "text-xs text-[#404040] leading-relaxed", "flex flex-col gap-3", "font-pixel text-2xl leading-none tabular-nums shrink-0", "text-xs text-[#92400E] font-semibold", "lg:col-span-4 flex flex-col gap-4", "bg-white border border-black rounded-none p-5 flex flex-col gap-4 shadow-[4px_4px_0_rgba(0,0,0,0.45)]", "Teacher Controls",
+"px-3 py-1 text-xs font-semibold cursor-pointer win-btn", "grid grid-cols-1 gap-2", "Start Poll (30s)", "win-btn-selected py-2 px-3 text-xs font-bold flex items-center justify-center gap-1.5 disabled:opacity-40", "Reveal Answer", "win-btn py-2 px-3 text-xs font-bold flex items-center justify-center gap-1.5 disabled:opacity-40", "Next Question", "flex items-center gap-2 text-xs text-[#404040] border-t border-black/20 pt-3", "border-2 border-black rounded-none p-5 flex flex-col gap-2.5 shadow-[4px_4px_0_rgba(0,0,0,0.45)] text-xs text-black bg-[#FFFF99]",
+"GraduationCap", "AI Teacher", "font-semibold flex items-center gap-1.5", "open", "revealed", "relative z-10 flex items-center justify-between gap-4", "flex flex-col", "flex items-center gap-2 text-xs text-[#404040] mt-0.5 font-mono", "font-bold text-[#0000CD]", "· Your pick", "flex items-center gap-4 shrink-0 text-right font-mono", "text-lg font-bold text-black tabular-nums", "text-[10px] text-[#404040] uppercase tracking-wider", "of votes", "<span>Correct</span>", "hidden sm:flex items-center gap-1 text-[#047857] text-xs font-semibold",
+"Poll closed. Votes are locked in, the AI Teacher is explaining the answer.", "The teacher has not started the poll yet. Wait for the poll to open.", "demo", "question", "poll", "vote", "tally", "reveal", "Option ", "% of votes)", "% got it right)", "Closed", "bg-[#047857] text-white", "bg-[#C0C0C0] text-black", "POLL OPEN", "WAITING", "ANSWER REVEALED", "w-5 h-5 text-[#0000CD]", "<span class=\"text-sm font-semibold text-black\">Question ", " of ", "</span><span class=\"text-xs font-bold px-2 py-0.5 ", "\">",
+"border-[#047857] bg-[#FFFF99]", "border-black bg-white hover:border-black", "border-[#0000CD] bg-[#0000CD]/10", "relative overflow-hidden border rounded-none p-4 cursor-pointer transition-all ", "bg-[#0000CD]/10", "bg-[#047857]/20", "absolute inset-y-0 left-0 transition-all duration-300 pointer-events-none ", "bg-[#C0C0C0] text-[#1F1F1F]", "w-8 h-8 rounded-none flex items-center justify-center font-bold text-sm shrink-0 ", "s", " vote", "bg-[#C0C0C0]/40 border-black/30 text-[#404040]", "bg-[#0000CD]/10 border-[#0000CD]/40 text-black",
+"p-3 border rounded-none text-xs flex items-center justify-between gap-3 ", "Poll is open. Tap an option to answer.", "Your answer: Option ", ". Tap another option to change it before time runs out.", "The teacher has not started the poll yet.", "Poll closed. You did not answer this one.", ", correct!", ", the answer was Option ", "Poll closed. You picked Option ", "px-3 py-1 text-xs font-semibold cursor-pointer ", "Radio", "<span>Live: votes sync through the Java server.</span>", "<span>Demo mode: no server found, votes stay on this screen.</span>",
+"<span>Connecting to the Java server…</span>", "leading-relaxed text-[#404040]", "The AI Teacher explains the answer once the poll closes. No peeking, answer first, then learn why.", "leading-relaxed", "Watch out: ", "Nobody voted on this one.", "The crowd was right this time.", "Most of the class picked Option ", "% of the class got it right. ", "leading-relaxed font-semibold", "Guest", "A", "B", "C", "D", "Single-Thread Core with LMAX Disruptor RingBuffer", "Java synchronized blocks on OrderBook object", "ThreadPool with ConcurrentLinkedQueue",
+"Actor model with Akka asynchronous mailboxes", "q1", "Which concurrency pattern guarantees the lowest tail latency for order book processing?", "High-frequency trading exchanges need to avoid lock contention, context switches, and cache invalidation storms.", "One thread owns the whole match path, so there is no lock to contend for, no context switch, and no cache line bouncing between cores. The Disruptor ring buffer is pre-allocated, so the hot path allocates nothing and the GC never pauses a match. That is why tail latency stays in single-digit microseconds instead of spiking under load.",
+"Most classes pick B. Synchronized blocks feel safe, but every match then queues on one monitor and every core invalidates the same cache line, which is exactly what inflates p99.", "Cache line padding with @Contended or 128 bytes dummy fields", "Using volatile variables without locks", "Calling Thread.yield() after every write", "Compacting JVM heap with ZGC generational collection", "q2", "How does LMAX Disruptor eliminate false sharing between producer and consumer threads?", "When independent variables reside on the same 64-byte L1/L2 cache line, concurrent writes force cache line invalidations.",
+"Two threads writing different variables that share one 64-byte cache line force the line to bounce between cores on every write. Padding puts each hot variable on its own line, so a write invalidates nothing the other thread owns. The Disruptor pads its sequence counters to 128 bytes for the same reason.", "Volatile fixes visibility, not sharing. A volatile write to a shared line still invalidates every other core’s copy, so the bouncing continues.", "Thousands of cheap threads that park without holding an OS thread",
+"Faster garbage collection for short-lived objects", "Automatic parallelisation of sequential loops", "A lock-free replacement for synchronized blocks", "q3", "What does a Project Loom virtual thread give you that a platform thread pool does not?", "The matching engine runs 10,000 simulated traders. Each one blocks on I/O while it waits for market data.", "A virtual thread costs a few kilobytes and parks without holding an OS thread, so a million of them can block on I/O at once while a small pool of carrier threads does the real work. A platform thread costs around a megabyte of stack and blocks its OS thread, so a thread pool stalls once every thread is waiting.",
+"Loom does not parallelise your code. It only makes blocking cheap. A slow loop is still a slow loop, it just stops wasting a whole OS thread while it waits.", "Contiguous arrays keep the hot data in L1/L2 cache and avoid pointer chasing", "Arrays let the JVM skip garbage collection entirely", "Trees cannot store price-time priority", "Primitive arrays use less heap only for small books", "q4", "Why is the order book kept as flat primitive arrays instead of a tree of Order objects?", "The matching loop walks price levels in order, thousands of times a second, on the hottest path in the engine.",
+"The match loop walks price levels in order, so a flat array means sequential access that the CPU prefetcher loves: the next level is already in L1/L2 before you need it. A tree of Order objects means pointer chasing through the heap, a cache miss per level, and an allocation every time an order is created.", "Arrays do not switch the GC off. The win is cache locality and zero allocation on the match path, not escaping the collector.", "UP", "DOWN", "CEILING", "FLOOR", "HALF_UP", "HALF_DOWN", "HALF_EVEN", "UNNECESSARY",
+"unknown icon: ", "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"", "</svg>", "<path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\"></path>", "<path d=\"m7 7 10 10\"></path><path d=\"M17 7v10H7\"></path>", "<path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path>",
+"<path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path>", "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"></path><path d=\"M18 17V9\"></path><path d=\"M13 17V5\"></path><path d=\"M8 17v-3\"></path>", "BookOpen", "<path d=\"M12 7v14\"></path><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"></path>", "<path d=\"M12 18V5\"></path><path d=\"M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4\"></path><path d=\"M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5\"></path><path d=\"M17.997 5.125a4 4 0 0 1 2.526 5.77\"></path><path d=\"M18 18a4 4 0 0 0 2-7.464\"></path><path d=\"M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517\"></path><path d=\"M6 18a4 4 0 0 1-2-7.464\"></path><path d=\"M6.003 5.125a4 4 0 0 0-2.526 5.77\"></path>",
+"<path d=\"M20 6 9 17l-5-5\"></path>", "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path>", "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle>", "Clock", "<path d=\"M12 6v6l4 2\"></path><circle cx=\"12\" cy=\"12\" r=\"10\"></circle>", "<rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"></rect><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"></path>", "<path d=\"M12 20v2\"></path><path d=\"M12 2v2\"></path><path d=\"M17 20v2\"></path><path d=\"M17 2v2\"></path><path d=\"M2 12h2\"></path><path d=\"M2 17h2\"></path><path d=\"M2 7h2\"></path><path d=\"M20 12h2\"></path><path d=\"M20 17h2\"></path><path d=\"M20 7h2\"></path><path d=\"M7 20v2\"></path><path d=\"M7 2v2\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><rect x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"></rect>",
 "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"22\" x2=\"18\" y1=\"12\" y2=\"12\"></line><line x1=\"6\" x2=\"2\" y1=\"12\" y2=\"12\"></line><line x1=\"12\" x2=\"12\" y1=\"6\" y2=\"2\"></line><line x1=\"12\" x2=\"12\" y1=\"22\" y2=\"18\"></line>", "<path d=\"M12 15V3\"></path><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><path d=\"m7 10 5 5 5-5\"></path>", "<path d=\"m12.99 6.74 1.93 3.44\"></path><path d=\"M19.136 12a10 10 0 0 1-14.271 0\"></path><path d=\"m21 21-2.16-3.84\"></path><path d=\"m3 21 8.02-14.26\"></path><circle cx=\"12\" cy=\"5\" r=\"2\"></circle>",
 "<path d=\"M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21\"></path><path d=\"m5.082 11.09 8.828 8.828\"></path>", "<path d=\"M10 12.5 8 15l2 2.5\"></path><path d=\"m14 12.5 2 2.5-2 2.5\"></path><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"></path><path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z\"></path>", "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"></path><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"></path><path d=\"M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1\"></path><path d=\"M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1\"></path>",
 "<path d=\"M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4\"></path>", "<path d=\"M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z\"></path><path d=\"M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z\"></path><path d=\"M16 17h4\"></path><path d=\"M4 13h4\"></path>", "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path>",
@@ -14997,8 +14944,6 @@ let $rt_jso_marker = Symbol('jsoClass');
     c.call = $rt_callWithReceiver(cpce_MatchingEngineStudio$_init_$lambda$_0_12_call$exported$0);
     c = cpcw_BotSwarm$restartLoop$lambda$_15_0.prototype;
     c.call = $rt_callWithReceiver(cpcw_BotSwarm$restartLoop$lambda$_15_0_call$exported$0);
-    c = cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0.prototype;
-    c.call = $rt_callWithReceiver(cpcj_JavaArchitectureViewer$handleCopy$lambda$_11_0_call$exported$0);
     c = cpcs_Ui$btn$lambda$_5_0.prototype;
     c.handleEvent = $rt_callWithReceiver(cpcs_Ui$btn$lambda$_5_0_handleEvent$exported$0);
     c = cpcj_Ws$onClose$lambda$_3_0.prototype;
@@ -15017,6 +14962,8 @@ let $rt_jso_marker = Symbol('jsoClass');
     c.call = $rt_callWithReceiver(cpcw_WhiteboardStudio$_init_$lambda$_0_15_call$exported$0);
     c = cpcs_Ui$onMouse$lambda$_12_0.prototype;
     c.handleEvent = $rt_callWithReceiver(cpcs_Ui$onMouse$lambda$_12_0_handleEvent$exported$0);
+    c = cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0.prototype;
+    c.call = $rt_callWithReceiver(cpcj_JavaArchitectureViewer$handleCopy$lambda$_9_0_call$exported$0);
     c = cpcm_McqConsensusView$syncCountdown$lambda$_19_0.prototype;
     c.call = $rt_callWithReceiver(cpcm_McqConsensusView$syncCountdown$lambda$_19_0_call$exported$0);
     c = cpcw_WhiteboardStudio$frame$lambda$_4_0.prototype;
