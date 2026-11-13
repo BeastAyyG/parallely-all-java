@@ -112,14 +112,16 @@ covered by `RingBufferTest` (6 tests) and `MatchingEngineTest` (4 tests)."
 
 **Click:** top-nav tab **Java 21 Architecture** (short label **Java 21**). You
 see "Production Java 21+ Architecture & Engineering Blueprint" and a **Java 21
-Source Blueprint** selector listing real source files such as
-`DisruptorMatchingEngine.java`, `WhiteboardServer.java`,
-`LoomSimulationMain.java` and `JmhDisruptorBenchmark.java`. Click one to view its
-blueprint, then **Copy &lt;filename&gt;** (or the header's **Copy Java
-Quickstart**).
+Source Blueprint** selector listing five real source files:
+`CanvasModel.java` (canvas hit-testing), `LiveSession.java` (live canvas over
+WebSocket), `WhiteboardServer.java` (Netty + virtual threads),
+`McqConsensusView.java` (MCQ poll client) and the server's **Vote & Tally
+Relay**. Click one to view its blueprint, then **Copy &lt;filename&gt;** (or the
+header's **Copy Java Quickstart**).
 
-**Say:** "These blueprints describe the actual Java backend in this repo —
-virtual threads, the Disruptor, the JMH benchmark — not a mock-up."
+**Say:** "These blueprints are the actual canvas, collaboration and live-poll
+code of this app — records, enum-driven geometry, Netty virtual threads, a
+30-second poll phase machine — not a mock-up."
 
 ### 8. Start menu, dialogs and minimize (4:30)
 

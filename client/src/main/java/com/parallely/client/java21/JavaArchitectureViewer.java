@@ -16,75 +16,150 @@ public final class JavaArchitectureViewer implements View {
     private record CodeSnippet(String id, String title, String filename, String language, String description, String code) {
     }
 
-    private static final String DISRUPTOR_ENGINE_CODE = """
-            package com.apex.engine;
+    private static final String CANVAS_MODEL_CODE = """
+            package com.parallely.client.whiteboard;
 
-            import com.lmax.disruptor.BusySpinWaitStrategy;
-            import com.lmax.disruptor.EventHandler;
-            import com.lmax.disruptor.RingBuffer;
-            import com.lmax.disruptor.dsl.Disruptor;
-            import com.lmax.disruptor.dsl.ProducerType;
-            import com.lmax.disruptor.util.DaemonThreadFactory;
+            // Canvas hit-testing: decide which element (if any) sits under the pointer.
+            // Rectangle, Sticky and Text use a box test with a shared hit tolerance;
+            // Ellipse uses the normalised circle equation; Stroke and Arrow walk points.
+            // (TEXT uses the same box test as RECTANGLE - omitted here for brevity.)
 
-            import java.util.concurrent.atomic.AtomicLong;
+            public final class CanvasModel {
 
-            /**
-             * Ultra-Low-Latency Order Matching Engine orchestrating LMAX Disruptor.
-             * Processes 25M+ events per second with sub-microsecond tail latency.
-             */
-            public final class DisruptorMatchingEngine {
+                private static final double DEFAULT_HIT_TOLERANCE = 10;
+                private static final double DEFAULT_SHAPE_WIDTH = 160;
+                private static final double DEFAULT_RECT_HEIGHT = 100;
 
-                // Power-of-2 buffer capacity (65,536 slots) for fast sequence bitmasking
-                public static final int BUFFER_SIZE = 1024 * 64;
+                public static boolean isPointInElement(Point point, CanvasElement elem, double hitTolerance) {
+                    ElementType type = elem.type();
 
-                private final Disruptor<OrderEvent> disruptor;
-                private final RingBuffer<OrderEvent> ringBuffer;
-                private final ZeroGcOrderBook orderBook;
-                private final AtomicLong tradesCount = new AtomicLong();
-                private final WriteAheadLog wal;          // memory-mapped journal
-                private final UdpReplicator replicator;   // best-effort UDP replication
+                    if (type == ElementType.RECTANGLE || type == ElementType.STICKY) {
+                        double w = elem.width() != null ? elem.width() : DEFAULT_SHAPE_WIDTH;
+                        double h = elem.height() != null ? elem.height() : DEFAULT_RECT_HEIGHT;
+                        return point.x() >= elem.x() - hitTolerance
+                                && point.x() <= elem.x() + w + hitTolerance
+                                && point.y() >= elem.y() - hitTolerance
+                                && point.y() <= elem.y() + h + hitTolerance;
+                    }
 
-                public DisruptorMatchingEngine(double basePrice, double tickSize) {
-                    this.orderBook = new ZeroGcOrderBook(basePrice, tickSize);
-                    this.wal = new WriteAheadLog();       // ./wal (override: -Dapex.wal.dir=...)
-                    this.replicator = UdpReplicator.create(); // -Dapex.replicate=host:port
+                    if (type == ElementType.ELLIPSE) {
+                        double rx = (elem.width() != null ? elem.width() : DEFAULT_SHAPE_WIDTH) / 2;
+                        double ry = (elem.height() != null ? elem.height() : DEFAULT_RECT_HEIGHT) / 2;
+                        double cx = elem.x() + rx;
+                        double cy = elem.y() + ry;
+                        double normalized = Math.pow((point.x() - cx) / (rx + hitTolerance), 2)
+                                + Math.pow((point.y() - cy) / (ry + hitTolerance), 2);
+                        return normalized <= 1;
+                    }
 
-                    this.disruptor = new Disruptor<>(
-                            OrderEvent.FACTORY,
-                            BUFFER_SIZE,
-                            DaemonThreadFactory.INSTANCE,
-                            ProducerType.MULTI, // concurrent producers (Project Loom virtual threads)
-                            new BusySpinWaitStrategy());
+                    if (type == ElementType.STROKE && elem.points() != null && !elem.points().isEmpty()) {
+                        for (Point p : elem.points()) {
+                            double dist = Math.hypot(p.x() - point.x(), p.y() - point.y());
+                            if (dist <= elem.strokeWidth() + hitTolerance) {
+                                return true;
+                            }
+                        }
+                    }
 
-                    // Mechanical Sympathy Pipeline:
-                    // Stage 1: Journaler (WAL) + Replicator run concurrently
-                    // Stage 2: single-threaded matching core runs after Stage 1
-                    disruptor.handleEventsWith(new JournalerHandler(wal), new ReplicatorHandler(replicator))
-                             .then(new MatchingEngineHandler(this.orderBook, this.tradesCount));
+                    if (type == ElementType.ARROW && elem.points() != null && elem.points().size() >= 2) {
+                        return distanceToLineSegment(point, elem.points().get(0), elem.points().get(1))
+                                <= elem.strokeWidth() + hitTolerance;
+                    }
 
-                    this.ringBuffer = disruptor.start();
+                    return false;
                 }
 
-                /** Publishes an order into the lock-free RingBuffer. ZERO allocations. */
-                public void submitOrder(long orderId, long traderId, byte side, byte type,
-                                        double price, long quantity, byte optionKey) {
-                    long sequence = ringBuffer.next();
-                    try {
-                        ringBuffer.get(sequence).set(orderId, traderId, side, type, price, quantity, optionKey);
-                    } finally {
-                        ringBuffer.publish(sequence);
+                /** Shortest distance from the pointer to the arrow's line segment. */
+                private static double distanceToLineSegment(Point p, Point a, Point b) {
+                    double l2 = Math.pow(b.x() - a.x(), 2) + Math.pow(b.y() - a.y(), 2);
+                    if (l2 == 0) {
+                        return Math.hypot(p.x() - a.x(), p.y() - a.y());
+                    }
+                    double t = ((p.x() - a.x()) * (b.x() - a.x()) + (p.y() - a.y()) * (b.y() - a.y())) / l2;
+                    t = Math.max(0, Math.min(1, t));
+                    return Math.hypot(p.x() - (a.x() + t * (b.x() - a.x())),
+                            p.y() - (a.y() + t * (b.y() - a.y())));
+                }
+            }""";
+
+    private static final String LIVE_SESSION_CODE = """
+            package com.parallely.client.whiteboard;
+
+            // One WebSocket session per studio. Every canvas mutation becomes a JSON
+            // text frame; the server stores it, then relays it to the other peers.
+
+            public final class LiveSession {
+
+                private static final int CURSOR_THROTTLE_MS = 120;
+
+                private final WhiteboardStudio studio;
+                private Ws ws = null;
+                private boolean on = false;
+                private String room = "main";
+                private String name = "Guest-" + randomToken();
+                private long lastCursorSent = 0;
+
+                /** Canvas element upsert: the server stores it, then relays it to peers. */
+                void upsert(CanvasElement el) {
+                    Json.Obj m = Json.obj();
+                    m.setStr("type", "element");
+                    m.setStr("action", "upsert");
+                    m.set("element", WhiteboardJson.toJson(el));
+                    send(m);
+                }
+
+                void delete(String id) {
+                    Json.Obj el = Json.obj();
+                    el.setStr("id", id);
+                    Json.Obj m = Json.obj();
+                    m.setStr("type", "element");
+                    m.setStr("action", "delete");
+                    m.set("element", el);
+                    send(m);
+                }
+
+                /** Peer cursors are throttled to ~8 frames/sec to keep the socket quiet. */
+                void sendCursor(double x, double y) {
+                    if (!on) {
+                        return;
+                    }
+                    long now = System.currentTimeMillis();
+                    if (now - lastCursorSent > CURSOR_THROTTLE_MS) {
+                        lastCursorSent = now;
+                        Json.Obj m = Json.obj();
+                        m.setStr("type", "cursor");
+                        m.setStr("user", name);
+                        m.setNum("x", Math.round(x));
+                        m.setNum("y", Math.round(y));
+                        send(m);
                     }
                 }
 
-                /** Cancels a resting order by id through the normal pipeline. */
-                public void cancelOrder(long orderId) {
-                    submitOrder(orderId, 0, (byte) 0, OrderEvent.TYPE_CANCEL, 0.0, 0, (byte) 0);
+                /** Late joiners ask for nothing: the server's snapshot reply fills the canvas. */
+                private void handleSnapshot(Json.Obj msg) {
+                    Json.Arr arr = Json.getArr(msg, "elements");
+                    int n = arr != null ? Json.len(arr) : 0;
+                    if (n == 0) {
+                        for (CanvasElement el : studio.elements) {
+                            upsert(el);          // empty room: seed it with our board
+                        }
+                    } else {
+                        List<CanvasElement> next = new ArrayList<>();
+                        for (int i = 0; i < n; i++) {
+                            next.add(WhiteboardJson.fromJson(Json.arrObj(arr, i)));
+                        }
+                        studio.undoStack.add(studio.elements);
+                        studio.elements = next;
+                    }
+                    status = "live";
+                    on = true;
                 }
 
-                public void shutdown() {
-                    disruptor.shutdown();
-                    wal.close();
-                    if (replicator != null) replicator.close();
+                private void send(Json.Obj m) {
+                    if (ws != null && ws.isOpen()) {
+                        m.setStr("room", room);
+                        ws.send(Json.stringify(m));
+                    }
                 }
             }""";
 
@@ -143,260 +218,229 @@ public final class JavaArchitectureViewer implements View {
                 }
             }""";
 
-    private static final String ZERO_GC_ORDERBOOK_CODE = """
-            package com.apex.engine;
+    private static final String MCQ_CLIENT_CODE = """
+            package com.parallely.client.mcq;
 
-            import java.util.Arrays;
+            // Live classroom poll: the teacher opens a 30-second poll, every student's
+            // pick is one WebSocket frame, and tallies stream back to everyone live.
 
-            /**
-             * Ultra-High-Performance Limit Order Book.
-             * - Price-Time Priority (FIFO) matching
-             * - Flat primitive arrays + indexed doubly linked list nodes
-             * - Zero GC on the critical path; cancel-by-id via open-addressing index
-             */
-            public final class ZeroGcOrderBook {
+            public final class McqConsensusView implements View {
 
-                private static final int MAX_ORDERS = 200_000;
-                private static final int MAX_PRICE_TICKS = 10_000;
+                private record QuizOption(String key, String label, boolean isCorrect) {
+                }
 
-                // Order pool: index 0 reserved as null; free-list for safe slot reuse
-                private final long[] orderId = new long[MAX_ORDERS];
-                private final long[] leavesQty = new long[MAX_ORDERS];
-                private final double[] orderPrice = new double[MAX_ORDERS];
-                private final int[] prevOrderIdx = new int[MAX_ORDERS];
-                private final int[] nextOrderIdx = new int[MAX_ORDERS];
-                // ... traderId, side, initialQty, optionKey arrays omitted for brevity
+                private record QuizQuestion(String id, String title, String context, List<QuizOption> options,
+                                            String explanation, String trap) {
+                }
 
-                // Price level heads / tails / volumes (tick-indexed)
-                private final int[] bidLevelHead = new int[MAX_PRICE_TICKS];
-                private final int[] askLevelHead = new int[MAX_PRICE_TICKS];
-                private final long[] bidLevelVolume = new long[MAX_PRICE_TICKS];
-                private final long[] askLevelVolume = new long[MAX_PRICE_TICKS];
+                private static final int POLL_SECONDS = 30;
+                private static final String ROOM = "main";
 
-                private int bestBidTick = -1;
-                private int bestAskTick = Integer.MAX_VALUE;
+                private int qIndex = 0;
+                private String phase = "idle";            // idle -> open -> revealed
+                private final Map<String, String> voters = new LinkedHashMap<>(); // voter -> A/B/C/D
 
-                /** Executes an incoming order; TYPE_CANCEL removes the resting order. */
-                public void processOrder(OrderEvent event, TradeConsumer tradeConsumer) {
-                    if (event.type == OrderEvent.TYPE_CANCEL) {
-                        cancelOrder(event.orderId);
+                /** One vote per student: changeable until the reveal, stored server-side. */
+                private void castVote(String key) {
+                    if (!phase.equals("open")) {
+                        notice = phase.equals("idle")
+                                ? "The teacher has not started the poll yet. Wait for the poll to open."
+                                : "Poll closed. Votes are locked in, the AI Teacher is explaining the answer.";
+                        update();
                         return;
                     }
-                    if (event.side == OrderEvent.SIDE_BUY) matchBuy(event, tradeConsumer);
-                    else matchSell(event, tradeConsumer);
+                    voters.put(myName, key);
+                    Json.Obj msg = Json.obj();
+                    msg.setStr("type", "vote");
+                    msg.setStr("room", ROOM);
+                    msg.setStr("question", currentQuestionId());
+                    msg.setStr("option", key);
+                    msg.setStr("user", myName);
+                    send(msg);
+                    update();
                 }
 
-                private void matchBuy(OrderEvent buy, TradeConsumer tradeConsumer) {
-                    int limitTick = buy.type == OrderEvent.TYPE_MARKET
-                            ? Integer.MAX_VALUE : priceToTick(buy.price);
-                    long remaining = buy.quantity;
-                    // FIFO: walk ask ticks upward, draining head orders at each level
-                    while (remaining > 0 && bestAskTick <= limitTick
-                            && bestAskTick != Integer.MAX_VALUE) {
-                        int head = askLevelHead[bestAskTick];
-                        if (head == 0) { bestAskTick = findNextAskTick(bestAskTick + 1); continue; }
-                        long matchQty = Math.min(remaining, leavesQty[head]);
-                        remaining -= matchQty;
-                        leavesQty[head] -= matchQty;
-                        askLevelVolume[bestAskTick] -= matchQty;
-                        trades++;
-                        tradeConsumer.onTrade(buy.orderId, orderId[head],
-                                orderPrice[head], matchQty, OrderEvent.SIDE_BUY, buy.optionKey);
-                        if (leavesQty[head] == 0) dequeueAsk(head); // unindex + free slot
+                /** Teacher control: open a 30-second poll for the current question. */
+                private void startPoll() {
+                    phase = "open";
+                    timeLeft = POLL_SECONDS;
+                    Json.Obj msg = Json.obj();
+                    msg.setStr("type", "poll");
+                    msg.setStr("room", ROOM);
+                    msg.setStr("question", currentQuestionId());
+                    msg.setStr("action", "open");
+                    send(msg);
+                    update();
+                }
+
+                private void handleMessage(String data) {
+                    Json.Obj msg = parseSafe(data);
+                    if (msg == null) {
+                        return;
                     }
-                    if (remaining > 0 && buy.type == OrderEvent.TYPE_LIMIT) restBid(buy, remaining);
-                }
-
-                /** Cancels a resting order by id; returns true when removed. */
-                public boolean cancelOrder(long orderId) { /* unlink + free slot */ }
-
-                @FunctionalInterface
-                public interface TradeConsumer {
-                    void onTrade(long buyOrderId, long sellOrderId,
-                                 double price, long qty, byte aggressiveSide, byte optionKey);
-                }
-            }""";
-
-    private static final String LOOM_SIMULATOR_CODE = """
-            package com.apex.simulator;
-
-            import com.apex.engine.DisruptorMatchingEngine;
-            import com.apex.engine.OrderEvent;
-
-            import java.util.concurrent.ExecutorService;
-            import java.util.concurrent.Executors;
-            import java.util.concurrent.ThreadLocalRandom;
-            import java.util.concurrent.atomic.AtomicLong;
-
-            /**
-             * High-Concurrency Simulation Runner: 10,000 virtual agents submit
-             * limit & market orders and MCQ liquidity-pool bids concurrently.
-             */
-            public final class LoomSimulationMain {
-
-                private static final int VIRTUAL_AGENTS = 10_000;
-                private static final int ORDERS_PER_AGENT = 20;
-                private static final AtomicLong TOTAL_SUBMITTED = new AtomicLong();
-
-                public static void main(String[] args) throws InterruptedException {
-                    DisruptorMatchingEngine engine = new DisruptorMatchingEngine(100.0, 0.01);
-
-                    System.out.printf("Spawning %,d Java 21 Virtual Threads...%n", VIRTUAL_AGENTS);
-                    long startNs = System.nanoTime();
-
-                    // Project Loom Virtual Thread Executor
-                    try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
-                        for (int i = 0; i < VIRTUAL_AGENTS; i++) {
-                            final long traderId = i + 1;
-                            executor.submit(() -> {
-                                ThreadLocalRandom rand = ThreadLocalRandom.current();
-                                for (int j = 0; j < ORDERS_PER_AGENT; j++) {
-                                    long orderId = TOTAL_SUBMITTED.incrementAndGet();
-                                    byte side = rand.nextBoolean() ? OrderEvent.SIDE_BUY : OrderEvent.SIDE_SELL;
-                                    byte type = rand.nextDouble() < 0.25
-                                            ? OrderEvent.TYPE_MARKET : OrderEvent.TYPE_LIMIT;
-                                    double price = 100.0 + (rand.nextDouble() - 0.5) * 4.0;
-                                    byte optionKey = (byte) rand.nextInt(1, 5); // MCQ options A-D
-
-                                    // Direct zero-lock dispatch to RingBuffer
-                                    engine.submitOrder(orderId, traderId, side, type,
-                                            price, rand.nextLong(1, 15), optionKey);
-                                }
-                            });
+                    String type = Json.str(msg, "type");
+                    String qid = currentQuestionId();
+                    switch (type) {
+                        case "vote" -> {
+                            String user = Json.str(msg, "user");
+                            String option = Json.str(msg, "option");
+                            if (Json.str(msg, "question").equals(qid) && !user.isEmpty() && !option.isEmpty()) {
+                                voters.put(user, option);
+                                update();
+                            }
                         }
-                    } // waits for all 10,000 virtual threads
-
-                    double elapsedS = (System.nanoTime() - startNs) / 1e9;
-                    System.out.printf("Dispatched %,d orders in %.2fs (%,d ops/sec)%n",
-                            TOTAL_SUBMITTED.get(), elapsedS, (long) (TOTAL_SUBMITTED.get() / elapsedS));
-                    System.out.printf("Trades settled: %,d | Best Bid $%.2f | Best Ask $%.2f%n",
-                            engine.getTradesCount(), engine.getBestBid(), engine.getBestAsk());
-                    engine.shutdown();
+                        case "tally" -> {
+                            Json.Obj tallyVoters = Json.getObj(msg, "voters");
+                            if (Json.str(msg, "question").equals(qid) && tallyVoters != null) {
+                                replaceVoters(tallyVoters);
+                                update();
+                            }
+                        }
+                        case "poll" -> {
+                            if (Json.str(msg, "question").equals(qid)
+                                    && Json.str(msg, "action").equals("open")) {
+                                phase = "open";
+                                timeLeft = POLL_SECONDS;
+                                update();
+                            }
+                        }
+                        default -> {
+                        }
+                    }
                 }
             }""";
 
-    private static final String CACHE_PADDING_CODE = """
-            package com.apex.engine.util;
+    private static final String VOTE_TALLY_SERVER_CODE = """
+            package com.apex.whiteboard;
 
-            import java.lang.invoke.VarHandle;
+            // Live-quiz protocol (JSON text frames over the same whiteboard socket):
+            //   {"type":"vote","room":"main","question":"q1","option":"B","user":"Asha"}
+            //   {"type":"tally","room":"main","question":"q1"}
+            // Votes are stored per question; every vote re-broadcasts the running tally.
 
-            /**
-             * Padded Sequence Counter.
-             * Prevents multiple CPU cores from invalidating each other's L1/L2 caches
-             * when reading and writing sequence numbers.
-             */
-            public class CacheLinePaddedSequence {
+            public final class WhiteboardServer {
 
-                // Padding before value to prevent false sharing with prior object fields (56 bytes)
-                public long p1, p2, p3, p4, p5, p6, p7;
+                private final ConcurrentHashMap<String, Room> rooms = new ConcurrentHashMap<>();
 
-                // The actual sequence value (8 bytes)
-                public volatile long value = -1L;
-
-                // Padding after value to ensure sequence occupies isolated 64-byte or 128-byte cache line
-                public long p8, p9, p10, p11, p12, p13, p14;
-
-                public long get() {
-                    return value;
+                /** Mutable per-room state: members plus last-write-wins element store. */
+                private static final class Room {
+                    final ChannelGroup members = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+                    final ConcurrentHashMap<String, JsonNode> elements = new ConcurrentHashMap<>();
+                    /** Live-quiz votes: question id -> (voter name -> option A/B/C/D). One vote per voter. */
+                    final ConcurrentHashMap<String, ConcurrentHashMap<String, String>> votes = new ConcurrentHashMap<>();
                 }
 
-                public void set(long value) {
-                    this.value = value;
+                /** Live-quiz vote: one vote per voter per question, changeable until the reveal. */
+                private void handleVote(ChannelHandlerContext ctx, String roomName, JsonNode msg) {
+                    Room room = rooms.get(roomName);
+                    if (room == null) {
+                        sendError(ctx, "not in room " + roomName);
+                        return;
+                    }
+                    String question = msg.path("question").asText("");
+                    String option = msg.path("option").asText("");
+                    if (question.isEmpty() || !(option.equals("A") || option.equals("B")
+                            || option.equals("C") || option.equals("D"))) {
+                        sendError(ctx, "vote message needs a question and an option A/B/C/D");
+                        return;
+                    }
+                    String user = msg.path("user").asText("");
+                    if (user.isEmpty()) {
+                        String known = ctx.channel().attr(USER).get();
+                        user = known == null ? "anonymous" : known;
+                    }
+                    room.votes.computeIfAbsent(question, k -> new ConcurrentHashMap<>()).put(user, option);
+
+                    ObjectNode tallyMsg = JSON.createObjectNode();
+                    tallyMsg.put("type", "vote");
+                    tallyMsg.put("room", roomName);
+                    tallyMsg.put("question", question);
+                    tallyMsg.put("user", user);
+                    tallyMsg.put("option", option);
+                    tallyMsg.set("tally", tallyNode(room, question));
+                    broadcastExcept(room, ctx.channel(), tallyMsg.toString());
                 }
 
-                public void setRelease(long value) {
-                    // Store with release fence (mechanical sympathy for x86 TSO memory model)
-                    this.value = value;
-                }
-            }""";
-
-    private static final String JMH_BENCHMARK_CODE = """
-            package com.apex.benchmark;
-
-            import com.apex.engine.DisruptorMatchingEngine;
-            import com.apex.engine.OrderEvent;
-            import org.openjdk.jmh.annotations.*;
-
-            import java.util.concurrent.ThreadLocalRandom;
-            import java.util.concurrent.TimeUnit;
-
-            @BenchmarkMode(Mode.Throughput)
-            @OutputTimeUnit(TimeUnit.SECONDS)
-            @Warmup(iterations = 3, time = 1)
-            @Measurement(iterations = 5, time = 2)
-            @Fork(value = 1)
-            @State(Scope.Benchmark)
-            public class JmhDisruptorBenchmark {
-
-                private DisruptorMatchingEngine engine;
-                private long orderCounter;
-
-                @Setup(Level.Trial)
-                public void setup() {
-                    engine = new DisruptorMatchingEngine(100.0, 0.01);
-                    orderCounter = 0;
+                /** A client asks for the stored votes of one question; reply to the requester only. */
+                private void handleTally(ChannelHandlerContext ctx, String roomName, JsonNode msg) {
+                    String question = msg.path("question").asText("");
+                    Room room = rooms.get(roomName);
+                    ObjectNode reply = JSON.createObjectNode();
+                    reply.put("type", "tally");
+                    reply.put("room", roomName);
+                    reply.put("question", question);
+                    ObjectNode votersNode = reply.putObject("voters");
+                    if (room != null && !question.isEmpty()) {
+                        for (var voter : room.votes.getOrDefault(question, new ConcurrentHashMap<>()).entrySet()) {
+                            votersNode.put(voter.getKey(), voter.getValue());
+                        }
+                        reply.set("tally", tallyNode(room, question));
+                    } else {
+                        reply.set("tally", tallyNode(null, question));
+                    }
+                    ctx.writeAndFlush(new TextWebSocketFrame(reply.toString()));
                 }
 
-                @TearDown(Level.Trial)
-                public void tearDown() {
-                    engine.shutdown();
-                }
-
-                @Benchmark
-                @Threads(4)
-                public void benchmarkOrderSubmission() {
-                    long id = ++orderCounter;
-                    ThreadLocalRandom rand = ThreadLocalRandom.current();
-                    byte side = rand.nextBoolean() ? OrderEvent.SIDE_BUY : OrderEvent.SIDE_SELL;
-                    byte type = rand.nextDouble() < 0.25 ? OrderEvent.TYPE_MARKET : OrderEvent.TYPE_LIMIT;
-                    engine.submitOrder(id, id % 1000, side, type,
-                            100.0 + (rand.nextDouble() - 0.5) * 4.0, rand.nextLong(1, 15), (byte) 0);
+                /** Per-option counts for one question. */
+                private ObjectNode tallyNode(Room room, String question) {
+                    ObjectNode tally = JSON.createObjectNode();
+                    int a = 0, b = 0, c = 0, d = 0;
+                    if (room != null) {
+                        for (String option : room.votes.getOrDefault(question, new ConcurrentHashMap<>()).values()) {
+                            switch (option) {
+                                case "A" -> a++;
+                                case "B" -> b++;
+                                case "C" -> c++;
+                                case "D" -> d++;
+                                default -> {
+                                }
+                            }
+                        }
+                    }
+                    tally.put("A", a);
+                    tally.put("B", b);
+                    tally.put("C", c);
+                    tally.put("D", d);
+                    return tally;
                 }
             }""";
 
     private static final CodeSnippet[] JAVA_FILES = {
             new CodeSnippet(
-                    "disruptor-engine",
-                    "Disruptor Engine Core",
-                    "DisruptorMatchingEngine.java",
+                    "canvas-model",
+                    "Canvas Model & Hit Testing",
+                    "CanvasModel.java",
                     "java",
-                    "Production LMAX Disruptor 4.0 configuration: power-of-2 RingBuffer, pre-allocated OrderEvents (Zero-GC), and a single-threaded business logic handler. (Mirrors java/src/main/java/com/apex/engine/DisruptorMatchingEngine.java)",
-                    DISRUPTOR_ENGINE_CODE),
+                    "Enum-driven canvas geometry: point-in-shape hit testing for rectangles, stickies, ellipses, strokes and arrows with a shared hit tolerance. (Mirrors client/src/main/java/com/parallely/client/whiteboard/CanvasModel.java)",
+                    CANVAS_MODEL_CODE),
+            new CodeSnippet(
+                    "live-session",
+                    "Live Canvas Session",
+                    "LiveSession.java",
+                    "java",
+                    "WebSocket client that keeps the canvas in sync: element upsert/delete frames, snapshot-on-join for late joiners, and peer cursor relay throttled to ~8 fps. (Mirrors client/src/main/java/com/parallely/client/whiteboard/LiveSession.java)",
+                    LIVE_SESSION_CODE),
             new CodeSnippet(
                     "whiteboard-server",
                     "Whiteboard WebSocket Server",
                     "WhiteboardServer.java",
                     "java",
-                    "Netty WebSocket server with Project Loom virtual-thread workers: room-based channels, last-write-wins element state, snapshot-on-join, cursor relay. (Mirrors java/src/main/java/com/apex/whiteboard/WhiteboardServer.java)",
+                    "Netty WebSocket server with Project Loom virtual-thread workers: room-based channels, last-write-wins element state, snapshot-on-join, cursor relay. (Mirrors server/src/main/java/com/apex/whiteboard/WhiteboardServer.java)",
                     WHITEBOARD_SERVER_CODE),
             new CodeSnippet(
-                    "zero-gc-orderbook",
-                    "Zero-GC Order Book",
-                    "ZeroGcOrderBook.java",
+                    "mcq-client",
+                    "Live MCQ Poll Client",
+                    "McqConsensusView.java",
                     "java",
-                    "Price-time (FIFO) limit order book over flat primitive arrays and indexed doubly linked lists. No allocations on the match path; supports cancel-by-id via an open-addressing order index. (Mirrors ZeroGcOrderBook.java)",
-                    ZERO_GC_ORDERBOOK_CODE),
+                    "Java records for questions and options, a 30-second poll phase machine, one vote per student, and live tally updates over the same WebSocket. (Mirrors client/src/main/java/com/parallely/client/mcq/McqConsensusView.java)",
+                    MCQ_CLIENT_CODE),
             new CodeSnippet(
-                    "loom-simulator",
-                    "Project Loom Concurrency",
-                    "LoomSimulationMain.java",
+                    "vote-tally",
+                    "Vote & Tally Relay (Server)",
+                    "WhiteboardServer.java",
                     "java",
-                    "Java 21 Virtual Threads (Project Loom): 10,000 agents x 20 orders each, dispatched lock-free into the Disruptor RingBuffer. (Mirrors java/src/main/java/com/apex/simulator/LoomSimulationMain.java)",
-                    LOOM_SIMULATOR_CODE),
-            new CodeSnippet(
-                    "cache-padding",
-                    "Cache Line Padding",
-                    "util/CacheLinePaddedSequence.java",
-                    "java",
-                    "Eliminates CPU false sharing by padding sequence pointers with 56 bytes of dummy longs; ordered release/acquire stores via VarHandle. (Mirrors java/src/main/java/com/apex/engine/util/CacheLinePaddedSequence.java)",
-                    CACHE_PADDING_CODE),
-            new CodeSnippet(
-                    "jmh-benchmark",
-                    "JMH Microbenchmark",
-                    "JmhDisruptorBenchmark.java",
-                    "java",
-                    "Java Microbenchmark Harness (JMH) measuring order-submission throughput with 4 producer threads. Run: java -cp apex-engine.jar org.openjdk.jmh.Main JmhDisruptorBenchmark. (Mirrors java/src/main/java/com/apex/benchmark/JmhDisruptorBenchmark.java)",
-                    JMH_BENCHMARK_CODE),
+                    "ConcurrentHashMap of votes per question, one vote per voter, and a running per-option tally broadcast on every vote. (Mirrors server/src/main/java/com/apex/whiteboard/WhiteboardServer.java)",
+                    VOTE_TALLY_SERVER_CODE),
     };
 
     private static final String SELECTOR_BASE_CLS = "text-left p-3.5 rounded-none border transition-all cursor-pointer flex flex-col gap-1 ";
@@ -412,12 +456,12 @@ public final class JavaArchitectureViewer implements View {
     private HTMLElement headerFilename;
     private HTMLElement descriptionBanner;
     private HTMLElement codeEl;
-    private String selectedSnippetId = "disruptor-engine";
+    private String selectedSnippetId = "canvas-model";
     private boolean copied;
 
     public JavaArchitectureViewer() {
         root = Ui.el("div", "w-full h-full bg-[#008080] text-black p-6 flex flex-col gap-5 select-none overflow-y-auto");
-        Ui.add(root, buildBanner(), buildBenchmarkGrid(), buildExplorer());
+        Ui.add(root, buildBanner(), buildExplorer());
     }
 
     @Override
@@ -444,35 +488,11 @@ public final class JavaArchitectureViewer implements View {
         HTMLElement titles = plain("div");
         Ui.add(titles,
                 Ui.el("h1", "text-base font-bold text-white tracking-tight", "Production Java 21+ Architecture & Engineering Blueprint"),
-                Ui.el("p", "text-xs text-[#404040]", "Mechanical Sympathy · LMAX Disruptor 4.0 · Project Loom Virtual Threads · Zero-GC Memory"));
+                Ui.el("p", "text-xs text-[#404040]", "Java 21 Records · TeaVM 0.12.0 · Project Loom Virtual Threads · Netty WebSocket"));
         Ui.add(left, iconBox, titles);
         copyButton = Ui.btnHtml(COPY_BUTTON_CLS, copyButtonInner(), this::handleCopy);
         Ui.add(banner, left, copyButton);
         return banner;
-    }
-
-    private static HTMLElement buildBenchmarkGrid() {
-        HTMLElement grid = Ui.el("div", "grid grid-cols-1 md:grid-cols-3 gap-4");
-        Ui.add(grid,
-                benchmarkCard("LMAX Disruptor (Lock-Free)", "Winner", "text-[#047857] font-mono", "26.4M", "text-[#047857]", "p99: 0.82 μs", "p99.9: 1.45 μs", "bg-emerald-500 h-full w-[98%]"),
-                benchmarkCard("ArrayBlockingQueue", "ReentrantLock", "text-[#404040] font-mono", "3.2M", "text-[#92400E]", "p99: 18.4 μs", "p99.9: 46.2 μs", "bg-amber-500 h-full w-[24%]"),
-                benchmarkCard("LinkedBlockingQueue", "GC Pressure", "text-[#DC2626] font-mono", "1.8M", "text-[#DC2626]", "p99: 38.0 μs", "p99.9: 124.0 μs", "bg-rose-500 h-full w-[12%]"));
-        return grid;
-    }
-
-    private static HTMLElement benchmarkCard(String label, String tag, String tagCls, String value, String valueCls, String p99, String p999, String barCls) {
-        HTMLElement card = Ui.el("div", "bg-white border border-black rounded-none p-4 flex flex-col gap-2");
-        HTMLElement head = Ui.el("div", "flex items-center justify-between text-xs text-[#404040]");
-        Ui.add(head, Ui.el("span", "font-semibold text-[#1F1F1F]", label), Ui.el("span", tagCls, tag));
-        HTMLElement valueRow = Ui.el("div", "text-2xl font-bold font-mono " + valueCls + " tabular-nums");
-        valueRow.appendChild(Ui.doc().createTextNode(value + " "));
-        Ui.add(valueRow, Ui.el("span", "text-xs font-normal text-[#404040]", "ops/sec"));
-        HTMLElement latency = Ui.el("div", "text-xs text-[#404040] flex justify-between font-mono");
-        Ui.add(latency, textEl("span", p99), textEl("span", p999));
-        HTMLElement bar = Ui.el("div", "w-full bg-slate-950 h-2 rounded-full overflow-hidden mt-1");
-        Ui.add(bar, Ui.el("div", barCls));
-        Ui.add(card, head, valueRow, latency, bar);
-        return card;
     }
 
     private HTMLElement buildExplorer() {
