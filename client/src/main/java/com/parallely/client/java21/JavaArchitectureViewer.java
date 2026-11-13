@@ -487,7 +487,7 @@ public final class JavaArchitectureViewer implements View {
         HTMLElement iconBox = Ui.html("div", "w-10 h-10 rounded-none bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-[#0369A1]", Icons.svg("Cpu", "w-5 h-5"));
         HTMLElement titles = plain("div");
         Ui.add(titles,
-                Ui.el("h1", "text-base font-bold text-white tracking-tight", "Production Java 21+ Architecture & Engineering Blueprint"),
+                Ui.el("h1", "text-base font-bold text-[#1F1F1F] tracking-tight", "Production Java 21+ Architecture & Engineering Blueprint"),
                 Ui.el("p", "text-xs text-[#404040]", "Java 21 Records · TeaVM 0.12.0 · Project Loom Virtual Threads · Netty WebSocket"));
         Ui.add(left, iconBox, titles);
         copyButton = Ui.btnHtml(COPY_BUTTON_CLS, copyButtonInner(), this::handleCopy);
